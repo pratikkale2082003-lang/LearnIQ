@@ -1,0 +1,8 @@
+body {
+  background-color: #f5f6fa;
+}
+
+.card {
+  max-width: 500px;
+  margin: auto;
+}

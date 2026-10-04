@@ -1,0 +1,2302 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "Which keyword is used to define a function in Python?",
+    "options": [
+      {
+        "optionId": 11,
+        "optionText": "func"
+      },
+      {
+        "optionId": 12,
+        "optionText": "def"
+      },
+      {
+        "optionId": 13,
+        "optionText": "function"
+      },
+      {
+        "optionId": 14,
+        "optionText": "define"
+      }
+    ],
+    "correctOptionId": 12
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which of the following is used to print output in Python?",
+    "options": [
+      {
+        "optionId": 21,
+        "optionText": "echo()"
+      },
+      {
+        "optionId": 22,
+        "optionText": "print()"
+      },
+      {
+        "optionId": 23,
+        "optionText": "output()"
+      },
+      {
+        "optionId": 24,
+        "optionText": "write()"
+      }
+    ],
+    "correctOptionId": 22
+  },
+  {
+    "questionId": 3,
+    "questionText": "Which symbol is used for a single-line comment in Python?",
+    "options": [
+      {
+        "optionId": 31,
+        "optionText": "//"
+      },
+      {
+        "optionId": 32,
+        "optionText": "/*"
+      },
+      {
+        "optionId": 33,
+        "optionText": "#"
+      },
+      {
+        "optionId": 34,
+        "optionText": "--"
+      }
+    ],
+    "correctOptionId": 33
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which data type is used to store True or False?",
+    "options": [
+      {
+        "optionId": 41,
+        "optionText": "int"
+      },
+      {
+        "optionId": 42,
+        "optionText": "bool"
+      },
+      {
+        "optionId": 43,
+        "optionText": "str"
+      },
+      {
+        "optionId": 44,
+        "optionText": "float"
+      }
+    ],
+    "correctOptionId": 42
+  },
+  {
+    "questionId": 5,
+    "questionText": "What is the extension of a Python source file?",
+    "options": [
+      {
+        "optionId": 51,
+        "optionText": ".java"
+      },
+      {
+        "optionId": 52,
+        "optionText": ".py"
+      },
+      {
+        "optionId": 53,
+        "optionText": ".python"
+      },
+      {
+        "optionId": 54,
+        "optionText": ".pt"
+      }
+    ],
+    "correctOptionId": 52
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which function is used to get the length of a list?",
+    "options": [
+      {
+        "optionId": 61,
+        "optionText": "size()"
+      },
+      {
+        "optionId": 62,
+        "optionText": "count()"
+      },
+      {
+        "optionId": 63,
+        "optionText": "len()"
+      },
+      {
+        "optionId": 64,
+        "optionText": "length()"
+      }
+    ],
+    "correctOptionId": 63
+  },
+  {
+    "questionId": 7,
+    "questionText": "Which collection is ordered and mutable?",
+    "options": [
+      {
+        "optionId": 71,
+        "optionText": "tuple"
+      },
+      {
+        "optionId": 72,
+        "optionText": "list"
+      },
+      {
+        "optionId": 73,
+        "optionText": "set"
+      },
+      {
+        "optionId": 74,
+        "optionText": "frozenset"
+      }
+    ],
+    "correctOptionId": 72
+  },
+  {
+    "questionId": 8,
+    "questionText": "Which collection is ordered and immutable?",
+    "options": [
+      {
+        "optionId": 81,
+        "optionText": "list"
+      },
+      {
+        "optionId": 82,
+        "optionText": "set"
+      },
+      {
+        "optionId": 83,
+        "optionText": "tuple"
+      },
+      {
+        "optionId": 84,
+        "optionText": "dictionary"
+      }
+    ],
+    "correctOptionId": 83
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which brackets are used to create a list?",
+    "options": [
+      {
+        "optionId": 91,
+        "optionText": "()"
+      },
+      {
+        "optionId": 92,
+        "optionText": "{}"
+      },
+      {
+        "optionId": 93,
+        "optionText": "[]"
+      },
+      {
+        "optionId": 94,
+        "optionText": "<>"
+      }
+    ],
+    "correctOptionId": 93
+  },
+  {
+    "questionId": 10,
+    "questionText": "Which brackets are commonly used to create a tuple?",
+    "options": [
+      {
+        "optionId": 101,
+        "optionText": "()"
+      },
+      {
+        "optionId": 102,
+        "optionText": "[]"
+      },
+      {
+        "optionId": 103,
+        "optionText": "{}"
+      },
+      {
+        "optionId": 104,
+        "optionText": "//"
+      }
+    ],
+    "correctOptionId": 101
+  },
+  {
+    "questionId": 11,
+    "questionText": "What is the output of 10 // 3?",
+    "options": [
+      {
+        "optionId": 111,
+        "optionText": "3"
+      },
+      {
+        "optionId": 112,
+        "optionText": "3.33"
+      },
+      {
+        "optionId": 113,
+        "optionText": "1"
+      },
+      {
+        "optionId": 114,
+        "optionText": "4"
+      }
+    ],
+    "correctOptionId": 111
+  },
+  {
+    "questionId": 12,
+    "questionText": "What is the output of 10 % 3?",
+    "options": [
+      {
+        "optionId": 121,
+        "optionText": "0"
+      },
+      {
+        "optionId": 122,
+        "optionText": "1"
+      },
+      {
+        "optionId": 123,
+        "optionText": "3"
+      },
+      {
+        "optionId": 124,
+        "optionText": "10"
+      }
+    ],
+    "correctOptionId": 122
+  },
+  {
+    "questionId": 13,
+    "questionText": "Which operator is used for exponentiation?",
+    "options": [
+      {
+        "optionId": 131,
+        "optionText": "^"
+      },
+      {
+        "optionId": 132,
+        "optionText": "**"
+      },
+      {
+        "optionId": 133,
+        "optionText": "//"
+      },
+      {
+        "optionId": 134,
+        "optionText": "^^"
+      }
+    ],
+    "correctOptionId": 132
+  },
+  {
+    "questionId": 14,
+    "questionText": "Which operator checks equality?",
+    "options": [
+      {
+        "optionId": 141,
+        "optionText": "="
+      },
+      {
+        "optionId": 142,
+        "optionText": "=="
+      },
+      {
+        "optionId": 143,
+        "optionText": "!="
+      },
+      {
+        "optionId": 144,
+        "optionText": "==="
+      }
+    ],
+    "correctOptionId": 142
+  },
+  {
+    "questionId": 15,
+    "questionText": "Which operator means 'not equal to'?",
+    "options": [
+      {
+        "optionId": 151,
+        "optionText": "<>"
+      },
+      {
+        "optionId": 152,
+        "optionText": "!="
+      },
+      {
+        "optionId": 153,
+        "optionText": "!=="
+      },
+      {
+        "optionId": 154,
+        "optionText": "not="
+      }
+    ],
+    "correctOptionId": 152
+  },
+  {
+    "questionId": 16,
+    "questionText": "Which keyword is used for a condition?",
+    "options": [
+      {
+        "optionId": 161,
+        "optionText": "if"
+      },
+      {
+        "optionId": 162,
+        "optionText": "when"
+      },
+      {
+        "optionId": 163,
+        "optionText": "check"
+      },
+      {
+        "optionId": 164,
+        "optionText": "condition"
+      }
+    ],
+    "correctOptionId": 161
+  },
+  {
+    "questionId": 17,
+    "questionText": "Which keyword is used with if for another condition?",
+    "options": [
+      {
+        "optionId": 171,
+        "optionText": "elseif"
+      },
+      {
+        "optionId": 172,
+        "optionText": "elif"
+      },
+      {
+        "optionId": 173,
+        "optionText": "else if"
+      },
+      {
+        "optionId": 174,
+        "optionText": "otherwise"
+      }
+    ],
+    "correctOptionId": 172
+  },
+  {
+    "questionId": 18,
+    "questionText": "Which keyword handles the alternative branch?",
+    "options": [
+      {
+        "optionId": 181,
+        "optionText": "otherwise"
+      },
+      {
+        "optionId": 182,
+        "optionText": "default"
+      },
+      {
+        "optionId": 183,
+        "optionText": "else"
+      },
+      {
+        "optionId": 184,
+        "optionText": "final"
+      }
+    ],
+    "correctOptionId": 183
+  },
+  {
+    "questionId": 19,
+    "questionText": "Which loop is generally used to iterate over a sequence?",
+    "options": [
+      {
+        "optionId": 191,
+        "optionText": "repeat"
+      },
+      {
+        "optionId": 192,
+        "optionText": "foreach"
+      },
+      {
+        "optionId": 193,
+        "optionText": "for"
+      },
+      {
+        "optionId": 194,
+        "optionText": "loop"
+      }
+    ],
+    "correctOptionId": 193
+  },
+  {
+    "questionId": 20,
+    "questionText": "Which loop continues while a condition is true?",
+    "options": [
+      {
+        "optionId": 201,
+        "optionText": "for"
+      },
+      {
+        "optionId": 202,
+        "optionText": "while"
+      },
+      {
+        "optionId": 203,
+        "optionText": "until"
+      },
+      {
+        "optionId": 204,
+        "optionText": "repeat"
+      }
+    ],
+    "correctOptionId": 202
+  },
+  {
+    "questionId": 21,
+    "questionText": "Which statement exits a loop immediately?",
+    "options": [
+      {
+        "optionId": 211,
+        "optionText": "stop"
+      },
+      {
+        "optionId": 212,
+        "optionText": "exit"
+      },
+      {
+        "optionId": 213,
+        "optionText": "break"
+      },
+      {
+        "optionId": 214,
+        "optionText": "quit"
+      }
+    ],
+    "correctOptionId": 213
+  },
+  {
+    "questionId": 22,
+    "questionText": "Which statement skips the current iteration?",
+    "options": [
+      {
+        "optionId": 221,
+        "optionText": "skip"
+      },
+      {
+        "optionId": 222,
+        "optionText": "continue"
+      },
+      {
+        "optionId": 223,
+        "optionText": "pass"
+      },
+      {
+        "optionId": 224,
+        "optionText": "next"
+      }
+    ],
+    "correctOptionId": 222
+  },
+  {
+    "questionId": 23,
+    "questionText": "Which keyword does nothing and acts as a placeholder?",
+    "options": [
+      {
+        "optionId": 231,
+        "optionText": "null"
+      },
+      {
+        "optionId": 232,
+        "optionText": "empty"
+      },
+      {
+        "optionId": 233,
+        "optionText": "pass"
+      },
+      {
+        "optionId": 234,
+        "optionText": "void"
+      }
+    ],
+    "correctOptionId": 233
+  },
+  {
+    "questionId": 24,
+    "questionText": "Which function returns a sequence of numbers?",
+    "options": [
+      {
+        "optionId": 241,
+        "optionText": "numbers()"
+      },
+      {
+        "optionId": 242,
+        "optionText": "range()"
+      },
+      {
+        "optionId": 243,
+        "optionText": "sequence()"
+      },
+      {
+        "optionId": 244,
+        "optionText": "nums()"
+      }
+    ],
+    "correctOptionId": 242
+  },
+  {
+    "questionId": 25,
+    "questionText": "Which method adds one item to the end of a list?",
+    "options": [
+      {
+        "optionId": 251,
+        "optionText": "add()"
+      },
+      {
+        "optionId": 252,
+        "optionText": "append()"
+      },
+      {
+        "optionId": 253,
+        "optionText": "insertEnd()"
+      },
+      {
+        "optionId": 254,
+        "optionText": "push()"
+      }
+    ],
+    "correctOptionId": 252
+  },
+  {
+    "questionId": 26,
+    "questionText": "Which method removes and returns the last list item by default?",
+    "options": [
+      {
+        "optionId": 261,
+        "optionText": "remove()"
+      },
+      {
+        "optionId": 262,
+        "optionText": "delete()"
+      },
+      {
+        "optionId": 263,
+        "optionText": "pop()"
+      },
+      {
+        "optionId": 264,
+        "optionText": "discard()"
+      }
+    ],
+    "correctOptionId": 263
+  },
+  {
+    "questionId": 27,
+    "questionText": "Which method sorts a list in place?",
+    "options": [
+      {
+        "optionId": 271,
+        "optionText": "sort()"
+      },
+      {
+        "optionId": 272,
+        "optionText": "sorted()"
+      },
+      {
+        "optionId": 273,
+        "optionText": "order()"
+      },
+      {
+        "optionId": 274,
+        "optionText": "arrange()"
+      }
+    ],
+    "correctOptionId": 271
+  },
+  {
+    "questionId": 28,
+    "questionText": "Which function returns a new sorted list?",
+    "options": [
+      {
+        "optionId": 281,
+        "optionText": "sort()"
+      },
+      {
+        "optionId": 282,
+        "optionText": "sorted()"
+      },
+      {
+        "optionId": 283,
+        "optionText": "order()"
+      },
+      {
+        "optionId": 284,
+        "optionText": "arrange()"
+      }
+    ],
+    "correctOptionId": 282
+  },
+  {
+    "questionId": 29,
+    "questionText": "Which method converts a string to lowercase?",
+    "options": [
+      {
+        "optionId": 291,
+        "optionText": "lower()"
+      },
+      {
+        "optionId": 292,
+        "optionText": "lowercase()"
+      },
+      {
+        "optionId": 293,
+        "optionText": "down()"
+      },
+      {
+        "optionId": 294,
+        "optionText": "small()"
+      }
+    ],
+    "correctOptionId": 291
+  },
+  {
+    "questionId": 30,
+    "questionText": "Which method removes whitespace from both ends of a string?",
+    "options": [
+      {
+        "optionId": 301,
+        "optionText": "trim()"
+      },
+      {
+        "optionId": 302,
+        "optionText": "strip()"
+      },
+      {
+        "optionId": 303,
+        "optionText": "clean()"
+      },
+      {
+        "optionId": 304,
+        "optionText": "removeSpace()"
+      }
+    ],
+    "correctOptionId": 302
+  },
+  {
+    "questionId": 31,
+    "questionText": "Which data type stores key-value pairs?",
+    "options": [
+      {
+        "optionId": 311,
+        "optionText": "list"
+      },
+      {
+        "optionId": 312,
+        "optionText": "tuple"
+      },
+      {
+        "optionId": 313,
+        "optionText": "dictionary"
+      },
+      {
+        "optionId": 314,
+        "optionText": "set"
+      }
+    ],
+    "correctOptionId": 313
+  },
+  {
+    "questionId": 32,
+    "questionText": "Which brackets are used for a dictionary literal?",
+    "options": [
+      {
+        "optionId": 321,
+        "optionText": "[]"
+      },
+      {
+        "optionId": 322,
+        "optionText": "()"
+      },
+      {
+        "optionId": 323,
+        "optionText": "{}"
+      },
+      {
+        "optionId": 324,
+        "optionText": "<>"
+      }
+    ],
+    "correctOptionId": 323
+  },
+  {
+    "questionId": 33,
+    "questionText": "Which method returns dictionary keys?",
+    "options": [
+      {
+        "optionId": 331,
+        "optionText": "key()"
+      },
+      {
+        "optionId": 332,
+        "optionText": "keys()"
+      },
+      {
+        "optionId": 333,
+        "optionText": "getkeys()"
+      },
+      {
+        "optionId": 334,
+        "optionText": "indexes()"
+      }
+    ],
+    "correctOptionId": 332
+  },
+  {
+    "questionId": 34,
+    "questionText": "Which method safely gets a dictionary value by key?",
+    "options": [
+      {
+        "optionId": 341,
+        "optionText": "fetch()"
+      },
+      {
+        "optionId": 342,
+        "optionText": "value()"
+      },
+      {
+        "optionId": 343,
+        "optionText": "get()"
+      },
+      {
+        "optionId": 344,
+        "optionText": "find()"
+      }
+    ],
+    "correctOptionId": 343
+  },
+  {
+    "questionId": 35,
+    "questionText": "Which collection stores unique elements?",
+    "options": [
+      {
+        "optionId": 351,
+        "optionText": "list"
+      },
+      {
+        "optionId": 352,
+        "optionText": "tuple"
+      },
+      {
+        "optionId": 353,
+        "optionText": "set"
+      },
+      {
+        "optionId": 354,
+        "optionText": "string"
+      }
+    ],
+    "correctOptionId": 353
+  },
+  {
+    "questionId": 36,
+    "questionText": "Which method adds an element to a set?",
+    "options": [
+      {
+        "optionId": 361,
+        "optionText": "append()"
+      },
+      {
+        "optionId": 362,
+        "optionText": "add()"
+      },
+      {
+        "optionId": 363,
+        "optionText": "insert()"
+      },
+      {
+        "optionId": 364,
+        "optionText": "push()"
+      }
+    ],
+    "correctOptionId": 362
+  },
+  {
+    "questionId": 37,
+    "questionText": "Which keyword is used to create a class?",
+    "options": [
+      {
+        "optionId": 371,
+        "optionText": "object"
+      },
+      {
+        "optionId": 372,
+        "optionText": "class"
+      },
+      {
+        "optionId": 373,
+        "optionText": "struct"
+      },
+      {
+        "optionId": 374,
+        "optionText": "type"
+      }
+    ],
+    "correctOptionId": 372
+  },
+  {
+    "questionId": 38,
+    "questionText": "Which method is commonly used as a constructor in Python classes?",
+    "options": [
+      {
+        "optionId": 381,
+        "optionText": "__start__"
+      },
+      {
+        "optionId": 382,
+        "optionText": "__create__"
+      },
+      {
+        "optionId": 383,
+        "optionText": "__init__"
+      },
+      {
+        "optionId": 384,
+        "optionText": "constructor"
+      }
+    ],
+    "correctOptionId": 383
+  },
+  {
+    "questionId": 39,
+    "questionText": "What does self represent in an instance method?",
+    "options": [
+      {
+        "optionId": 391,
+        "optionText": "Parent class"
+      },
+      {
+        "optionId": 392,
+        "optionText": "Current instance"
+      },
+      {
+        "optionId": 393,
+        "optionText": "Module"
+      },
+      {
+        "optionId": 394,
+        "optionText": "Function"
+      }
+    ],
+    "correctOptionId": 392
+  },
+  {
+    "questionId": 40,
+    "questionText": "Which concept allows a class to inherit from another class?",
+    "options": [
+      {
+        "optionId": 401,
+        "optionText": "Encapsulation"
+      },
+      {
+        "optionId": 402,
+        "optionText": "Inheritance"
+      },
+      {
+        "optionId": 403,
+        "optionText": "Compilation"
+      },
+      {
+        "optionId": 404,
+        "optionText": "Iteration"
+      }
+    ],
+    "correctOptionId": 402
+  },
+  {
+    "questionId": 41,
+    "questionText": "Which function is used to check an object's type?",
+    "options": [
+      {
+        "optionId": 411,
+        "optionText": "typeof()"
+      },
+      {
+        "optionId": 412,
+        "optionText": "type()"
+      },
+      {
+        "optionId": 413,
+        "optionText": "datatype()"
+      },
+      {
+        "optionId": 414,
+        "optionText": "classof()"
+      }
+    ],
+    "correctOptionId": 412
+  },
+  {
+    "questionId": 42,
+    "questionText": "Which function checks whether an object is an instance of a class?",
+    "options": [
+      {
+        "optionId": 421,
+        "optionText": "instance()"
+      },
+      {
+        "optionId": 422,
+        "optionText": "isinstance()"
+      },
+      {
+        "optionId": 423,
+        "optionText": "istype()"
+      },
+      {
+        "optionId": 424,
+        "optionText": "checkinstance()"
+      }
+    ],
+    "correctOptionId": 422
+  },
+  {
+    "questionId": 43,
+    "questionText": "Which keyword is used to import a module?",
+    "options": [
+      {
+        "optionId": 431,
+        "optionText": "include"
+      },
+      {
+        "optionId": 432,
+        "optionText": "using"
+      },
+      {
+        "optionId": 433,
+        "optionText": "import"
+      },
+      {
+        "optionId": 434,
+        "optionText": "require"
+      }
+    ],
+    "correctOptionId": 433
+  },
+  {
+    "questionId": 44,
+    "questionText": "Which statement imports only selected names from a module?",
+    "options": [
+      {
+        "optionId": 441,
+        "optionText": "import from"
+      },
+      {
+        "optionId": 442,
+        "optionText": "from ... import"
+      },
+      {
+        "optionId": 443,
+        "optionText": "include"
+      },
+      {
+        "optionId": 444,
+        "optionText": "use"
+      }
+    ],
+    "correctOptionId": 442
+  },
+  {
+    "questionId": 45,
+    "questionText": "Which module is commonly used for mathematical functions?",
+    "options": [
+      {
+        "optionId": 451,
+        "optionText": "math"
+      },
+      {
+        "optionId": 452,
+        "optionText": "maths"
+      },
+      {
+        "optionId": 453,
+        "optionText": "mathematics"
+      },
+      {
+        "optionId": 454,
+        "optionText": "calc"
+      }
+    ],
+    "correctOptionId": 451
+  },
+  {
+    "questionId": 46,
+    "questionText": "Which module is used to generate random values?",
+    "options": [
+      {
+        "optionId": 461,
+        "optionText": "random"
+      },
+      {
+        "optionId": 462,
+        "optionText": "rand"
+      },
+      {
+        "optionId": 463,
+        "optionText": "numbers"
+      },
+      {
+        "optionId": 464,
+        "optionText": "chance"
+      }
+    ],
+    "correctOptionId": 461
+  },
+  {
+    "questionId": 47,
+    "questionText": "Which module is used for regular expressions?",
+    "options": [
+      {
+        "optionId": 471,
+        "optionText": "regex"
+      },
+      {
+        "optionId": 472,
+        "optionText": "re"
+      },
+      {
+        "optionId": 473,
+        "optionText": "regexp"
+      },
+      {
+        "optionId": 474,
+        "optionText": "match"
+      }
+    ],
+    "correctOptionId": 472
+  },
+  {
+    "questionId": 48,
+    "questionText": "Which keyword starts exception handling?",
+    "options": [
+      {
+        "optionId": 481,
+        "optionText": "catch"
+      },
+      {
+        "optionId": 482,
+        "optionText": "try"
+      },
+      {
+        "optionId": 483,
+        "optionText": "error"
+      },
+      {
+        "optionId": 484,
+        "optionText": "handle"
+      }
+    ],
+    "correctOptionId": 482
+  },
+  {
+    "questionId": 49,
+    "questionText": "Which block handles an exception?",
+    "options": [
+      {
+        "optionId": 491,
+        "optionText": "catch"
+      },
+      {
+        "optionId": 492,
+        "optionText": "except"
+      },
+      {
+        "optionId": 493,
+        "optionText": "error"
+      },
+      {
+        "optionId": 494,
+        "optionText": "handle"
+      }
+    ],
+    "correctOptionId": 492
+  },
+  {
+    "questionId": 50,
+    "questionText": "Which block always executes after try/except?",
+    "options": [
+      {
+        "optionId": 501,
+        "optionText": "final"
+      },
+      {
+        "optionId": 502,
+        "optionText": "finally"
+      },
+      {
+        "optionId": 503,
+        "optionText": "last"
+      },
+      {
+        "optionId": 504,
+        "optionText": "always"
+      }
+    ],
+    "correctOptionId": 502
+  },
+  {
+    "questionId": 51,
+    "questionText": "Which keyword is used to manually raise an exception?",
+    "options": [
+      {
+        "optionId": 511,
+        "optionText": "throw"
+      },
+      {
+        "optionId": 512,
+        "optionText": "raise"
+      },
+      {
+        "optionId": 513,
+        "optionText": "error"
+      },
+      {
+        "optionId": 514,
+        "optionText": "exception"
+      }
+    ],
+    "correctOptionId": 512
+  },
+  {
+    "questionId": 52,
+    "questionText": "What is the parent class of most Python exceptions?",
+    "options": [
+      {
+        "optionId": 521,
+        "optionText": "Error"
+      },
+      {
+        "optionId": 522,
+        "optionText": "Exception"
+      },
+      {
+        "optionId": 523,
+        "optionText": "BaseError"
+      },
+      {
+        "optionId": 524,
+        "optionText": "ObjectError"
+      }
+    ],
+    "correctOptionId": 522
+  },
+  {
+    "questionId": 53,
+    "questionText": "Which keyword creates an anonymous function?",
+    "options": [
+      {
+        "optionId": 531,
+        "optionText": "anonymous"
+      },
+      {
+        "optionId": 532,
+        "optionText": "lambda"
+      },
+      {
+        "optionId": 533,
+        "optionText": "func"
+      },
+      {
+        "optionId": 534,
+        "optionText": "inline"
+      }
+    ],
+    "correctOptionId": 532
+  },
+  {
+    "questionId": 54,
+    "questionText": "A lambda function can contain how many expressions?",
+    "options": [
+      {
+        "optionId": 541,
+        "optionText": "One"
+      },
+      {
+        "optionId": 542,
+        "optionText": "Two"
+      },
+      {
+        "optionId": 543,
+        "optionText": "Unlimited"
+      },
+      {
+        "optionId": 544,
+        "optionText": "None"
+      }
+    ],
+    "correctOptionId": 541
+  },
+  {
+    "questionId": 55,
+    "questionText": "Which function applies a function to every item of an iterable?",
+    "options": [
+      {
+        "optionId": 551,
+        "optionText": "apply()"
+      },
+      {
+        "optionId": 552,
+        "optionText": "map()"
+      },
+      {
+        "optionId": 553,
+        "optionText": "each()"
+      },
+      {
+        "optionId": 554,
+        "optionText": "iterate()"
+      }
+    ],
+    "correctOptionId": 552
+  },
+  {
+    "questionId": 56,
+    "questionText": "Which function filters items based on a condition?",
+    "options": [
+      {
+        "optionId": 561,
+        "optionText": "filter()"
+      },
+      {
+        "optionId": 562,
+        "optionText": "select()"
+      },
+      {
+        "optionId": 563,
+        "optionText": "where()"
+      },
+      {
+        "optionId": 564,
+        "optionText": "choose()"
+      }
+    ],
+    "correctOptionId": 561
+  },
+  {
+    "questionId": 57,
+    "questionText": "Which function combines iterable elements into one result?",
+    "options": [
+      {
+        "optionId": 571,
+        "optionText": "combine()"
+      },
+      {
+        "optionId": 572,
+        "optionText": "reduce()"
+      },
+      {
+        "optionId": 573,
+        "optionText": "joinall()"
+      },
+      {
+        "optionId": 574,
+        "optionText": "merge()"
+      }
+    ],
+    "correctOptionId": 572
+  },
+  {
+    "questionId": 58,
+    "questionText": "Where is reduce() commonly imported from?",
+    "options": [
+      {
+        "optionId": 581,
+        "optionText": "functools"
+      },
+      {
+        "optionId": 582,
+        "optionText": "itertools"
+      },
+      {
+        "optionId": 583,
+        "optionText": "collections"
+      },
+      {
+        "optionId": 584,
+        "optionText": "operator"
+      }
+    ],
+    "correctOptionId": 581
+  },
+  {
+    "questionId": 59,
+    "questionText": "What does PEP stand for in Python?",
+    "options": [
+      {
+        "optionId": 591,
+        "optionText": "Python Enhancement Proposal"
+      },
+      {
+        "optionId": 592,
+        "optionText": "Python Execution Program"
+      },
+      {
+        "optionId": 593,
+        "optionText": "Programming Enhancement Process"
+      },
+      {
+        "optionId": 594,
+        "optionText": "Python Extension Package"
+      }
+    ],
+    "correctOptionId": 591
+  },
+  {
+    "questionId": 60,
+    "questionText": "Which style guide is commonly followed in Python?",
+    "options": [
+      {
+        "optionId": 601,
+        "optionText": "PEP 8"
+      },
+      {
+        "optionId": 602,
+        "optionText": "PEP 1"
+      },
+      {
+        "optionId": 603,
+        "optionText": "PEP 100"
+      },
+      {
+        "optionId": 604,
+        "optionText": "PEP 20"
+      }
+    ],
+    "correctOptionId": 601
+  },
+  {
+    "questionId": 61,
+    "questionText": "What does indentation define in Python?",
+    "options": [
+      {
+        "optionId": 611,
+        "optionText": "Variable type"
+      },
+      {
+        "optionId": 612,
+        "optionText": "Code blocks"
+      },
+      {
+        "optionId": 613,
+        "optionText": "File type"
+      },
+      {
+        "optionId": 614,
+        "optionText": "Comments"
+      }
+    ],
+    "correctOptionId": 612
+  },
+  {
+    "questionId": 62,
+    "questionText": "Which keyword defines a generator function?",
+    "options": [
+      {
+        "optionId": 621,
+        "optionText": "generate"
+      },
+      {
+        "optionId": 622,
+        "optionText": "yield"
+      },
+      {
+        "optionId": 623,
+        "optionText": "gen"
+      },
+      {
+        "optionId": 624,
+        "optionText": "returngen"
+      }
+    ],
+    "correctOptionId": 622
+  },
+  {
+    "questionId": 63,
+    "questionText": "What does yield do in a generator?",
+    "options": [
+      {
+        "optionId": 631,
+        "optionText": "Stops program permanently"
+      },
+      {
+        "optionId": 632,
+        "optionText": "Produces a value and pauses"
+      },
+      {
+        "optionId": 633,
+        "optionText": "Deletes a value"
+      },
+      {
+        "optionId": 634,
+        "optionText": "Raises an error"
+      }
+    ],
+    "correctOptionId": 632
+  },
+  {
+    "questionId": 64,
+    "questionText": "Which built-in function creates an iterator from an iterable?",
+    "options": [
+      {
+        "optionId": 641,
+        "optionText": "iter()"
+      },
+      {
+        "optionId": 642,
+        "optionText": "iterator()"
+      },
+      {
+        "optionId": 643,
+        "optionText": "next()"
+      },
+      {
+        "optionId": 644,
+        "optionText": "makeiter()"
+      }
+    ],
+    "correctOptionId": 641
+  },
+  {
+    "questionId": 65,
+    "questionText": "Which built-in function gets the next item from an iterator?",
+    "options": [
+      {
+        "optionId": 651,
+        "optionText": "next()"
+      },
+      {
+        "optionId": 652,
+        "optionText": "following()"
+      },
+      {
+        "optionId": 653,
+        "optionText": "iter()"
+      },
+      {
+        "optionId": 654,
+        "optionText": "move()"
+      }
+    ],
+    "correctOptionId": 651
+  },
+  {
+    "questionId": 66,
+    "questionText": "Which keyword returns a value from a function?",
+    "options": [
+      {
+        "optionId": 661,
+        "optionText": "send"
+      },
+      {
+        "optionId": 662,
+        "optionText": "return"
+      },
+      {
+        "optionId": 663,
+        "optionText": "output"
+      },
+      {
+        "optionId": 664,
+        "optionText": "give"
+      }
+    ],
+    "correctOptionId": 662
+  },
+  {
+    "questionId": 67,
+    "questionText": "What does a function return if it has no return statement?",
+    "options": [
+      {
+        "optionId": 671,
+        "optionText": "0"
+      },
+      {
+        "optionId": 672,
+        "optionText": "False"
+      },
+      {
+        "optionId": 673,
+        "optionText": "None"
+      },
+      {
+        "optionId": 674,
+        "optionText": "Empty string"
+      }
+    ],
+    "correctOptionId": 673
+  },
+  {
+    "questionId": 68,
+    "questionText": "Which scope is created inside a function?",
+    "options": [
+      {
+        "optionId": 681,
+        "optionText": "Global"
+      },
+      {
+        "optionId": 682,
+        "optionText": "Local"
+      },
+      {
+        "optionId": 683,
+        "optionText": "Package"
+      },
+      {
+        "optionId": 684,
+        "optionText": "Module only"
+      }
+    ],
+    "correctOptionId": 682
+  },
+  {
+    "questionId": 69,
+    "questionText": "Which keyword allows modification of a global variable inside a function?",
+    "options": [
+      {
+        "optionId": 691,
+        "optionText": "global"
+      },
+      {
+        "optionId": 692,
+        "optionText": "public"
+      },
+      {
+        "optionId": 693,
+        "optionText": "external"
+      },
+      {
+        "optionId": 694,
+        "optionText": "shared"
+      }
+    ],
+    "correctOptionId": 691
+  },
+  {
+    "questionId": 70,
+    "questionText": "Which keyword refers to a variable in an enclosing non-global scope?",
+    "options": [
+      {
+        "optionId": 701,
+        "optionText": "outer"
+      },
+      {
+        "optionId": 702,
+        "optionText": "nonlocal"
+      },
+      {
+        "optionId": 703,
+        "optionText": "enclosing"
+      },
+      {
+        "optionId": 704,
+        "optionText": "parent"
+      }
+    ],
+    "correctOptionId": 702
+  },
+  {
+    "questionId": 71,
+    "questionText": "Are Python variables statically typed?",
+    "options": [
+      {
+        "optionId": 711,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 712,
+        "optionText": "No, Python is dynamically typed"
+      },
+      {
+        "optionId": 713,
+        "optionText": "Only in classes"
+      },
+      {
+        "optionId": 714,
+        "optionText": "Only in functions"
+      }
+    ],
+    "correctOptionId": 712
+  },
+  {
+    "questionId": 72,
+    "questionText": "Which type represents text?",
+    "options": [
+      {
+        "optionId": 721,
+        "optionText": "char"
+      },
+      {
+        "optionId": 722,
+        "optionText": "string"
+      },
+      {
+        "optionId": 723,
+        "optionText": "str"
+      },
+      {
+        "optionId": 724,
+        "optionText": "text"
+      }
+    ],
+    "correctOptionId": 723
+  },
+  {
+    "questionId": 73,
+    "questionText": "Which type represents whole numbers?",
+    "options": [
+      {
+        "optionId": 731,
+        "optionText": "integer"
+      },
+      {
+        "optionId": 732,
+        "optionText": "int"
+      },
+      {
+        "optionId": 733,
+        "optionText": "number"
+      },
+      {
+        "optionId": 734,
+        "optionText": "long"
+      }
+    ],
+    "correctOptionId": 732
+  },
+  {
+    "questionId": 74,
+    "questionText": "Which type represents decimal numbers?",
+    "options": [
+      {
+        "optionId": 741,
+        "optionText": "decimal"
+      },
+      {
+        "optionId": 742,
+        "optionText": "real"
+      },
+      {
+        "optionId": 743,
+        "optionText": "float"
+      },
+      {
+        "optionId": 744,
+        "optionText": "double"
+      }
+    ],
+    "correctOptionId": 743
+  },
+  {
+    "questionId": 75,
+    "questionText": "What is the result of bool(0)?",
+    "options": [
+      {
+        "optionId": 751,
+        "optionText": "True"
+      },
+      {
+        "optionId": 752,
+        "optionText": "False"
+      },
+      {
+        "optionId": 753,
+        "optionText": "0"
+      },
+      {
+        "optionId": 754,
+        "optionText": "None"
+      }
+    ],
+    "correctOptionId": 752
+  },
+  {
+    "questionId": 76,
+    "questionText": "What is the result of bool('Python')?",
+    "options": [
+      {
+        "optionId": 761,
+        "optionText": "True"
+      },
+      {
+        "optionId": 762,
+        "optionText": "False"
+      },
+      {
+        "optionId": 763,
+        "optionText": "Error"
+      },
+      {
+        "optionId": 764,
+        "optionText": "None"
+      }
+    ],
+    "correctOptionId": 761
+  },
+  {
+    "questionId": 77,
+    "questionText": "Which value represents absence of a value?",
+    "options": [
+      {
+        "optionId": 771,
+        "optionText": "null"
+      },
+      {
+        "optionId": 772,
+        "optionText": "None"
+      },
+      {
+        "optionId": 773,
+        "optionText": "empty"
+      },
+      {
+        "optionId": 774,
+        "optionText": "void"
+      }
+    ],
+    "correctOptionId": 772
+  },
+  {
+    "questionId": 78,
+    "questionText": "Which operator performs logical AND?",
+    "options": [
+      {
+        "optionId": 781,
+        "optionText": "&&"
+      },
+      {
+        "optionId": 782,
+        "optionText": "and"
+      },
+      {
+        "optionId": 783,
+        "optionText": "&"
+      },
+      {
+        "optionId": 784,
+        "optionText": "AND"
+      }
+    ],
+    "correctOptionId": 782
+  },
+  {
+    "questionId": 79,
+    "questionText": "Which operator performs logical OR?",
+    "options": [
+      {
+        "optionId": 791,
+        "optionText": "||"
+      },
+      {
+        "optionId": 792,
+        "optionText": "or"
+      },
+      {
+        "optionId": 793,
+        "optionText": "|"
+      },
+      {
+        "optionId": 794,
+        "optionText": "OR"
+      }
+    ],
+    "correctOptionId": 792
+  },
+  {
+    "questionId": 80,
+    "questionText": "Which operator performs logical NOT?",
+    "options": [
+      {
+        "optionId": 801,
+        "optionText": "!"
+      },
+      {
+        "optionId": 802,
+        "optionText": "not"
+      },
+      {
+        "optionId": 803,
+        "optionText": "~"
+      },
+      {
+        "optionId": 804,
+        "optionText": "NOT"
+      }
+    ],
+    "correctOptionId": 802
+  },
+  {
+    "questionId": 81,
+    "questionText": "Which operator checks object identity?",
+    "options": [
+      {
+        "optionId": 811,
+        "optionText": "=="
+      },
+      {
+        "optionId": 812,
+        "optionText": "is"
+      },
+      {
+        "optionId": 813,
+        "optionText": "equals"
+      },
+      {
+        "optionId": 814,
+        "optionText": "same"
+      }
+    ],
+    "correctOptionId": 812
+  },
+  {
+    "questionId": 82,
+    "questionText": "Which operator checks membership?",
+    "options": [
+      {
+        "optionId": 821,
+        "optionText": "in"
+      },
+      {
+        "optionId": 822,
+        "optionText": "has"
+      },
+      {
+        "optionId": 823,
+        "optionText": "contains"
+      },
+      {
+        "optionId": 824,
+        "optionText": "member"
+      }
+    ],
+    "correctOptionId": 821
+  },
+  {
+    "questionId": 83,
+    "questionText": "Which keyword is used to create an async function?",
+    "options": [
+      {
+        "optionId": 831,
+        "optionText": "async"
+      },
+      {
+        "optionId": 832,
+        "optionText": "await"
+      },
+      {
+        "optionId": 833,
+        "optionText": "asynchronous"
+      },
+      {
+        "optionId": 834,
+        "optionText": "promise"
+      }
+    ],
+    "correctOptionId": 831
+  },
+  {
+    "questionId": 84,
+    "questionText": "Which keyword pauses an async function until an awaitable completes?",
+    "options": [
+      {
+        "optionId": 841,
+        "optionText": "wait"
+      },
+      {
+        "optionId": 842,
+        "optionText": "await"
+      },
+      {
+        "optionId": 843,
+        "optionText": "pause"
+      },
+      {
+        "optionId": 844,
+        "optionText": "yieldonly"
+      }
+    ],
+    "correctOptionId": 842
+  },
+  {
+    "questionId": 85,
+    "questionText": "Which library is commonly used for working with JSON?",
+    "options": [
+      {
+        "optionId": 851,
+        "optionText": "json"
+      },
+      {
+        "optionId": 852,
+        "optionText": "js"
+      },
+      {
+        "optionId": 853,
+        "optionText": "jsonlib"
+      },
+      {
+        "optionId": 854,
+        "optionText": "object"
+      }
+    ],
+    "correctOptionId": 851
+  },
+  {
+    "questionId": 86,
+    "questionText": "Which function converts a Python object to a JSON string?",
+    "options": [
+      {
+        "optionId": 861,
+        "optionText": "json.parse()"
+      },
+      {
+        "optionId": 862,
+        "optionText": "json.dumps()"
+      },
+      {
+        "optionId": 863,
+        "optionText": "json.stringify()"
+      },
+      {
+        "optionId": 864,
+        "optionText": "json.encode()"
+      }
+    ],
+    "correctOptionId": 862
+  },
+  {
+    "questionId": 87,
+    "questionText": "Which function converts a JSON string to a Python object?",
+    "options": [
+      {
+        "optionId": 871,
+        "optionText": "json.loads()"
+      },
+      {
+        "optionId": 872,
+        "optionText": "json.parse()"
+      },
+      {
+        "optionId": 873,
+        "optionText": "json.decode()"
+      },
+      {
+        "optionId": 874,
+        "optionText": "json.read()"
+      }
+    ],
+    "correctOptionId": 871
+  },
+  {
+    "questionId": 88,
+    "questionText": "Which library is commonly used for HTTP requests but is third-party?",
+    "options": [
+      {
+        "optionId": 881,
+        "optionText": "requests"
+      },
+      {
+        "optionId": 882,
+        "optionText": "httpreq"
+      },
+      {
+        "optionId": 883,
+        "optionText": "urllibrequests"
+      },
+      {
+        "optionId": 884,
+        "optionText": "web"
+      }
+    ],
+    "correctOptionId": 881
+  },
+  {
+    "questionId": 89,
+    "questionText": "Which module provides OS-related functions?",
+    "options": [
+      {
+        "optionId": 891,
+        "optionText": "system"
+      },
+      {
+        "optionId": 892,
+        "optionText": "os"
+      },
+      {
+        "optionId": 893,
+        "optionText": "operating"
+      },
+      {
+        "optionId": 894,
+        "optionText": "platformos"
+      }
+    ],
+    "correctOptionId": 892
+  },
+  {
+    "questionId": 90,
+    "questionText": "Which module is used for working with file paths?",
+    "options": [
+      {
+        "optionId": 901,
+        "optionText": "pathlib"
+      },
+      {
+        "optionId": 902,
+        "optionText": "filepath"
+      },
+      {
+        "optionId": 903,
+        "optionText": "paths"
+      },
+      {
+        "optionId": 904,
+        "optionText": "filepaths"
+      }
+    ],
+    "correctOptionId": 901
+  },
+  {
+    "questionId": 91,
+    "questionText": "Which function opens a file?",
+    "options": [
+      {
+        "optionId": 911,
+        "optionText": "file()"
+      },
+      {
+        "optionId": 912,
+        "optionText": "open()"
+      },
+      {
+        "optionId": 913,
+        "optionText": "fopen()"
+      },
+      {
+        "optionId": 914,
+        "optionText": "readfile()"
+      }
+    ],
+    "correctOptionId": 912
+  },
+  {
+    "questionId": 92,
+    "questionText": "Which mode opens a file for writing and truncates it?",
+    "options": [
+      {
+        "optionId": 921,
+        "optionText": "r"
+      },
+      {
+        "optionId": 922,
+        "optionText": "a"
+      },
+      {
+        "optionId": 923,
+        "optionText": "w"
+      },
+      {
+        "optionId": 924,
+        "optionText": "x"
+      }
+    ],
+    "correctOptionId": 923
+  },
+  {
+    "questionId": 93,
+    "questionText": "Which mode opens a file for appending?",
+    "options": [
+      {
+        "optionId": 931,
+        "optionText": "a"
+      },
+      {
+        "optionId": 932,
+        "optionText": "w"
+      },
+      {
+        "optionId": 933,
+        "optionText": "r"
+      },
+      {
+        "optionId": 934,
+        "optionText": "p"
+      }
+    ],
+    "correctOptionId": 931
+  },
+  {
+    "questionId": 94,
+    "questionText": "Which keyword is useful for automatic resource management with files?",
+    "options": [
+      {
+        "optionId": 941,
+        "optionText": "manage"
+      },
+      {
+        "optionId": 942,
+        "optionText": "with"
+      },
+      {
+        "optionId": 943,
+        "optionText": "using"
+      },
+      {
+        "optionId": 944,
+        "optionText": "resource"
+      }
+    ],
+    "correctOptionId": 942
+  },
+  {
+    "questionId": 95,
+    "questionText": "What is a module in Python?",
+    "options": [
+      {
+        "optionId": 951,
+        "optionText": "A Python file containing code"
+      },
+      {
+        "optionId": 952,
+        "optionText": "Only a class"
+      },
+      {
+        "optionId": 953,
+        "optionText": "Only a function"
+      },
+      {
+        "optionId": 954,
+        "optionText": "A database"
+      }
+    ],
+    "correctOptionId": 951
+  },
+  {
+    "questionId": 96,
+    "questionText": "What is a package in Python?",
+    "options": [
+      {
+        "optionId": 961,
+        "optionText": "A collection of modules"
+      },
+      {
+        "optionId": 962,
+        "optionText": "A single variable"
+      },
+      {
+        "optionId": 963,
+        "optionText": "A loop"
+      },
+      {
+        "optionId": 964,
+        "optionText": "An exception"
+      }
+    ],
+    "correctOptionId": 961
+  },
+  {
+    "questionId": 97,
+    "questionText": "Which file traditionally indicates a regular Python package?",
+    "options": [
+      {
+        "optionId": 971,
+        "optionText": "package.py"
+      },
+      {
+        "optionId": 972,
+        "optionText": "__init__.py"
+      },
+      {
+        "optionId": 973,
+        "optionText": "init.py"
+      },
+      {
+        "optionId": 974,
+        "optionText": "main.py"
+      }
+    ],
+    "correctOptionId": 972
+  },
+  {
+    "questionId": 98,
+    "questionText": "Which tool is commonly used to install Python packages?",
+    "options": [
+      {
+        "optionId": 981,
+        "optionText": "pip"
+      },
+      {
+        "optionId": 982,
+        "optionText": "npm"
+      },
+      {
+        "optionId": 983,
+        "optionText": "maven"
+      },
+      {
+        "optionId": 984,
+        "optionText": "gem"
+      }
+    ],
+    "correctOptionId": 981
+  },
+  {
+    "questionId": 99,
+    "questionText": "Which command creates a virtual environment using venv?",
+    "options": [
+      {
+        "optionId": 991,
+        "optionText": "python -m venv env"
+      },
+      {
+        "optionId": 992,
+        "optionText": "python create env"
+      },
+      {
+        "optionId": 993,
+        "optionText": "pip venv env"
+      },
+      {
+        "optionId": 994,
+        "optionText": "virtualenv python"
+      }
+    ],
+    "correctOptionId": 991
+  },
+  {
+    "questionId": 100,
+    "questionText": "What is a list comprehension?",
+    "options": [
+      {
+        "optionId": 1001,
+        "optionText": "A compact way to create lists"
+      },
+      {
+        "optionId": 1002,
+        "optionText": "A list debugger"
+      },
+      {
+        "optionId": 1003,
+        "optionText": "A list compiler"
+      },
+      {
+        "optionId": 1004,
+        "optionText": "A database query"
+      }
+    ],
+    "correctOptionId": 1001
+  }
+]

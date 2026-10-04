@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "Which of the following is a primitive data type?",
+    "options": [
+      {
+        "optionId": 1,
+        "optionText": "String"
+      },
+      {
+        "optionId": 2,
+        "optionText": "Integer"
+      },
+      {
+        "optionId": 3,
+        "optionText": "int"
+      },
+      {
+        "optionId": 4,
+        "optionText": "ArrayList"
+      }
+    ],
+    "correctOptionId": 3
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which keyword is used for inheritance?",
+    "options": [
+      {
+        "optionId": 5,
+        "optionText": "implement"
+      },
+      {
+        "optionId": 6,
+        "optionText": "extends"
+      },
+      {
+        "optionId": 7,
+        "optionText": "inherits"
+      },
+      {
+        "optionId": 8,
+        "optionText": "super"
+      }
+    ],
+    "correctOptionId": 6
+  },
+  {
+    "questionId": 3,
+    "questionText": "Entry point of Java program?",
+    "options": [
+      {
+        "optionId": 9,
+        "optionText": "start()"
+      },
+      {
+        "optionId": 10,
+        "optionText": "run()"
+      },
+      {
+        "optionId": 11,
+        "optionText": "main()"
+      },
+      {
+        "optionId": 12,
+        "optionText": "init()"
+      }
+    ],
+    "correctOptionId": 11
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which concept is achieved using method overloading?",
+    "options": [
+      {
+        "optionId": 13,
+        "optionText": "Abstraction"
+      },
+      {
+        "optionId": 14,
+        "optionText": "Polymorphism"
+      },
+      {
+        "optionId": 15,
+        "optionText": "Inheritance"
+      },
+      {
+        "optionId": 16,
+        "optionText": "Encapsulation"
+      }
+    ],
+    "correctOptionId": 14
+  },
+  {
+    "questionId": 5,
+    "questionText": "Which package contains Scanner?",
+    "options": [
+      {
+        "optionId": 17,
+        "optionText": "java.io"
+      },
+      {
+        "optionId": 18,
+        "optionText": "java.util"
+      },
+      {
+        "optionId": 19,
+        "optionText": "java.lang"
+      },
+      {
+        "optionId": 20,
+        "optionText": "java.net"
+      }
+    ],
+    "correctOptionId": 18
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which loop runs at least once?",
+    "options": [
+      {
+        "optionId": 21,
+        "optionText": "for"
+      },
+      {
+        "optionId": 22,
+        "optionText": "while"
+      },
+      {
+        "optionId": 23,
+        "optionText": "do-while"
+      },
+      {
+        "optionId": 24,
+        "optionText": "foreach"
+      }
+    ],
+    "correctOptionId": 23
+  },
+  {
+    "questionId": 7,
+    "questionText": "Parent class of all classes?",
+    "options": [
+      {
+        "optionId": 25,
+        "optionText": "Object"
+      },
+      {
+        "optionId": 26,
+        "optionText": "Main"
+      },
+      {
+        "optionId": 27,
+        "optionText": "Class"
+      },
+      {
+        "optionId": 28,
+        "optionText": "System"
+      }
+    ],
+    "correctOptionId": 25
+  },
+  {
+    "questionId": 8,
+    "questionText": "Which operator compares values?",
+    "options": [
+      {
+        "optionId": 29,
+        "optionText": "="
+      },
+      {
+        "optionId": 30,
+        "optionText": "=="
+      },
+      {
+        "optionId": 31,
+        "optionText": "equals"
+      },
+      {
+        "optionId": 32,
+        "optionText": ":="
+      }
+    ],
+    "correctOptionId": 30
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which keyword prevents inheritance?",
+    "options": [
+      {
+        "optionId": 33,
+        "optionText": "static"
+      },
+      {
+        "optionId": 34,
+        "optionText": "final"
+      },
+      {
+        "optionId": 35,
+        "optionText": "const"
+      },
+      {
+        "optionId": 36,
+        "optionText": "protected"
+      }
+    ],
+    "correctOptionId": 34
+  },
+  {
+    "questionId": 10,
+    "questionText": "Size of int in Java?",
+    "options": [
+      {
+        "optionId": 37,
+        "optionText": "2 bytes"
+      },
+      {
+        "optionId": 38,
+        "optionText": "4 bytes"
+      },
+      {
+        "optionId": 39,
+        "optionText": "8 bytes"
+      },
+      {
+        "optionId": 40,
+        "optionText": "OS dependent"
+      }
+    ],
+    "correctOptionId": 38
+  }
+]

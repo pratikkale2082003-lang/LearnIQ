@@ -1,0 +1,1842 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "Which keyword is used to declare a variable that cannot be reassigned?",
+    "options": [
+      {
+        "optionId": 11,
+        "optionText": "var"
+      },
+      {
+        "optionId": 12,
+        "optionText": "let"
+      },
+      {
+        "optionId": 13,
+        "optionText": "const"
+      },
+      {
+        "optionId": 14,
+        "optionText": "static"
+      }
+    ],
+    "correctOptionId": 13
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which of the following is a JavaScript primitive data type?",
+    "options": [
+      {
+        "optionId": 21,
+        "optionText": "Array"
+      },
+      {
+        "optionId": 22,
+        "optionText": "Object"
+      },
+      {
+        "optionId": 23,
+        "optionText": "String"
+      },
+      {
+        "optionId": 24,
+        "optionText": "Function"
+      }
+    ],
+    "correctOptionId": 23
+  },
+  {
+    "questionId": 3,
+    "questionText": "What is the result of typeof null?",
+    "options": [
+      {
+        "optionId": 31,
+        "optionText": "\"null\""
+      },
+      {
+        "optionId": 32,
+        "optionText": "\"object\""
+      },
+      {
+        "optionId": 33,
+        "optionText": "\"undefined\""
+      },
+      {
+        "optionId": 34,
+        "optionText": "\"None\""
+      }
+    ],
+    "correctOptionId": 32
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which symbol is used for strict equality?",
+    "options": [
+      {
+        "optionId": 41,
+        "optionText": "=="
+      },
+      {
+        "optionId": 42,
+        "optionText": "="
+      },
+      {
+        "optionId": 43,
+        "optionText": "==="
+      },
+      {
+        "optionId": 44,
+        "optionText": "!="
+      }
+    ],
+    "correctOptionId": 43
+  },
+  {
+    "questionId": 5,
+    "questionText": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      {
+        "optionId": 51,
+        "optionText": "JSON.parse()"
+      },
+      {
+        "optionId": 52,
+        "optionText": "JSON.stringify()"
+      },
+      {
+        "optionId": 53,
+        "optionText": "JSON.convert()"
+      },
+      {
+        "optionId": 54,
+        "optionText": "JSON.object()"
+      }
+    ],
+    "correctOptionId": 51
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which method converts a JavaScript object into a JSON string?",
+    "options": [
+      {
+        "optionId": 61,
+        "optionText": "JSON.parse()"
+      },
+      {
+        "optionId": 62,
+        "optionText": "JSON.stringify()"
+      },
+      {
+        "optionId": 63,
+        "optionText": "JSON.toObject()"
+      },
+      {
+        "optionId": 64,
+        "optionText": "JSON.encode()"
+      }
+    ],
+    "correctOptionId": 62
+  },
+  {
+    "questionId": 7,
+    "questionText": "Which keyword is used to define a function?",
+    "options": [
+      {
+        "optionId": 71,
+        "optionText": "func"
+      },
+      {
+        "optionId": 72,
+        "optionText": "function"
+      },
+      {
+        "optionId": 73,
+        "optionText": "def"
+      },
+      {
+        "optionId": 74,
+        "optionText": "method"
+      }
+    ],
+    "correctOptionId": 72
+  },
+  {
+    "questionId": 8,
+    "questionText": "What does NaN stand for?",
+    "options": [
+      {
+        "optionId": 81,
+        "optionText": "Not a Number"
+      },
+      {
+        "optionId": 82,
+        "optionText": "No Assigned Number"
+      },
+      {
+        "optionId": 83,
+        "optionText": "New and Null"
+      },
+      {
+        "optionId": 84,
+        "optionText": "Not a Name"
+      }
+    ],
+    "correctOptionId": 81
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which operator returns the remainder after division?",
+    "options": [
+      {
+        "optionId": 91,
+        "optionText": "/"
+      },
+      {
+        "optionId": 92,
+        "optionText": "%"
+      },
+      {
+        "optionId": 93,
+        "optionText": "//"
+      },
+      {
+        "optionId": 94,
+        "optionText": "%%"
+      }
+    ],
+    "correctOptionId": 92
+  },
+  {
+    "questionId": 10,
+    "questionText": "Which method adds an element to the end of an array?",
+    "options": [
+      {
+        "optionId": 101,
+        "optionText": "push()"
+      },
+      {
+        "optionId": 102,
+        "optionText": "pop()"
+      },
+      {
+        "optionId": 103,
+        "optionText": "shift()"
+      },
+      {
+        "optionId": 104,
+        "optionText": "unshift()"
+      }
+    ],
+    "correctOptionId": 101
+  },
+  {
+    "questionId": 11,
+    "questionText": "Which method removes the last element of an array?",
+    "options": [
+      {
+        "optionId": 111,
+        "optionText": "push()"
+      },
+      {
+        "optionId": 112,
+        "optionText": "pop()"
+      },
+      {
+        "optionId": 113,
+        "optionText": "shift()"
+      },
+      {
+        "optionId": 114,
+        "optionText": "slice()"
+      }
+    ],
+    "correctOptionId": 112
+  },
+  {
+    "questionId": 12,
+    "questionText": "Which method removes the first element of an array?",
+    "options": [
+      {
+        "optionId": 121,
+        "optionText": "shift()"
+      },
+      {
+        "optionId": 122,
+        "optionText": "unshift()"
+      },
+      {
+        "optionId": 123,
+        "optionText": "pop()"
+      },
+      {
+        "optionId": 124,
+        "optionText": "first()"
+      }
+    ],
+    "correctOptionId": 121
+  },
+  {
+    "questionId": 13,
+    "questionText": "Which method adds elements to the beginning of an array?",
+    "options": [
+      {
+        "optionId": 131,
+        "optionText": "push()"
+      },
+      {
+        "optionId": 132,
+        "optionText": "prepend()"
+      },
+      {
+        "optionId": 133,
+        "optionText": "unshift()"
+      },
+      {
+        "optionId": 134,
+        "optionText": "addFirst()"
+      }
+    ],
+    "correctOptionId": 133
+  },
+  {
+    "questionId": 14,
+    "questionText": "Which method creates a new array by transforming each element?",
+    "options": [
+      {
+        "optionId": 141,
+        "optionText": "filter()"
+      },
+      {
+        "optionId": 142,
+        "optionText": "map()"
+      },
+      {
+        "optionId": 143,
+        "optionText": "reduce()"
+      },
+      {
+        "optionId": 144,
+        "optionText": "forEach()"
+      }
+    ],
+    "correctOptionId": 142
+  },
+  {
+    "questionId": 15,
+    "questionText": "Which method returns elements that satisfy a condition?",
+    "options": [
+      {
+        "optionId": 151,
+        "optionText": "map()"
+      },
+      {
+        "optionId": 152,
+        "optionText": "filter()"
+      },
+      {
+        "optionId": 153,
+        "optionText": "findAll()"
+      },
+      {
+        "optionId": 154,
+        "optionText": "select()"
+      }
+    ],
+    "correctOptionId": 152
+  },
+  {
+    "questionId": 16,
+    "questionText": "Which method executes a function for each array element?",
+    "options": [
+      {
+        "optionId": 161,
+        "optionText": "forEach()"
+      },
+      {
+        "optionId": 162,
+        "optionText": "each()"
+      },
+      {
+        "optionId": 163,
+        "optionText": "loop()"
+      },
+      {
+        "optionId": 164,
+        "optionText": "iterate()"
+      }
+    ],
+    "correctOptionId": 161
+  },
+  {
+    "questionId": 17,
+    "questionText": "Which method reduces an array to a single value?",
+    "options": [
+      {
+        "optionId": 171,
+        "optionText": "reduce()"
+      },
+      {
+        "optionId": 172,
+        "optionText": "combine()"
+      },
+      {
+        "optionId": 173,
+        "optionText": "sum()"
+      },
+      {
+        "optionId": 174,
+        "optionText": "collapse()"
+      }
+    ],
+    "correctOptionId": 171
+  },
+  {
+    "questionId": 18,
+    "questionText": "Which method returns the first matching array element?",
+    "options": [
+      {
+        "optionId": 181,
+        "optionText": "find()"
+      },
+      {
+        "optionId": 182,
+        "optionText": "search()"
+      },
+      {
+        "optionId": 183,
+        "optionText": "first()"
+      },
+      {
+        "optionId": 184,
+        "optionText": "match()"
+      }
+    ],
+    "correctOptionId": 181
+  },
+  {
+    "questionId": 19,
+    "questionText": "What is the index of the first element in a JavaScript array?",
+    "options": [
+      {
+        "optionId": 191,
+        "optionText": "0"
+      },
+      {
+        "optionId": 192,
+        "optionText": "1"
+      },
+      {
+        "optionId": 193,
+        "optionText": "-1"
+      },
+      {
+        "optionId": 194,
+        "optionText": "Depends on array"
+      }
+    ],
+    "correctOptionId": 191
+  },
+  {
+    "questionId": 20,
+    "questionText": "Which property gives the number of elements in an array?",
+    "options": [
+      {
+        "optionId": 201,
+        "optionText": "size"
+      },
+      {
+        "optionId": 202,
+        "optionText": "count"
+      },
+      {
+        "optionId": 203,
+        "optionText": "length"
+      },
+      {
+        "optionId": 204,
+        "optionText": "elements"
+      }
+    ],
+    "correctOptionId": 203
+  },
+  {
+    "questionId": 21,
+    "questionText": "Which loop is commonly used to iterate over array values?",
+    "options": [
+      {
+        "optionId": 211,
+        "optionText": "for...of"
+      },
+      {
+        "optionId": 212,
+        "optionText": "for...in"
+      },
+      {
+        "optionId": 213,
+        "optionText": "foreach...in"
+      },
+      {
+        "optionId": 214,
+        "optionText": "repeat"
+      }
+    ],
+    "correctOptionId": 211
+  },
+  {
+    "questionId": 22,
+    "questionText": "Which loop iterates over enumerable property keys?",
+    "options": [
+      {
+        "optionId": 221,
+        "optionText": "for...of"
+      },
+      {
+        "optionId": 222,
+        "optionText": "for...in"
+      },
+      {
+        "optionId": 223,
+        "optionText": "forEach...of"
+      },
+      {
+        "optionId": 224,
+        "optionText": "keyLoop"
+      }
+    ],
+    "correctOptionId": 222
+  },
+  {
+    "questionId": 23,
+    "questionText": "What is the output of 2 + '2'?",
+    "options": [
+      {
+        "optionId": 231,
+        "optionText": "4"
+      },
+      {
+        "optionId": 232,
+        "optionText": "\"22\""
+      },
+      {
+        "optionId": 233,
+        "optionText": "NaN"
+      },
+      {
+        "optionId": 234,
+        "optionText": "Error"
+      }
+    ],
+    "correctOptionId": 232
+  },
+  {
+    "questionId": 24,
+    "questionText": "What is the output of '5' - 2?",
+    "options": [
+      {
+        "optionId": 241,
+        "optionText": "\"52\""
+      },
+      {
+        "optionId": 242,
+        "optionText": "3"
+      },
+      {
+        "optionId": 243,
+        "optionText": "NaN"
+      },
+      {
+        "optionId": 244,
+        "optionText": "Error"
+      }
+    ],
+    "correctOptionId": 242
+  },
+  {
+    "questionId": 25,
+    "questionText": "Which operator is used for logical AND?",
+    "options": [
+      {
+        "optionId": 251,
+        "optionText": "||"
+      },
+      {
+        "optionId": 252,
+        "optionText": "&&"
+      },
+      {
+        "optionId": 253,
+        "optionText": "!"
+      },
+      {
+        "optionId": 254,
+        "optionText": "&"
+      }
+    ],
+    "correctOptionId": 252
+  },
+  {
+    "questionId": 26,
+    "questionText": "Which operator is used for logical OR?",
+    "options": [
+      {
+        "optionId": 261,
+        "optionText": "&&"
+      },
+      {
+        "optionId": 262,
+        "optionText": "||"
+      },
+      {
+        "optionId": 263,
+        "optionText": "!"
+      },
+      {
+        "optionId": 264,
+        "optionText": "|"
+      }
+    ],
+    "correctOptionId": 262
+  },
+  {
+    "questionId": 27,
+    "questionText": "Which operator is used for logical NOT?",
+    "options": [
+      {
+        "optionId": 271,
+        "optionText": "!"
+      },
+      {
+        "optionId": 272,
+        "optionText": "not"
+      },
+      {
+        "optionId": 273,
+        "optionText": "~"
+      },
+      {
+        "optionId": 274,
+        "optionText": "!="
+      }
+    ],
+    "correctOptionId": 271
+  },
+  {
+    "questionId": 28,
+    "questionText": "What does === compare?",
+    "options": [
+      {
+        "optionId": 281,
+        "optionText": "Only values"
+      },
+      {
+        "optionId": 282,
+        "optionText": "Only types"
+      },
+      {
+        "optionId": 283,
+        "optionText": "Value and type"
+      },
+      {
+        "optionId": 284,
+        "optionText": "References only"
+      }
+    ],
+    "correctOptionId": 283
+  },
+  {
+    "questionId": 29,
+    "questionText": "Which statement is used to make a decision based on a condition?",
+    "options": [
+      {
+        "optionId": 291,
+        "optionText": "if"
+      },
+      {
+        "optionId": 292,
+        "optionText": "switcher"
+      },
+      {
+        "optionId": 293,
+        "optionText": "choose"
+      },
+      {
+        "optionId": 294,
+        "optionText": "when"
+      }
+    ],
+    "correctOptionId": 291
+  },
+  {
+    "questionId": 30,
+    "questionText": "Which statement is useful for multiple fixed cases?",
+    "options": [
+      {
+        "optionId": 301,
+        "optionText": "if only"
+      },
+      {
+        "optionId": 302,
+        "optionText": "switch"
+      },
+      {
+        "optionId": 303,
+        "optionText": "repeat"
+      },
+      {
+        "optionId": 304,
+        "optionText": "select"
+      }
+    ],
+    "correctOptionId": 302
+  },
+  {
+    "questionId": 31,
+    "questionText": "Which keyword exits a loop immediately?",
+    "options": [
+      {
+        "optionId": 311,
+        "optionText": "stop"
+      },
+      {
+        "optionId": 312,
+        "optionText": "exit"
+      },
+      {
+        "optionId": 313,
+        "optionText": "break"
+      },
+      {
+        "optionId": 314,
+        "optionText": "returnLoop"
+      }
+    ],
+    "correctOptionId": 313
+  },
+  {
+    "questionId": 32,
+    "questionText": "Which keyword skips the current loop iteration?",
+    "options": [
+      {
+        "optionId": 321,
+        "optionText": "skip"
+      },
+      {
+        "optionId": 322,
+        "optionText": "continue"
+      },
+      {
+        "optionId": 323,
+        "optionText": "next"
+      },
+      {
+        "optionId": 324,
+        "optionText": "pass"
+      }
+    ],
+    "correctOptionId": 322
+  },
+  {
+    "questionId": 33,
+    "questionText": "Which keyword declares a block-scoped variable?",
+    "options": [
+      {
+        "optionId": 331,
+        "optionText": "var"
+      },
+      {
+        "optionId": 332,
+        "optionText": "let"
+      },
+      {
+        "optionId": 333,
+        "optionText": "global"
+      },
+      {
+        "optionId": 334,
+        "optionText": "define"
+      }
+    ],
+    "correctOptionId": 332
+  },
+  {
+    "questionId": 34,
+    "questionText": "Which declaration is block-scoped and cannot be reassigned?",
+    "options": [
+      {
+        "optionId": 341,
+        "optionText": "var"
+      },
+      {
+        "optionId": 342,
+        "optionText": "let"
+      },
+      {
+        "optionId": 343,
+        "optionText": "const"
+      },
+      {
+        "optionId": 344,
+        "optionText": "static"
+      }
+    ],
+    "correctOptionId": 343
+  },
+  {
+    "questionId": 35,
+    "questionText": "What is hoisting?",
+    "options": [
+      {
+        "optionId": 351,
+        "optionText": "Deleting variables"
+      },
+      {
+        "optionId": 352,
+        "optionText": "Moving declarations conceptually to the top of their scope"
+      },
+      {
+        "optionId": 353,
+        "optionText": "Converting strings"
+      },
+      {
+        "optionId": 354,
+        "optionText": "Creating objects"
+      }
+    ],
+    "correctOptionId": 352
+  },
+  {
+    "questionId": 36,
+    "questionText": "What is a closure?",
+    "options": [
+      {
+        "optionId": 361,
+        "optionText": "A closed browser window"
+      },
+      {
+        "optionId": 362,
+        "optionText": "A function retaining access to its outer lexical scope"
+      },
+      {
+        "optionId": 363,
+        "optionText": "A private class"
+      },
+      {
+        "optionId": 364,
+        "optionText": "A loop"
+      }
+    ],
+    "correctOptionId": 362
+  },
+  {
+    "questionId": 37,
+    "questionText": "What does 'use strict' enable?",
+    "options": [
+      {
+        "optionId": 371,
+        "optionText": "Strict mode"
+      },
+      {
+        "optionId": 372,
+        "optionText": "Async mode"
+      },
+      {
+        "optionId": 373,
+        "optionText": "Debug mode"
+      },
+      {
+        "optionId": 374,
+        "optionText": "Module mode only"
+      }
+    ],
+    "correctOptionId": 371
+  },
+  {
+    "questionId": 38,
+    "questionText": "Which value represents an intentional absence of an object value?",
+    "options": [
+      {
+        "optionId": 381,
+        "optionText": "undefined"
+      },
+      {
+        "optionId": 382,
+        "optionText": "null"
+      },
+      {
+        "optionId": 383,
+        "optionText": "NaN"
+      },
+      {
+        "optionId": 384,
+        "optionText": "false"
+      }
+    ],
+    "correctOptionId": 382
+  },
+  {
+    "questionId": 39,
+    "questionText": "Which value usually indicates a variable has not been assigned a value?",
+    "options": [
+      {
+        "optionId": 391,
+        "optionText": "null"
+      },
+      {
+        "optionId": 392,
+        "optionText": "undefined"
+      },
+      {
+        "optionId": 393,
+        "optionText": "empty"
+      },
+      {
+        "optionId": 394,
+        "optionText": "NaN"
+      }
+    ],
+    "correctOptionId": 392
+  },
+  {
+    "questionId": 40,
+    "questionText": "Which function schedules code to run once after a delay?",
+    "options": [
+      {
+        "optionId": 401,
+        "optionText": "setInterval()"
+      },
+      {
+        "optionId": 402,
+        "optionText": "setTimeout()"
+      },
+      {
+        "optionId": 403,
+        "optionText": "delay()"
+      },
+      {
+        "optionId": 404,
+        "optionText": "wait()"
+      }
+    ],
+    "correctOptionId": 402
+  },
+  {
+    "questionId": 41,
+    "questionText": "Which function repeatedly runs code at a time interval?",
+    "options": [
+      {
+        "optionId": 411,
+        "optionText": "setTimeout()"
+      },
+      {
+        "optionId": 412,
+        "optionText": "setInterval()"
+      },
+      {
+        "optionId": 413,
+        "optionText": "repeat()"
+      },
+      {
+        "optionId": 414,
+        "optionText": "loopTime()"
+      }
+    ],
+    "correctOptionId": 412
+  },
+  {
+    "questionId": 42,
+    "questionText": "How do you stop a setInterval timer?",
+    "options": [
+      {
+        "optionId": 421,
+        "optionText": "stopInterval()"
+      },
+      {
+        "optionId": 422,
+        "optionText": "clearInterval()"
+      },
+      {
+        "optionId": 423,
+        "optionText": "removeInterval()"
+      },
+      {
+        "optionId": 424,
+        "optionText": "cancelTimer()"
+      }
+    ],
+    "correctOptionId": 422
+  },
+  {
+    "questionId": 43,
+    "questionText": "How do you stop a setTimeout timer?",
+    "options": [
+      {
+        "optionId": 431,
+        "optionText": "clearTimeout()"
+      },
+      {
+        "optionId": 432,
+        "optionText": "stopTimeout()"
+      },
+      {
+        "optionId": 433,
+        "optionText": "cancelTimeout()"
+      },
+      {
+        "optionId": 434,
+        "optionText": "removeTimeout()"
+      }
+    ],
+    "correctOptionId": 431
+  },
+  {
+    "questionId": 44,
+    "questionText": "Which keyword is used to handle exceptions?",
+    "options": [
+      {
+        "optionId": 441,
+        "optionText": "try"
+      },
+      {
+        "optionId": 442,
+        "optionText": "catch"
+      },
+      {
+        "optionId": 443,
+        "optionText": "Both A and B"
+      },
+      {
+        "optionId": 444,
+        "optionText": "exception"
+      }
+    ],
+    "correctOptionId": 443
+  },
+  {
+    "questionId": 45,
+    "questionText": "Which keyword manually throws an exception?",
+    "options": [
+      {
+        "optionId": 451,
+        "optionText": "throw"
+      },
+      {
+        "optionId": 452,
+        "optionText": "raise"
+      },
+      {
+        "optionId": 453,
+        "optionText": "error"
+      },
+      {
+        "optionId": 454,
+        "optionText": "exception"
+      }
+    ],
+    "correctOptionId": 451
+  },
+  {
+    "questionId": 46,
+    "questionText": "Which block executes whether an exception occurs or not?",
+    "options": [
+      {
+        "optionId": 461,
+        "optionText": "always"
+      },
+      {
+        "optionId": 462,
+        "optionText": "finally"
+      },
+      {
+        "optionId": 463,
+        "optionText": "default"
+      },
+      {
+        "optionId": 464,
+        "optionText": "last"
+      }
+    ],
+    "correctOptionId": 462
+  },
+  {
+    "questionId": 47,
+    "questionText": "Which object is commonly used to work with dates?",
+    "options": [
+      {
+        "optionId": 471,
+        "optionText": "Calendar"
+      },
+      {
+        "optionId": 472,
+        "optionText": "Date"
+      },
+      {
+        "optionId": 473,
+        "optionText": "Time"
+      },
+      {
+        "optionId": 474,
+        "optionText": "Clock"
+      }
+    ],
+    "correctOptionId": 472
+  },
+  {
+    "questionId": 48,
+    "questionText": "Which method returns the current timestamp in milliseconds?",
+    "options": [
+      {
+        "optionId": 481,
+        "optionText": "Date.now()"
+      },
+      {
+        "optionId": 482,
+        "optionText": "Date.current()"
+      },
+      {
+        "optionId": 483,
+        "optionText": "Date.time()"
+      },
+      {
+        "optionId": 484,
+        "optionText": "Date.timestamp()"
+      }
+    ],
+    "correctOptionId": 481
+  },
+  {
+    "questionId": 49,
+    "questionText": "Which object is used for mathematical operations?",
+    "options": [
+      {
+        "optionId": 491,
+        "optionText": "Math"
+      },
+      {
+        "optionId": 492,
+        "optionText": "NumberMath"
+      },
+      {
+        "optionId": 493,
+        "optionText": "Calculator"
+      },
+      {
+        "optionId": 494,
+        "optionText": "Arithmetic"
+      }
+    ],
+    "correctOptionId": 491
+  },
+  {
+    "questionId": 50,
+    "questionText": "What does Math.floor(4.9) return?",
+    "options": [
+      {
+        "optionId": 501,
+        "optionText": "4"
+      },
+      {
+        "optionId": 502,
+        "optionText": "5"
+      },
+      {
+        "optionId": 503,
+        "optionText": "4.9"
+      },
+      {
+        "optionId": 504,
+        "optionText": "3"
+      }
+    ],
+    "correctOptionId": 501
+  },
+  {
+    "questionId": 51,
+    "questionText": "What does Math.ceil(4.1) return?",
+    "options": [
+      {
+        "optionId": 511,
+        "optionText": "4"
+      },
+      {
+        "optionId": 512,
+        "optionText": "5"
+      },
+      {
+        "optionId": 513,
+        "optionText": "4.1"
+      },
+      {
+        "optionId": 514,
+        "optionText": "6"
+      }
+    ],
+    "correctOptionId": 512
+  },
+  {
+    "questionId": 52,
+    "questionText": "Which method converts a string to lowercase?",
+    "options": [
+      {
+        "optionId": 521,
+        "optionText": "toLowerCase()"
+      },
+      {
+        "optionId": 522,
+        "optionText": "lower()"
+      },
+      {
+        "optionId": 523,
+        "optionText": "lowerCase()"
+      },
+      {
+        "optionId": 524,
+        "optionText": "toLower()"
+      }
+    ],
+    "correctOptionId": 521
+  },
+  {
+    "questionId": 53,
+    "questionText": "Which method removes whitespace from both ends of a string?",
+    "options": [
+      {
+        "optionId": 531,
+        "optionText": "trim()"
+      },
+      {
+        "optionId": 532,
+        "optionText": "strip()"
+      },
+      {
+        "optionId": 533,
+        "optionText": "clean()"
+      },
+      {
+        "optionId": 534,
+        "optionText": "removeSpace()"
+      }
+    ],
+    "correctOptionId": 531
+  },
+  {
+    "questionId": 54,
+    "questionText": "Which method checks whether a string contains a specified value?",
+    "options": [
+      {
+        "optionId": 541,
+        "optionText": "contains()"
+      },
+      {
+        "optionId": 542,
+        "optionText": "includes()"
+      },
+      {
+        "optionId": 543,
+        "optionText": "has()"
+      },
+      {
+        "optionId": 544,
+        "optionText": "find()"
+      }
+    ],
+    "correctOptionId": 542
+  },
+  {
+    "questionId": 55,
+    "questionText": "Which method splits a string into an array?",
+    "options": [
+      {
+        "optionId": 551,
+        "optionText": "split()"
+      },
+      {
+        "optionId": 552,
+        "optionText": "divide()"
+      },
+      {
+        "optionId": 553,
+        "optionText": "sliceArray()"
+      },
+      {
+        "optionId": 554,
+        "optionText": "explode()"
+      }
+    ],
+    "correctOptionId": 551
+  },
+  {
+    "questionId": 56,
+    "questionText": "Which method joins array elements into a string?",
+    "options": [
+      {
+        "optionId": 561,
+        "optionText": "join()"
+      },
+      {
+        "optionId": 562,
+        "optionText": "concatArray()"
+      },
+      {
+        "optionId": 563,
+        "optionText": "merge()"
+      },
+      {
+        "optionId": 564,
+        "optionText": "combine()"
+      }
+    ],
+    "correctOptionId": 561
+  },
+  {
+    "questionId": 57,
+    "questionText": "Which keyword refers to the current execution context/object in a method?",
+    "options": [
+      {
+        "optionId": 571,
+        "optionText": "self"
+      },
+      {
+        "optionId": 572,
+        "optionText": "this"
+      },
+      {
+        "optionId": 573,
+        "optionText": "current"
+      },
+      {
+        "optionId": 574,
+        "optionText": "that"
+      }
+    ],
+    "correctOptionId": 572
+  },
+  {
+    "questionId": 58,
+    "questionText": "What is an arrow function syntax?",
+    "options": [
+      {
+        "optionId": 581,
+        "optionText": "=>"
+      },
+      {
+        "optionId": 582,
+        "optionText": "->"
+      },
+      {
+        "optionId": 583,
+        "optionText": "::"
+      },
+      {
+        "optionId": 584,
+        "optionText": "==>"
+      }
+    ],
+    "correctOptionId": 581
+  },
+  {
+    "questionId": 59,
+    "questionText": "Do arrow functions have their own 'this' binding?",
+    "options": [
+      {
+        "optionId": 591,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 592,
+        "optionText": "No"
+      },
+      {
+        "optionId": 593,
+        "optionText": "Only in classes"
+      },
+      {
+        "optionId": 594,
+        "optionText": "Only in strict mode"
+      }
+    ],
+    "correctOptionId": 592
+  },
+  {
+    "questionId": 60,
+    "questionText": "Which syntax creates a template literal?",
+    "options": [
+      {
+        "optionId": 601,
+        "optionText": "Single quotes"
+      },
+      {
+        "optionId": 602,
+        "optionText": "Double quotes"
+      },
+      {
+        "optionId": 603,
+        "optionText": "Backticks"
+      },
+      {
+        "optionId": 604,
+        "optionText": "Parentheses"
+      }
+    ],
+    "correctOptionId": 603
+  },
+  {
+    "questionId": 61,
+    "questionText": "How do you insert an expression into a template literal?",
+    "options": [
+      {
+        "optionId": 611,
+        "optionText": "${expression}"
+      },
+      {
+        "optionId": 612,
+        "optionText": "#{expression}"
+      },
+      {
+        "optionId": 613,
+        "optionText": "{{expression}}"
+      },
+      {
+        "optionId": 614,
+        "optionText": "$expression"
+      }
+    ],
+    "correctOptionId": 611
+  },
+  {
+    "questionId": 62,
+    "questionText": "Which keyword pauses an async function until a Promise settles?",
+    "options": [
+      {
+        "optionId": 621,
+        "optionText": "pause"
+      },
+      {
+        "optionId": 622,
+        "optionText": "await"
+      },
+      {
+        "optionId": 623,
+        "optionText": "wait"
+      },
+      {
+        "optionId": 624,
+        "optionText": "yield"
+      }
+    ],
+    "correctOptionId": 622
+  },
+  {
+    "questionId": 63,
+    "questionText": "Which keyword declares an asynchronous function?",
+    "options": [
+      {
+        "optionId": 631,
+        "optionText": "async"
+      },
+      {
+        "optionId": 632,
+        "optionText": "await"
+      },
+      {
+        "optionId": 633,
+        "optionText": "promise"
+      },
+      {
+        "optionId": 634,
+        "optionText": "defer"
+      }
+    ],
+    "correctOptionId": 631
+  },
+  {
+    "questionId": 64,
+    "questionText": "What is a Promise used for?",
+    "options": [
+      {
+        "optionId": 641,
+        "optionText": "Styling pages"
+      },
+      {
+        "optionId": 642,
+        "optionText": "Representing eventual completion/failure of an async operation"
+      },
+      {
+        "optionId": 643,
+        "optionText": "Declaring variables"
+      },
+      {
+        "optionId": 644,
+        "optionText": "Creating loops"
+      }
+    ],
+    "correctOptionId": 642
+  },
+  {
+    "questionId": 65,
+    "questionText": "Which Promise method handles successful completion?",
+    "options": [
+      {
+        "optionId": 651,
+        "optionText": "then()"
+      },
+      {
+        "optionId": 652,
+        "optionText": "catch()"
+      },
+      {
+        "optionId": 653,
+        "optionText": "success()"
+      },
+      {
+        "optionId": 654,
+        "optionText": "done()"
+      }
+    ],
+    "correctOptionId": 651
+  },
+  {
+    "questionId": 66,
+    "questionText": "Which Promise method handles rejection/errors?",
+    "options": [
+      {
+        "optionId": 661,
+        "optionText": "error()"
+      },
+      {
+        "optionId": 662,
+        "optionText": "catch()"
+      },
+      {
+        "optionId": 663,
+        "optionText": "fail()"
+      },
+      {
+        "optionId": 664,
+        "optionText": "except()"
+      }
+    ],
+    "correctOptionId": 662
+  },
+  {
+    "questionId": 67,
+    "questionText": "Which Promise method runs after fulfillment or rejection?",
+    "options": [
+      {
+        "optionId": 671,
+        "optionText": "finally()"
+      },
+      {
+        "optionId": 672,
+        "optionText": "last()"
+      },
+      {
+        "optionId": 673,
+        "optionText": "always()"
+      },
+      {
+        "optionId": 674,
+        "optionText": "end()"
+      }
+    ],
+    "correctOptionId": 671
+  },
+  {
+    "questionId": 68,
+    "questionText": "What does DOM stand for?",
+    "options": [
+      {
+        "optionId": 681,
+        "optionText": "Document Object Model"
+      },
+      {
+        "optionId": 682,
+        "optionText": "Data Object Management"
+      },
+      {
+        "optionId": 683,
+        "optionText": "Document Oriented Model"
+      },
+      {
+        "optionId": 684,
+        "optionText": "Digital Object Method"
+      }
+    ],
+    "correctOptionId": 681
+  },
+  {
+    "questionId": 69,
+    "questionText": "Which method selects an element by its id?",
+    "options": [
+      {
+        "optionId": 691,
+        "optionText": "getElementById()"
+      },
+      {
+        "optionId": 692,
+        "optionText": "getById()"
+      },
+      {
+        "optionId": 693,
+        "optionText": "selectId()"
+      },
+      {
+        "optionId": 694,
+        "optionText": "queryId()"
+      }
+    ],
+    "correctOptionId": 691
+  },
+  {
+    "questionId": 70,
+    "questionText": "Which method selects the first element matching a CSS selector?",
+    "options": [
+      {
+        "optionId": 701,
+        "optionText": "querySelector()"
+      },
+      {
+        "optionId": 702,
+        "optionText": "selectOne()"
+      },
+      {
+        "optionId": 703,
+        "optionText": "getSelector()"
+      },
+      {
+        "optionId": 704,
+        "optionText": "findSelector()"
+      }
+    ],
+    "correctOptionId": 701
+  },
+  {
+    "questionId": 71,
+    "questionText": "Which method selects all elements matching a CSS selector?",
+    "options": [
+      {
+        "optionId": 711,
+        "optionText": "querySelectorAll()"
+      },
+      {
+        "optionId": 712,
+        "optionText": "selectAll()"
+      },
+      {
+        "optionId": 713,
+        "optionText": "getAllSelector()"
+      },
+      {
+        "optionId": 714,
+        "optionText": "findAllSelector()"
+      }
+    ],
+    "correctOptionId": 711
+  },
+  {
+    "questionId": 72,
+    "questionText": "Which property changes the HTML content of an element?",
+    "options": [
+      {
+        "optionId": 721,
+        "optionText": "innerHTML"
+      },
+      {
+        "optionId": 722,
+        "optionText": "htmlText"
+      },
+      {
+        "optionId": 723,
+        "optionText": "contentHTML"
+      },
+      {
+        "optionId": 724,
+        "optionText": "outerTextOnly"
+      }
+    ],
+    "correctOptionId": 721
+  },
+  {
+    "questionId": 73,
+    "questionText": "Which method adds an event handler to an element?",
+    "options": [
+      {
+        "optionId": 731,
+        "optionText": "addEventListener()"
+      },
+      {
+        "optionId": 732,
+        "optionText": "addEvent()"
+      },
+      {
+        "optionId": 733,
+        "optionText": "onEvent()"
+      },
+      {
+        "optionId": 734,
+        "optionText": "listen()"
+      }
+    ],
+    "correctOptionId": 731
+  },
+  {
+    "questionId": 74,
+    "questionText": "Which event commonly occurs when a button is clicked?",
+    "options": [
+      {
+        "optionId": 741,
+        "optionText": "press"
+      },
+      {
+        "optionId": 742,
+        "optionText": "click"
+      },
+      {
+        "optionId": 743,
+        "optionText": "tapOnly"
+      },
+      {
+        "optionId": 744,
+        "optionText": "button"
+      }
+    ],
+    "correctOptionId": 742
+  },
+  {
+    "questionId": 75,
+    "questionText": "Which Web API stores key-value data persistently in the browser?",
+    "options": [
+      {
+        "optionId": 751,
+        "optionText": "localStorage"
+      },
+      {
+        "optionId": 752,
+        "optionText": "sessionCache"
+      },
+      {
+        "optionId": 753,
+        "optionText": "browserDB"
+      },
+      {
+        "optionId": 754,
+        "optionText": "persistentData"
+      }
+    ],
+    "correctOptionId": 751
+  },
+  {
+    "questionId": 76,
+    "questionText": "Which Web API stores data for the current browser session?",
+    "options": [
+      {
+        "optionId": 761,
+        "optionText": "localStorage"
+      },
+      {
+        "optionId": 762,
+        "optionText": "sessionStorage"
+      },
+      {
+        "optionId": 763,
+        "optionText": "cookieStorage"
+      },
+      {
+        "optionId": 764,
+        "optionText": "tempStorage"
+      }
+    ],
+    "correctOptionId": 762
+  },
+  {
+    "questionId": 77,
+    "questionText": "Which statement creates a class?",
+    "options": [
+      {
+        "optionId": 771,
+        "optionText": "class"
+      },
+      {
+        "optionId": 772,
+        "optionText": "object"
+      },
+      {
+        "optionId": 773,
+        "optionText": "struct"
+      },
+      {
+        "optionId": 774,
+        "optionText": "type"
+      }
+    ],
+    "correctOptionId": 771
+  },
+  {
+    "questionId": 78,
+    "questionText": "Which method is called automatically when a class object is created?",
+    "options": [
+      {
+        "optionId": 781,
+        "optionText": "constructor()"
+      },
+      {
+        "optionId": 782,
+        "optionText": "initialize()"
+      },
+      {
+        "optionId": 783,
+        "optionText": "create()"
+      },
+      {
+        "optionId": 784,
+        "optionText": "newObject()"
+      }
+    ],
+    "correctOptionId": 781
+  },
+  {
+    "questionId": 79,
+    "questionText": "Which keyword creates an object from a class?",
+    "options": [
+      {
+        "optionId": 791,
+        "optionText": "make"
+      },
+      {
+        "optionId": 792,
+        "optionText": "new"
+      },
+      {
+        "optionId": 793,
+        "optionText": "create"
+      },
+      {
+        "optionId": 794,
+        "optionText": "instance"
+      }
+    ],
+    "correctOptionId": 792
+  },
+  {
+    "questionId": 80,
+    "questionText": "What does spread syntax use?",
+    "options": [
+      {
+        "optionId": 801,
+        "optionText": "..."
+      },
+      {
+        "optionId": 802,
+        "optionText": "***"
+      },
+      {
+        "optionId": 803,
+        "optionText": ".."
+      },
+      {
+        "optionId": 804,
+        "optionText": "=>"
+      }
+    ],
+    "correctOptionId": 801
+  }
+]

@@ -1,0 +1,1957 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "Which SQL statement is used to retrieve data from a database?",
+    "options": [
+      {
+        "optionId": 11,
+        "optionText": "GET"
+      },
+      {
+        "optionId": 12,
+        "optionText": "SELECT"
+      },
+      {
+        "optionId": 13,
+        "optionText": "FETCH"
+      },
+      {
+        "optionId": 14,
+        "optionText": "OPEN"
+      }
+    ],
+    "correctOptionId": 12
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which SQL clause is used to filter rows?",
+    "options": [
+      {
+        "optionId": 21,
+        "optionText": "SORT BY"
+      },
+      {
+        "optionId": 22,
+        "optionText": "GROUP BY"
+      },
+      {
+        "optionId": 23,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 24,
+        "optionText": "FILTER"
+      }
+    ],
+    "correctOptionId": 23
+  },
+  {
+    "questionId": 3,
+    "questionText": "Which keyword removes duplicate rows from a SELECT result?",
+    "options": [
+      {
+        "optionId": 31,
+        "optionText": "UNIQUE"
+      },
+      {
+        "optionId": 32,
+        "optionText": "DISTINCT"
+      },
+      {
+        "optionId": 33,
+        "optionText": "DIFFERENT"
+      },
+      {
+        "optionId": 34,
+        "optionText": "ONLY"
+      }
+    ],
+    "correctOptionId": 32
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which clause sorts query results?",
+    "options": [
+      {
+        "optionId": 41,
+        "optionText": "ORDER BY"
+      },
+      {
+        "optionId": 42,
+        "optionText": "SORT BY"
+      },
+      {
+        "optionId": 43,
+        "optionText": "GROUP BY"
+      },
+      {
+        "optionId": 44,
+        "optionText": "ARRANGE BY"
+      }
+    ],
+    "correctOptionId": 41
+  },
+  {
+    "questionId": 5,
+    "questionText": "Which keyword sorts results in descending order?",
+    "options": [
+      {
+        "optionId": 51,
+        "optionText": "DOWN"
+      },
+      {
+        "optionId": 52,
+        "optionText": "DESC"
+      },
+      {
+        "optionId": 53,
+        "optionText": "DECREASE"
+      },
+      {
+        "optionId": 54,
+        "optionText": "REVERSE"
+      }
+    ],
+    "correctOptionId": 52
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which SQL command is used to add a new row?",
+    "options": [
+      {
+        "optionId": 61,
+        "optionText": "ADD"
+      },
+      {
+        "optionId": 62,
+        "optionText": "INSERT"
+      },
+      {
+        "optionId": 63,
+        "optionText": "APPEND"
+      },
+      {
+        "optionId": 64,
+        "optionText": "CREATE"
+      }
+    ],
+    "correctOptionId": 62
+  },
+  {
+    "questionId": 7,
+    "questionText": "Which command modifies existing rows?",
+    "options": [
+      {
+        "optionId": 71,
+        "optionText": "CHANGE"
+      },
+      {
+        "optionId": 72,
+        "optionText": "MODIFY"
+      },
+      {
+        "optionId": 73,
+        "optionText": "UPDATE"
+      },
+      {
+        "optionId": 74,
+        "optionText": "ALTER"
+      }
+    ],
+    "correctOptionId": 73
+  },
+  {
+    "questionId": 8,
+    "questionText": "Which command removes rows from a table?",
+    "options": [
+      {
+        "optionId": 81,
+        "optionText": "DELETE"
+      },
+      {
+        "optionId": 82,
+        "optionText": "REMOVE"
+      },
+      {
+        "optionId": 83,
+        "optionText": "DROP"
+      },
+      {
+        "optionId": 84,
+        "optionText": "CLEAR"
+      }
+    ],
+    "correctOptionId": 81
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which command removes a table and its structure?",
+    "options": [
+      {
+        "optionId": 91,
+        "optionText": "DELETE"
+      },
+      {
+        "optionId": 92,
+        "optionText": "DROP"
+      },
+      {
+        "optionId": 93,
+        "optionText": "REMOVE"
+      },
+      {
+        "optionId": 94,
+        "optionText": "TRUNCATE ROW"
+      }
+    ],
+    "correctOptionId": 92
+  },
+  {
+    "questionId": 10,
+    "questionText": "Which command removes all rows while keeping the table structure?",
+    "options": [
+      {
+        "optionId": 101,
+        "optionText": "DROP"
+      },
+      {
+        "optionId": 102,
+        "optionText": "DELETE TABLE"
+      },
+      {
+        "optionId": 103,
+        "optionText": "TRUNCATE"
+      },
+      {
+        "optionId": 104,
+        "optionText": "REMOVE ALL"
+      }
+    ],
+    "correctOptionId": 103
+  },
+  {
+    "questionId": 11,
+    "questionText": "Which command creates a new table?",
+    "options": [
+      {
+        "optionId": 111,
+        "optionText": "NEW TABLE"
+      },
+      {
+        "optionId": 112,
+        "optionText": "MAKE TABLE"
+      },
+      {
+        "optionId": 113,
+        "optionText": "CREATE TABLE"
+      },
+      {
+        "optionId": 114,
+        "optionText": "BUILD TABLE"
+      }
+    ],
+    "correctOptionId": 113
+  },
+  {
+    "questionId": 12,
+    "questionText": "Which command changes the structure of an existing table?",
+    "options": [
+      {
+        "optionId": 121,
+        "optionText": "ALTER"
+      },
+      {
+        "optionId": 122,
+        "optionText": "UPDATE"
+      },
+      {
+        "optionId": 123,
+        "optionText": "CHANGE"
+      },
+      {
+        "optionId": 124,
+        "optionText": "MODIFY ROW"
+      }
+    ],
+    "correctOptionId": 121
+  },
+  {
+    "questionId": 13,
+    "questionText": "Which constraint uniquely identifies each row?",
+    "options": [
+      {
+        "optionId": 131,
+        "optionText": "FOREIGN KEY"
+      },
+      {
+        "optionId": 132,
+        "optionText": "UNIQUE"
+      },
+      {
+        "optionId": 133,
+        "optionText": "PRIMARY KEY"
+      },
+      {
+        "optionId": 134,
+        "optionText": "CHECK"
+      }
+    ],
+    "correctOptionId": 133
+  },
+  {
+    "questionId": 14,
+    "questionText": "Can a primary key contain NULL?",
+    "options": [
+      {
+        "optionId": 141,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 142,
+        "optionText": "No"
+      },
+      {
+        "optionId": 143,
+        "optionText": "Only in MySQL"
+      },
+      {
+        "optionId": 144,
+        "optionText": "Only with CHECK"
+      }
+    ],
+    "correctOptionId": 142
+  },
+  {
+    "questionId": 15,
+    "questionText": "Which constraint references a key in another table?",
+    "options": [
+      {
+        "optionId": 151,
+        "optionText": "PRIMARY KEY"
+      },
+      {
+        "optionId": 152,
+        "optionText": "FOREIGN KEY"
+      },
+      {
+        "optionId": 153,
+        "optionText": "CHECK"
+      },
+      {
+        "optionId": 154,
+        "optionText": "DEFAULT"
+      }
+    ],
+    "correctOptionId": 152
+  },
+  {
+    "questionId": 16,
+    "questionText": "Which constraint prevents duplicate values?",
+    "options": [
+      {
+        "optionId": 161,
+        "optionText": "UNIQUE"
+      },
+      {
+        "optionId": 162,
+        "optionText": "DEFAULT"
+      },
+      {
+        "optionId": 163,
+        "optionText": "CHECK"
+      },
+      {
+        "optionId": 164,
+        "optionText": "NULL"
+      }
+    ],
+    "correctOptionId": 161
+  },
+  {
+    "questionId": 17,
+    "questionText": "Which constraint provides a value when none is supplied?",
+    "options": [
+      {
+        "optionId": 171,
+        "optionText": "AUTO"
+      },
+      {
+        "optionId": 172,
+        "optionText": "DEFAULT"
+      },
+      {
+        "optionId": 173,
+        "optionText": "VALUE"
+      },
+      {
+        "optionId": 174,
+        "optionText": "STANDARD"
+      }
+    ],
+    "correctOptionId": 172
+  },
+  {
+    "questionId": 18,
+    "questionText": "Which constraint restricts values based on a condition?",
+    "options": [
+      {
+        "optionId": 181,
+        "optionText": "CHECK"
+      },
+      {
+        "optionId": 182,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 183,
+        "optionText": "RULE"
+      },
+      {
+        "optionId": 184,
+        "optionText": "VALIDATE"
+      }
+    ],
+    "correctOptionId": 181
+  },
+  {
+    "questionId": 19,
+    "questionText": "Which operator is used for pattern matching?",
+    "options": [
+      {
+        "optionId": 191,
+        "optionText": "MATCH"
+      },
+      {
+        "optionId": 192,
+        "optionText": "LIKE"
+      },
+      {
+        "optionId": 193,
+        "optionText": "FIND"
+      },
+      {
+        "optionId": 194,
+        "optionText": "PATTERN"
+      }
+    ],
+    "correctOptionId": 192
+  },
+  {
+    "questionId": 20,
+    "questionText": "Which wildcard represents any number of characters with LIKE?",
+    "options": [
+      {
+        "optionId": 201,
+        "optionText": "_"
+      },
+      {
+        "optionId": 202,
+        "optionText": "*"
+      },
+      {
+        "optionId": 203,
+        "optionText": "%"
+      },
+      {
+        "optionId": 204,
+        "optionText": "#"
+      }
+    ],
+    "correctOptionId": 203
+  },
+  {
+    "questionId": 21,
+    "questionText": "Which wildcard represents exactly one character with LIKE?",
+    "options": [
+      {
+        "optionId": 211,
+        "optionText": "_"
+      },
+      {
+        "optionId": 212,
+        "optionText": "%"
+      },
+      {
+        "optionId": 213,
+        "optionText": "?"
+      },
+      {
+        "optionId": 214,
+        "optionText": "#"
+      }
+    ],
+    "correctOptionId": 211
+  },
+  {
+    "questionId": 22,
+    "questionText": "Which operator checks whether a value is within a range?",
+    "options": [
+      {
+        "optionId": 221,
+        "optionText": "RANGE"
+      },
+      {
+        "optionId": 222,
+        "optionText": "BETWEEN"
+      },
+      {
+        "optionId": 223,
+        "optionText": "WITHIN"
+      },
+      {
+        "optionId": 224,
+        "optionText": "IN"
+      }
+    ],
+    "correctOptionId": 222
+  },
+  {
+    "questionId": 23,
+    "questionText": "Which operator checks whether a value matches a list?",
+    "options": [
+      {
+        "optionId": 231,
+        "optionText": "IN"
+      },
+      {
+        "optionId": 232,
+        "optionText": "LIST"
+      },
+      {
+        "optionId": 233,
+        "optionText": "MATCHES"
+      },
+      {
+        "optionId": 234,
+        "optionText": "ANY"
+      }
+    ],
+    "correctOptionId": 231
+  },
+  {
+    "questionId": 24,
+    "questionText": "Which operator checks that a condition is not true?",
+    "options": [
+      {
+        "optionId": 241,
+        "optionText": "NOT"
+      },
+      {
+        "optionId": 242,
+        "optionText": "NO"
+      },
+      {
+        "optionId": 243,
+        "optionText": "EXCEPT"
+      },
+      {
+        "optionId": 244,
+        "optionText": "NEGATE"
+      }
+    ],
+    "correctOptionId": 241
+  },
+  {
+    "questionId": 25,
+    "questionText": "Which SQL function counts rows?",
+    "options": [
+      {
+        "optionId": 251,
+        "optionText": "SUM()"
+      },
+      {
+        "optionId": 252,
+        "optionText": "COUNT()"
+      },
+      {
+        "optionId": 253,
+        "optionText": "TOTAL()"
+      },
+      {
+        "optionId": 254,
+        "optionText": "ROWS()"
+      }
+    ],
+    "correctOptionId": 252
+  },
+  {
+    "questionId": 26,
+    "questionText": "Which function returns the average value?",
+    "options": [
+      {
+        "optionId": 261,
+        "optionText": "AVG()"
+      },
+      {
+        "optionId": 262,
+        "optionText": "MEAN()"
+      },
+      {
+        "optionId": 263,
+        "optionText": "AVERAGE()"
+      },
+      {
+        "optionId": 264,
+        "optionText": "MID()"
+      }
+    ],
+    "correctOptionId": 261
+  },
+  {
+    "questionId": 27,
+    "questionText": "Which function returns the largest value?",
+    "options": [
+      {
+        "optionId": 271,
+        "optionText": "TOP()"
+      },
+      {
+        "optionId": 272,
+        "optionText": "HIGH()"
+      },
+      {
+        "optionId": 273,
+        "optionText": "MAX()"
+      },
+      {
+        "optionId": 274,
+        "optionText": "LARGEST()"
+      }
+    ],
+    "correctOptionId": 273
+  },
+  {
+    "questionId": 28,
+    "questionText": "Which function returns the smallest value?",
+    "options": [
+      {
+        "optionId": 281,
+        "optionText": "MIN()"
+      },
+      {
+        "optionId": 282,
+        "optionText": "LOW()"
+      },
+      {
+        "optionId": 283,
+        "optionText": "SMALLEST()"
+      },
+      {
+        "optionId": 284,
+        "optionText": "BOTTOM()"
+      }
+    ],
+    "correctOptionId": 281
+  },
+  {
+    "questionId": 29,
+    "questionText": "Which function calculates a total?",
+    "options": [
+      {
+        "optionId": 291,
+        "optionText": "TOTAL()"
+      },
+      {
+        "optionId": 292,
+        "optionText": "SUM()"
+      },
+      {
+        "optionId": 293,
+        "optionText": "ADD()"
+      },
+      {
+        "optionId": 294,
+        "optionText": "COUNT()"
+      }
+    ],
+    "correctOptionId": 292
+  },
+  {
+    "questionId": 30,
+    "questionText": "Which clause groups rows with the same values?",
+    "options": [
+      {
+        "optionId": 301,
+        "optionText": "GROUP BY"
+      },
+      {
+        "optionId": 302,
+        "optionText": "ORDER BY"
+      },
+      {
+        "optionId": 303,
+        "optionText": "PARTITION BY"
+      },
+      {
+        "optionId": 304,
+        "optionText": "COMBINE BY"
+      }
+    ],
+    "correctOptionId": 301
+  },
+  {
+    "questionId": 31,
+    "questionText": "Which clause filters grouped results?",
+    "options": [
+      {
+        "optionId": 311,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 312,
+        "optionText": "HAVING"
+      },
+      {
+        "optionId": 313,
+        "optionText": "FILTER"
+      },
+      {
+        "optionId": 314,
+        "optionText": "GROUP WHERE"
+      }
+    ],
+    "correctOptionId": 312
+  },
+  {
+    "questionId": 32,
+    "questionText": "Which clause normally comes before GROUP BY?",
+    "options": [
+      {
+        "optionId": 321,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 322,
+        "optionText": "HAVING"
+      },
+      {
+        "optionId": 323,
+        "optionText": "ORDER BY"
+      },
+      {
+        "optionId": 324,
+        "optionText": "LIMIT"
+      }
+    ],
+    "correctOptionId": 321
+  },
+  {
+    "questionId": 33,
+    "questionText": "Which join returns matching rows from both tables?",
+    "options": [
+      {
+        "optionId": 331,
+        "optionText": "LEFT JOIN"
+      },
+      {
+        "optionId": 332,
+        "optionText": "RIGHT JOIN"
+      },
+      {
+        "optionId": 333,
+        "optionText": "INNER JOIN"
+      },
+      {
+        "optionId": 334,
+        "optionText": "FULL JOIN"
+      }
+    ],
+    "correctOptionId": 333
+  },
+  {
+    "questionId": 34,
+    "questionText": "Which join returns all rows from the left table and matching rows from the right?",
+    "options": [
+      {
+        "optionId": 341,
+        "optionText": "LEFT JOIN"
+      },
+      {
+        "optionId": 342,
+        "optionText": "INNER JOIN"
+      },
+      {
+        "optionId": 343,
+        "optionText": "RIGHT JOIN"
+      },
+      {
+        "optionId": 344,
+        "optionText": "CROSS JOIN"
+      }
+    ],
+    "correctOptionId": 341
+  },
+  {
+    "questionId": 35,
+    "questionText": "Which join returns all rows from the right table and matching rows from the left?",
+    "options": [
+      {
+        "optionId": 351,
+        "optionText": "LEFT JOIN"
+      },
+      {
+        "optionId": 352,
+        "optionText": "RIGHT JOIN"
+      },
+      {
+        "optionId": 353,
+        "optionText": "INNER JOIN"
+      },
+      {
+        "optionId": 354,
+        "optionText": "CROSS JOIN"
+      }
+    ],
+    "correctOptionId": 352
+  },
+  {
+    "questionId": 36,
+    "questionText": "Which join returns all rows from both tables?",
+    "options": [
+      {
+        "optionId": 361,
+        "optionText": "FULL OUTER JOIN"
+      },
+      {
+        "optionId": 362,
+        "optionText": "INNER JOIN"
+      },
+      {
+        "optionId": 363,
+        "optionText": "CROSS JOIN"
+      },
+      {
+        "optionId": 364,
+        "optionText": "NATURAL JOIN"
+      }
+    ],
+    "correctOptionId": 361
+  },
+  {
+    "questionId": 37,
+    "questionText": "Which join produces a Cartesian product?",
+    "options": [
+      {
+        "optionId": 371,
+        "optionText": "CROSS JOIN"
+      },
+      {
+        "optionId": 372,
+        "optionText": "INNER JOIN"
+      },
+      {
+        "optionId": 373,
+        "optionText": "FULL JOIN"
+      },
+      {
+        "optionId": 374,
+        "optionText": "SELF JOIN"
+      }
+    ],
+    "correctOptionId": 371
+  },
+  {
+    "questionId": 38,
+    "questionText": "A table joined with itself is called what?",
+    "options": [
+      {
+        "optionId": 381,
+        "optionText": "Recursive join"
+      },
+      {
+        "optionId": 382,
+        "optionText": "Self join"
+      },
+      {
+        "optionId": 383,
+        "optionText": "Mirror join"
+      },
+      {
+        "optionId": 384,
+        "optionText": "Internal join"
+      }
+    ],
+    "correctOptionId": 382
+  },
+  {
+    "questionId": 39,
+    "questionText": "What does NULL represent?",
+    "options": [
+      {
+        "optionId": 391,
+        "optionText": "Zero"
+      },
+      {
+        "optionId": 392,
+        "optionText": "Empty string"
+      },
+      {
+        "optionId": 393,
+        "optionText": "Unknown/missing value"
+      },
+      {
+        "optionId": 394,
+        "optionText": "False"
+      }
+    ],
+    "correctOptionId": 393
+  },
+  {
+    "questionId": 40,
+    "questionText": "Which condition correctly tests for NULL?",
+    "options": [
+      {
+        "optionId": 401,
+        "optionText": "= NULL"
+      },
+      {
+        "optionId": 402,
+        "optionText": "IS NULL"
+      },
+      {
+        "optionId": 403,
+        "optionText": "NULL ="
+      },
+      {
+        "optionId": 404,
+        "optionText": "== NULL"
+      }
+    ],
+    "correctOptionId": 402
+  },
+  {
+    "questionId": 41,
+    "questionText": "Which condition tests for non-NULL?",
+    "options": [
+      {
+        "optionId": 411,
+        "optionText": "NOT NULL"
+      },
+      {
+        "optionId": 412,
+        "optionText": "IS NOT NULL"
+      },
+      {
+        "optionId": 413,
+        "optionText": "<> NULL"
+      },
+      {
+        "optionId": 414,
+        "optionText": "HAS VALUE"
+      }
+    ],
+    "correctOptionId": 412
+  },
+  {
+    "questionId": 42,
+    "questionText": "Which SQL keyword combines results and removes duplicates?",
+    "options": [
+      {
+        "optionId": 421,
+        "optionText": "JOIN"
+      },
+      {
+        "optionId": 422,
+        "optionText": "UNION"
+      },
+      {
+        "optionId": 423,
+        "optionText": "MERGE"
+      },
+      {
+        "optionId": 424,
+        "optionText": "COMBINE"
+      }
+    ],
+    "correctOptionId": 422
+  },
+  {
+    "questionId": 43,
+    "questionText": "Which operator combines results and keeps duplicates?",
+    "options": [
+      {
+        "optionId": 431,
+        "optionText": "UNION ALL"
+      },
+      {
+        "optionId": 432,
+        "optionText": "UNION DUP"
+      },
+      {
+        "optionId": 433,
+        "optionText": "ALL UNION"
+      },
+      {
+        "optionId": 434,
+        "optionText": "MERGE ALL"
+      }
+    ],
+    "correctOptionId": 431
+  },
+  {
+    "questionId": 44,
+    "questionText": "Which SQL object stores a saved query?",
+    "options": [
+      {
+        "optionId": 441,
+        "optionText": "View"
+      },
+      {
+        "optionId": 442,
+        "optionText": "Index"
+      },
+      {
+        "optionId": 443,
+        "optionText": "Trigger"
+      },
+      {
+        "optionId": 444,
+        "optionText": "Cursor"
+      }
+    ],
+    "correctOptionId": 441
+  },
+  {
+    "questionId": 45,
+    "questionText": "Which object can improve lookup performance?",
+    "options": [
+      {
+        "optionId": 451,
+        "optionText": "View"
+      },
+      {
+        "optionId": 452,
+        "optionText": "Index"
+      },
+      {
+        "optionId": 453,
+        "optionText": "Trigger"
+      },
+      {
+        "optionId": 454,
+        "optionText": "Procedure"
+      }
+    ],
+    "correctOptionId": 452
+  },
+  {
+    "questionId": 46,
+    "questionText": "Which database object automatically executes in response to an event?",
+    "options": [
+      {
+        "optionId": 461,
+        "optionText": "View"
+      },
+      {
+        "optionId": 462,
+        "optionText": "Trigger"
+      },
+      {
+        "optionId": 463,
+        "optionText": "Index"
+      },
+      {
+        "optionId": 464,
+        "optionText": "Schema"
+      }
+    ],
+    "correctOptionId": 462
+  },
+  {
+    "questionId": 47,
+    "questionText": "Which is a stored program that can accept parameters?",
+    "options": [
+      {
+        "optionId": 471,
+        "optionText": "Stored procedure"
+      },
+      {
+        "optionId": 472,
+        "optionText": "View"
+      },
+      {
+        "optionId": 473,
+        "optionText": "Index"
+      },
+      {
+        "optionId": 474,
+        "optionText": "Constraint"
+      }
+    ],
+    "correctOptionId": 471
+  },
+  {
+    "questionId": 48,
+    "questionText": "What is normalization mainly used for?",
+    "options": [
+      {
+        "optionId": 481,
+        "optionText": "Increasing redundancy"
+      },
+      {
+        "optionId": 482,
+        "optionText": "Reducing data redundancy"
+      },
+      {
+        "optionId": 483,
+        "optionText": "Encrypting data"
+      },
+      {
+        "optionId": 484,
+        "optionText": "Sorting data"
+      }
+    ],
+    "correctOptionId": 482
+  },
+  {
+    "questionId": 49,
+    "questionText": "Which normal form removes repeating groups?",
+    "options": [
+      {
+        "optionId": 491,
+        "optionText": "1NF"
+      },
+      {
+        "optionId": 492,
+        "optionText": "2NF"
+      },
+      {
+        "optionId": 493,
+        "optionText": "3NF"
+      },
+      {
+        "optionId": 494,
+        "optionText": "BCNF"
+      }
+    ],
+    "correctOptionId": 491
+  },
+  {
+    "questionId": 50,
+    "questionText": "Which normal form removes partial dependency?",
+    "options": [
+      {
+        "optionId": 501,
+        "optionText": "1NF"
+      },
+      {
+        "optionId": 502,
+        "optionText": "2NF"
+      },
+      {
+        "optionId": 503,
+        "optionText": "3NF"
+      },
+      {
+        "optionId": 504,
+        "optionText": "4NF"
+      }
+    ],
+    "correctOptionId": 502
+  },
+  {
+    "questionId": 51,
+    "questionText": "Which normal form removes transitive dependency?",
+    "options": [
+      {
+        "optionId": 511,
+        "optionText": "1NF"
+      },
+      {
+        "optionId": 512,
+        "optionText": "2NF"
+      },
+      {
+        "optionId": 513,
+        "optionText": "3NF"
+      },
+      {
+        "optionId": 514,
+        "optionText": "5NF"
+      }
+    ],
+    "correctOptionId": 513
+  },
+  {
+    "questionId": 52,
+    "questionText": "What is a candidate key?",
+    "options": [
+      {
+        "optionId": 521,
+        "optionText": "Any non-unique column"
+      },
+      {
+        "optionId": 522,
+        "optionText": "A minimal key that can uniquely identify a row"
+      },
+      {
+        "optionId": 523,
+        "optionText": "A foreign key only"
+      },
+      {
+        "optionId": 524,
+        "optionText": "An index only"
+      }
+    ],
+    "correctOptionId": 522
+  },
+  {
+    "questionId": 53,
+    "questionText": "A primary key is selected from which set?",
+    "options": [
+      {
+        "optionId": 531,
+        "optionText": "Foreign keys"
+      },
+      {
+        "optionId": 532,
+        "optionText": "Candidate keys"
+      },
+      {
+        "optionId": 533,
+        "optionText": "Views"
+      },
+      {
+        "optionId": 534,
+        "optionText": "Indexes"
+      }
+    ],
+    "correctOptionId": 532
+  },
+  {
+    "questionId": 54,
+    "questionText": "What does ACID stand for?",
+    "options": [
+      {
+        "optionId": 541,
+        "optionText": "Accuracy, Consistency, Isolation, Data"
+      },
+      {
+        "optionId": 542,
+        "optionText": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "optionId": 543,
+        "optionText": "Atomicity, Control, Integrity, Data"
+      },
+      {
+        "optionId": 544,
+        "optionText": "Access, Consistency, Isolation, Durability"
+      }
+    ],
+    "correctOptionId": 542
+  },
+  {
+    "questionId": 55,
+    "questionText": "Which ACID property means a transaction is all-or-nothing?",
+    "options": [
+      {
+        "optionId": 551,
+        "optionText": "Atomicity"
+      },
+      {
+        "optionId": 552,
+        "optionText": "Consistency"
+      },
+      {
+        "optionId": 553,
+        "optionText": "Isolation"
+      },
+      {
+        "optionId": 554,
+        "optionText": "Durability"
+      }
+    ],
+    "correctOptionId": 551
+  },
+  {
+    "questionId": 56,
+    "questionText": "Which ACID property protects committed data from being lost?",
+    "options": [
+      {
+        "optionId": 561,
+        "optionText": "Atomicity"
+      },
+      {
+        "optionId": 562,
+        "optionText": "Consistency"
+      },
+      {
+        "optionId": 563,
+        "optionText": "Isolation"
+      },
+      {
+        "optionId": 564,
+        "optionText": "Durability"
+      }
+    ],
+    "correctOptionId": 564
+  },
+  {
+    "questionId": 57,
+    "questionText": "Which command permanently saves a transaction?",
+    "options": [
+      {
+        "optionId": 571,
+        "optionText": "SAVE"
+      },
+      {
+        "optionId": 572,
+        "optionText": "COMMIT"
+      },
+      {
+        "optionId": 573,
+        "optionText": "APPLY"
+      },
+      {
+        "optionId": 574,
+        "optionText": "ACCEPT"
+      }
+    ],
+    "correctOptionId": 572
+  },
+  {
+    "questionId": 58,
+    "questionText": "Which command undoes changes since the last commit?",
+    "options": [
+      {
+        "optionId": 581,
+        "optionText": "CANCEL"
+      },
+      {
+        "optionId": 582,
+        "optionText": "ROLLBACK"
+      },
+      {
+        "optionId": 583,
+        "optionText": "UNDO"
+      },
+      {
+        "optionId": 584,
+        "optionText": "RESET"
+      }
+    ],
+    "correctOptionId": 582
+  },
+  {
+    "questionId": 59,
+    "questionText": "Which command creates a transaction savepoint?",
+    "options": [
+      {
+        "optionId": 591,
+        "optionText": "CREATE SAVEPOINT"
+      },
+      {
+        "optionId": 592,
+        "optionText": "SAVEPOINT"
+      },
+      {
+        "optionId": 593,
+        "optionText": "MARKPOINT"
+      },
+      {
+        "optionId": 594,
+        "optionText": "CHECKPOINT"
+      }
+    ],
+    "correctOptionId": 592
+  },
+  {
+    "questionId": 60,
+    "questionText": "Which statement is used to grant privileges?",
+    "options": [
+      {
+        "optionId": 601,
+        "optionText": "ALLOW"
+      },
+      {
+        "optionId": 602,
+        "optionText": "GRANT"
+      },
+      {
+        "optionId": 603,
+        "optionText": "PERMIT"
+      },
+      {
+        "optionId": 604,
+        "optionText": "GIVE"
+      }
+    ],
+    "correctOptionId": 602
+  },
+  {
+    "questionId": 61,
+    "questionText": "Which statement removes privileges?",
+    "options": [
+      {
+        "optionId": 611,
+        "optionText": "REMOVE"
+      },
+      {
+        "optionId": 612,
+        "optionText": "REVOKE"
+      },
+      {
+        "optionId": 613,
+        "optionText": "DENY"
+      },
+      {
+        "optionId": 614,
+        "optionText": "DELETE"
+      }
+    ],
+    "correctOptionId": 612
+  },
+  {
+    "questionId": 62,
+    "questionText": "Which keyword gives a column an alias?",
+    "options": [
+      {
+        "optionId": 621,
+        "optionText": "AS"
+      },
+      {
+        "optionId": 622,
+        "optionText": "NAME"
+      },
+      {
+        "optionId": 623,
+        "optionText": "ALIAS"
+      },
+      {
+        "optionId": 624,
+        "optionText": "RENAME"
+      }
+    ],
+    "correctOptionId": 621
+  },
+  {
+    "questionId": 63,
+    "questionText": "Which clause limits the number of rows in MySQL/PostgreSQL?",
+    "options": [
+      {
+        "optionId": 631,
+        "optionText": "TOP"
+      },
+      {
+        "optionId": 632,
+        "optionText": "LIMIT"
+      },
+      {
+        "optionId": 633,
+        "optionText": "ROWCOUNT"
+      },
+      {
+        "optionId": 634,
+        "optionText": "FIRST"
+      }
+    ],
+    "correctOptionId": 632
+  },
+  {
+    "questionId": 64,
+    "questionText": "Which SQL Server keyword commonly limits returned rows?",
+    "options": [
+      {
+        "optionId": 641,
+        "optionText": "TOP"
+      },
+      {
+        "optionId": 642,
+        "optionText": "LIMIT"
+      },
+      {
+        "optionId": 643,
+        "optionText": "FIRST"
+      },
+      {
+        "optionId": 644,
+        "optionText": "FETCHONLY"
+      }
+    ],
+    "correctOptionId": 641
+  },
+  {
+    "questionId": 65,
+    "questionText": "What does COUNT(*) count?",
+    "options": [
+      {
+        "optionId": 651,
+        "optionText": "Only non-NULL values in one column"
+      },
+      {
+        "optionId": 652,
+        "optionText": "All rows"
+      },
+      {
+        "optionId": 653,
+        "optionText": "Only unique rows"
+      },
+      {
+        "optionId": 654,
+        "optionText": "Only NULL rows"
+      }
+    ],
+    "correctOptionId": 652
+  },
+  {
+    "questionId": 66,
+    "questionText": "What does COUNT(column) generally ignore?",
+    "options": [
+      {
+        "optionId": 661,
+        "optionText": "Zero"
+      },
+      {
+        "optionId": 662,
+        "optionText": "Duplicate values"
+      },
+      {
+        "optionId": 663,
+        "optionText": "NULL values"
+      },
+      {
+        "optionId": 664,
+        "optionText": "Negative values"
+      }
+    ],
+    "correctOptionId": 663
+  },
+  {
+    "questionId": 67,
+    "questionText": "Which function can replace NULL with another value in many SQL dialects?",
+    "options": [
+      {
+        "optionId": 671,
+        "optionText": "COALESCE()"
+      },
+      {
+        "optionId": 672,
+        "optionText": "REPLACE_NULL()"
+      },
+      {
+        "optionId": 673,
+        "optionText": "NULLIF()"
+      },
+      {
+        "optionId": 674,
+        "optionText": "ISNULLONLY()"
+      }
+    ],
+    "correctOptionId": 671
+  },
+  {
+    "questionId": 68,
+    "questionText": "Which function returns NULL if two expressions are equal?",
+    "options": [
+      {
+        "optionId": 681,
+        "optionText": "COALESCE()"
+      },
+      {
+        "optionId": 682,
+        "optionText": "NULLIF()"
+      },
+      {
+        "optionId": 683,
+        "optionText": "NVL2()"
+      },
+      {
+        "optionId": 684,
+        "optionText": "IFNULLONLY()"
+      }
+    ],
+    "correctOptionId": 682
+  },
+  {
+    "questionId": 69,
+    "questionText": "Which keyword is used to create conditional output?",
+    "options": [
+      {
+        "optionId": 691,
+        "optionText": "CASE"
+      },
+      {
+        "optionId": 692,
+        "optionText": "IFCASE"
+      },
+      {
+        "optionId": 693,
+        "optionText": "WHENONLY"
+      },
+      {
+        "optionId": 694,
+        "optionText": "SWITCH"
+      }
+    ],
+    "correctOptionId": 691
+  },
+  {
+    "questionId": 70,
+    "questionText": "In a CASE expression, which keyword defines a condition?",
+    "options": [
+      {
+        "optionId": 701,
+        "optionText": "IF"
+      },
+      {
+        "optionId": 702,
+        "optionText": "WHEN"
+      },
+      {
+        "optionId": 703,
+        "optionText": "THEN"
+      },
+      {
+        "optionId": 704,
+        "optionText": "CHECK"
+      }
+    ],
+    "correctOptionId": 702
+  },
+  {
+    "questionId": 71,
+    "questionText": "In a CASE expression, which keyword specifies the result for a condition?",
+    "options": [
+      {
+        "optionId": 711,
+        "optionText": "RESULT"
+      },
+      {
+        "optionId": 712,
+        "optionText": "THEN"
+      },
+      {
+        "optionId": 713,
+        "optionText": "RETURN"
+      },
+      {
+        "optionId": 714,
+        "optionText": "OUTPUT"
+      }
+    ],
+    "correctOptionId": 712
+  },
+  {
+    "questionId": 72,
+    "questionText": "Which keyword provides the fallback result in CASE?",
+    "options": [
+      {
+        "optionId": 721,
+        "optionText": "DEFAULT"
+      },
+      {
+        "optionId": 722,
+        "optionText": "ELSE"
+      },
+      {
+        "optionId": 723,
+        "optionText": "OTHERWISE"
+      },
+      {
+        "optionId": 724,
+        "optionText": "FALLBACK"
+      }
+    ],
+    "correctOptionId": 722
+  },
+  {
+    "questionId": 73,
+    "questionText": "What is a subquery?",
+    "options": [
+      {
+        "optionId": 731,
+        "optionText": "A query inside another query"
+      },
+      {
+        "optionId": 732,
+        "optionText": "A duplicate table"
+      },
+      {
+        "optionId": 733,
+        "optionText": "A database backup"
+      },
+      {
+        "optionId": 734,
+        "optionText": "An index"
+      }
+    ],
+    "correctOptionId": 731
+  },
+  {
+    "questionId": 74,
+    "questionText": "Which operator checks whether a subquery returns at least one row?",
+    "options": [
+      {
+        "optionId": 741,
+        "optionText": "EXISTS"
+      },
+      {
+        "optionId": 742,
+        "optionText": "FOUND"
+      },
+      {
+        "optionId": 743,
+        "optionText": "ANYROW"
+      },
+      {
+        "optionId": 744,
+        "optionText": "PRESENT"
+      }
+    ],
+    "correctOptionId": 741
+  },
+  {
+    "questionId": 75,
+    "questionText": "Which operator can compare a value with any value returned by a subquery?",
+    "options": [
+      {
+        "optionId": 751,
+        "optionText": "ANY"
+      },
+      {
+        "optionId": 752,
+        "optionText": "SOMEONLY"
+      },
+      {
+        "optionId": 753,
+        "optionText": "EACH"
+      },
+      {
+        "optionId": 754,
+        "optionText": "ONE"
+      }
+    ],
+    "correctOptionId": 751
+  },
+  {
+    "questionId": 76,
+    "questionText": "Which SQL statement is commonly used to rename a table?",
+    "options": [
+      {
+        "optionId": 761,
+        "optionText": "RENAME TABLE"
+      },
+      {
+        "optionId": 762,
+        "optionText": "CHANGE TABLE"
+      },
+      {
+        "optionId": 763,
+        "optionText": "ALTER NAME"
+      },
+      {
+        "optionId": 764,
+        "optionText": "UPDATE TABLE NAME"
+      }
+    ],
+    "correctOptionId": 761
+  },
+  {
+    "questionId": 77,
+    "questionText": "Which command is DDL?",
+    "options": [
+      {
+        "optionId": 771,
+        "optionText": "INSERT"
+      },
+      {
+        "optionId": 772,
+        "optionText": "UPDATE"
+      },
+      {
+        "optionId": 773,
+        "optionText": "CREATE"
+      },
+      {
+        "optionId": 774,
+        "optionText": "SELECT"
+      }
+    ],
+    "correctOptionId": 773
+  },
+  {
+    "questionId": 78,
+    "questionText": "Which command is DML?",
+    "options": [
+      {
+        "optionId": 781,
+        "optionText": "CREATE"
+      },
+      {
+        "optionId": 782,
+        "optionText": "ALTER"
+      },
+      {
+        "optionId": 783,
+        "optionText": "INSERT"
+      },
+      {
+        "optionId": 784,
+        "optionText": "DROP"
+      }
+    ],
+    "correctOptionId": 783
+  },
+  {
+    "questionId": 79,
+    "questionText": "Which command is commonly classified as DCL?",
+    "options": [
+      {
+        "optionId": 791,
+        "optionText": "GRANT"
+      },
+      {
+        "optionId": 792,
+        "optionText": "SELECT"
+      },
+      {
+        "optionId": 793,
+        "optionText": "INSERT"
+      },
+      {
+        "optionId": 794,
+        "optionText": "COMMIT"
+      }
+    ],
+    "correctOptionId": 791
+  },
+  {
+    "questionId": 80,
+    "questionText": "Which command is commonly classified as TCL?",
+    "options": [
+      {
+        "optionId": 801,
+        "optionText": "CREATE"
+      },
+      {
+        "optionId": 802,
+        "optionText": "COMMIT"
+      },
+      {
+        "optionId": 803,
+        "optionText": "SELECT"
+      },
+      {
+        "optionId": 804,
+        "optionText": "ALTER"
+      }
+    ],
+    "correctOptionId": 802
+  },
+  {
+    "questionId": 81,
+    "questionText": "Which keyword is used to retrieve only unique combinations of selected columns?",
+    "options": [
+      {
+        "optionId": 811,
+        "optionText": "DISTINCT"
+      },
+      {
+        "optionId": 812,
+        "optionText": "UNIQUEONLY"
+      },
+      {
+        "optionId": 813,
+        "optionText": "SINGLE"
+      },
+      {
+        "optionId": 814,
+        "optionText": "DIFFERENT"
+      }
+    ],
+    "correctOptionId": 811
+  },
+  {
+    "questionId": 82,
+    "questionText": "What is a foreign key mainly used to maintain?",
+    "options": [
+      {
+        "optionId": 821,
+        "optionText": "Referential integrity"
+      },
+      {
+        "optionId": 822,
+        "optionText": "Sorting"
+      },
+      {
+        "optionId": 823,
+        "optionText": "Encryption"
+      },
+      {
+        "optionId": 824,
+        "optionText": "Formatting"
+      }
+    ],
+    "correctOptionId": 821
+  },
+  {
+    "questionId": 83,
+    "questionText": "What is a database schema?",
+    "options": [
+      {
+        "optionId": 831,
+        "optionText": "A query result"
+      },
+      {
+        "optionId": 832,
+        "optionText": "Logical structure/organization of database objects"
+      },
+      {
+        "optionId": 833,
+        "optionText": "A single row"
+      },
+      {
+        "optionId": 834,
+        "optionText": "A backup file"
+      }
+    ],
+    "correctOptionId": 832
+  },
+  {
+    "questionId": 84,
+    "questionText": "Which clause is used to specify conditions before grouping?",
+    "options": [
+      {
+        "optionId": 841,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 842,
+        "optionText": "HAVING"
+      },
+      {
+        "optionId": 843,
+        "optionText": "ORDER BY"
+      },
+      {
+        "optionId": 844,
+        "optionText": "DISTINCT"
+      }
+    ],
+    "correctOptionId": 841
+  },
+  {
+    "questionId": 85,
+    "questionText": "Which clause is generally evaluated after GROUP BY for grouped filtering?",
+    "options": [
+      {
+        "optionId": 851,
+        "optionText": "WHERE"
+      },
+      {
+        "optionId": 852,
+        "optionText": "HAVING"
+      },
+      {
+        "optionId": 853,
+        "optionText": "FROM"
+      },
+      {
+        "optionId": 854,
+        "optionText": "SELECT"
+      }
+    ],
+    "correctOptionId": 852
+  }
+]
