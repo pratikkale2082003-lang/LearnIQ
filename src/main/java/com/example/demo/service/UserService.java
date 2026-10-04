@@ -37,4 +37,17 @@ public class UserService {
         return userRepo.findById(id)
                 .orElseThrow(() -> new RuntimeException("User not found"));
     }
+    
+    // FORGOT PASSWORD: reset the password if the email is registered
+    public boolean resetPassword(String email, String newPassword) {
+        if (email == null || newPassword == null || newPassword.length() < 4) return false;
+
+        Optional<User> opt = userRepo.findByEmail(email.trim());
+        if (opt.isEmpty()) return false;
+
+        User u = opt.get();
+        u.setPassword(newPassword);
+        userRepo.save(u);
+        return true;
+    }
 }

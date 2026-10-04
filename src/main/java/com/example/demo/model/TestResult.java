@@ -27,6 +27,12 @@ public class TestResult {
         this.submittedAt = LocalDateTime.now();
     }
 
+    @Column(columnDefinition = "TEXT")
+    private String details;   // question-wise review (JSON string)
+
+    public String getDetails() { return details; }
+    public void setDetails(String details) { this.details = details; }
+    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public Long getStudentId() { return studentId; }
@@ -49,4 +55,6 @@ public class TestResult {
     public void setUnanswered(Integer unanswered) { this.unanswered = unanswered; }
     public LocalDateTime getSubmittedAt() { return submittedAt; }
     public void setSubmittedAt(LocalDateTime submittedAt) { this.submittedAt = submittedAt; }
+    
+    
 }

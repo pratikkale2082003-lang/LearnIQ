@@ -10,8 +10,11 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.model.Test;
 import com.example.demo.model.TestRequest;
+import com.example.demo.model.User;
 import com.example.demo.repository.TestRepository;
 import com.example.demo.repository.TestRequestRepository;
+import com.example.demo.repository.UserRepository;
+
 
 @Service
 public class TestService {
@@ -21,6 +24,10 @@ public class TestService {
 
     @Autowired
     private TestRequestRepository requestRepo;
+
+    // NEW: student cha email shodhnyasathi
+    @Autowired
+    private UserRepository userRepo;
 
     // Create or update test
     public Test createTest(Test test) {
@@ -99,7 +106,16 @@ public class TestService {
         m.put("title", r.getTest().getTitle());
         m.put("scheduleDate", r.getTest().getScheduleDate());
         m.put("studentId", r.getStudentId());
+        m.put("studentEmail", getStudentEmail(r.getStudentId()));   // NEW
         m.put("approved", r.isApproved());
         return m;
+    }
+
+    // NEW: studentId varun email (nasel tar "-")
+    private String getStudentEmail(Long studentId) {
+        if (studentId == null) return "-";
+        return userRepo.findById(studentId)
+                .map(User::getEmail)
+                .orElse("-");
     }
 }

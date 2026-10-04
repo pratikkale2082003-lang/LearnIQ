@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+
 @RestController
 @RequestMapping("/api/auth")
 @CrossOrigin(origins = "http://localhost:5000")
@@ -40,5 +44,16 @@ public class HomeController {
         response.put("firstname", user.getFirstname());
         response.put("lastname", user.getLastname());
         return response;
+    }
+    // FORGOT PASSWORD
+    @PostMapping("/forgot-password")
+    public ResponseEntity<Map<String, String>> forgotPassword(@RequestBody Map<String, String> body) {
+        boolean ok = userService.resetPassword(body.get("email"), body.get("newPassword"));
+
+        if (!ok) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST)
+                    .body(Map.of("message", "Email not found"));
+        }
+        return ResponseEntity.ok(Map.of("message", "Password reset successfully"));
     }
 }
