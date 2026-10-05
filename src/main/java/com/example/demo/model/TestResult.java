@@ -1,6 +1,6 @@
-package com.example.demo.model;   
+package com.example.demo.model;
 
-import jakarta.persistence.*;        // Spring Boot 2 asel tar javax.persistence
+import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
@@ -22,17 +22,21 @@ public class TestResult {
     private Integer unanswered;
     private LocalDateTime submittedAt;
 
+    // Question-wise review (JSON string)
+    @Column(columnDefinition = "TEXT")
+    private String details;
+
+    // Soft delete: true = hidden from the admin list only.
+    // The student still sees the result in "My Results".
+    // Boolean (wrapper) so that old rows with NULL do not break.
+    private Boolean deletedByAdmin = false;
+
     @PrePersist
     public void onCreate() {
         this.submittedAt = LocalDateTime.now();
+        if (this.deletedByAdmin == null) this.deletedByAdmin = false;
     }
 
-    @Column(columnDefinition = "TEXT")
-    private String details;   // question-wise review (JSON string)
-
-    public String getDetails() { return details; }
-    public void setDetails(String details) { this.details = details; }
-    
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public Long getStudentId() { return studentId; }
@@ -55,6 +59,8 @@ public class TestResult {
     public void setUnanswered(Integer unanswered) { this.unanswered = unanswered; }
     public LocalDateTime getSubmittedAt() { return submittedAt; }
     public void setSubmittedAt(LocalDateTime submittedAt) { this.submittedAt = submittedAt; }
-    
-    
+    public String getDetails() { return details; }
+    public void setDetails(String details) { this.details = details; }
+    public Boolean getDeletedByAdmin() { return deletedByAdmin; }
+    public void setDeletedByAdmin(Boolean deletedByAdmin) { this.deletedByAdmin = deletedByAdmin; }
 }
