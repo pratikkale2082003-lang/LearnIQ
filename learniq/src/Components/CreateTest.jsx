@@ -18,7 +18,7 @@ function CreateTest() {
         title,
         description,
         duration: Number(duration),
-        totalmarks: Number(totalmarks)
+        totalMarks: Number(totalmarks)   // backend field is "totalMarks"
       });
       alert("Test created ✅");
       setTitle(""); setDescription(""); setDuration(""); setTotalmarks("");

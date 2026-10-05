@@ -1,0 +1,205 @@
+
+/* ================================
+   Admin Results Page
+================================ */
+
+.admin-results-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 50%, #f8fafc 100%);
+}
+
+/* Main Card */
+.admin-results-page .card {
+  border: none;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 10px 35px rgba(30, 41, 59, 0.10) !important;
+  overflow: hidden;
+}
+
+/* Heading */
+.admin-results-page h4 {
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: 0.2px;
+}
+
+/* Search Box */
+.admin-results-page input {
+  min-width: 280px;
+  border: 1px solid #dbe2ea;
+  border-radius: 10px;
+  padding: 10px 14px;
+  transition: all 0.25s ease;
+  box-shadow: none;
+}
+
+.admin-results-page input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+}
+
+/* Table */
+.admin-results-page table {
+  margin-bottom: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border-color: #e5e7eb;
+}
+
+.admin-results-page thead th {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc) !important;
+  color: #334155;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 14px 12px;
+  border-bottom: 2px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.admin-results-page tbody td {
+  padding: 14px 12px;
+  color: #475569;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* Table Hover */
+.admin-results-page tbody tr {
+  transition: all 0.2s ease;
+}
+
+.admin-results-page tbody tr:hover {
+  background-color: #f8faff;
+}
+
+/* Student */
+.admin-results-page tbody td:nth-child(2) {
+  font-weight: 600;
+  color: #334155;
+}
+
+/* Test Name */
+.admin-results-page tbody td:nth-child(3) {
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+/* Score */
+.admin-results-page tbody td:nth-child(4) {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Status Badge */
+.admin-results-page .badge {
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Buttons */
+.admin-results-page .btn {
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 12px;
+  transition: all 0.2s ease;
+}
+
+/* Details Button */
+.admin-results-page .btn-primary {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border: none;
+  box-shadow: 0 3px 8px rgba(79, 70, 229, 0.18);
+}
+
+.admin-results-page .btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(79, 70, 229, 0.28);
+}
+
+/* PDF Button */
+.admin-results-page .btn-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  border: none;
+  box-shadow: 0 3px 8px rgba(220, 38, 38, 0.16);
+}
+
+.admin-results-page .btn-danger:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(220, 38, 38, 0.25);
+}
+
+/* Delete Button */
+.admin-results-page .btn-outline-danger {
+  border-width: 1px;
+}
+
+.admin-results-page .btn-outline-danger:hover {
+  transform: translateY(-1px);
+}
+
+/* Details Row */
+.admin-results-page tr td.bg-light {
+  background: #f8fafc !important;
+  padding: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* No results */
+.admin-results-page .text-muted {
+  color: #94a3b8 !important;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .admin-results-page .card {
+    padding: 15px !important;
+  }
+
+  .admin-results-page input {
+    min-width: 220px;
+  }
+
+  .admin-results-page {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-results-page .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 15px;
+  }
+
+  .admin-results-page input {
+    width: 100% !important;
+    min-width: 100%;
+  }
+
+  .admin-results-page .table {
+    min-width: 950px;
+  }
+
+  .admin-results-page .card {
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .admin-results-page h4 {
+    font-size: 18px;
+  }
+
+  .admin-results-page .btn {
+    font-size: 12px;
+    padding: 6px 9px;
+  }
+}
+

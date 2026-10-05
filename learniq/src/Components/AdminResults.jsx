@@ -9,6 +9,7 @@ function AdminResults() {
   const [search, setSearch] = useState("");
   const [openId, setOpenId] = useState(null);
   const [titles, setTitles] = useState({}); // testid -> title
+  const [deletingId, setDeletingId] = useState(null);
 
   useEffect(() => {
     Promise.all([api.get("/api/results"), api.get("/api/tests")])
@@ -22,6 +23,28 @@ function AdminResults() {
   }, []);
 
   const titleOf = (r) => titles[r.testId] || `Test ${r.testId}`;
+
+  // Removes the result from the admin list only.
+  // The student can still see it in "My Results".
+  const deleteResult = async (r) => {
+    const ok = window.confirm(
+      `Delete this result?\n\nStudent: ${r.studentEmail || r.studentId}\nTest: ${titleOf(r)}\n\n` +
+        "It will be removed from the admin list only. The student will still see it in My Results."
+    );
+    if (!ok) return;
+
+    setDeletingId(r.id);
+    try {
+      await api.delete(`/api/results/${r.id}/admin`);
+      setResults((prev) => prev.filter((x) => x.id !== r.id));
+      if (openId === r.id) setOpenId(null);
+    } catch (err) {
+      console.error(err);
+      alert("Delete failed ❌");
+    } finally {
+      setDeletingId(null);
+    }
+  };
 
   const q = search.toLowerCase();
   const filtered = results.filter(
@@ -52,8 +75,14 @@ function AdminResults() {
             <table className="table table-bordered table-hover align-middle">
               <thead className="table-light">
                 <tr>
-                  <th>#</th><th>Student</th><th>Test</th><th>Score</th>
-                  <th>Status</th><th>Date</th><th>Action</th>
+                  <th>#</th>
+                  <th>Student</th>
+                  <th>Test</th>
+                  <th>Score</th>
+                  <th>Status</th>
+                  <th>Date</th>
+                  <th>Action</th>
+                  <th>Delete</th>
                 </tr>
               </thead>
               <tbody>
@@ -62,7 +91,9 @@ function AdminResults() {
                     <tr>
                       <td>{i + 1}</td>
                       <td>{r.studentEmail || `ID ${r.studentId}`}</td>
-                      <td>{titleOf(r)} <small className="text-muted">(ID {r.testId})</small></td>
+                      <td>
+                        {titleOf(r)} <small className="text-muted">(ID {r.testId})</small>
+                      </td>
                       <td>{r.score} / {r.totalMarks}</td>
                       <td>
                         <span className={`badge ${r.status === "PASS" ? "bg-success" : "bg-danger"}`}>
@@ -70,19 +101,35 @@ function AdminResults() {
                         </span>
                       </td>
                       <td>{r.submittedAt ? new Date(r.submittedAt).toLocaleString() : "-"}</td>
-                      <td className="d-flex gap-2">
-                        <button className="btn btn-sm btn-primary"
-                          onClick={() => setOpenId(openId === r.id ? null : r.id)}>
-                          {openId === r.id ? "Hide" : "Details"}
-                        </button>
-                        <button className="btn btn-sm btn-danger" onClick={() => downloadResultPdf({ ...r, testTitle: titleOf(r) })}>
-                          PDF
+                      <td>
+                        <div className="d-flex gap-2">
+                          <button
+                            className="btn btn-sm btn-primary"
+                            onClick={() => setOpenId(openId === r.id ? null : r.id)}
+                          >
+                            {openId === r.id ? "Hide" : "Details"}
+                          </button>
+                          <button
+                            className="btn btn-sm btn-danger"
+                            onClick={() => downloadResultPdf({ ...r, testTitle: titleOf(r) })}
+                          >
+                            PDF
+                          </button>
+                        </div>
+                      </td>
+                      <td>
+                        <button
+                          className="btn btn-sm btn-outline-danger"
+                          disabled={deletingId === r.id}
+                          onClick={() => deleteResult(r)}
+                        >
+                          {deletingId === r.id ? "Deleting..." : "🗑 Delete"}
                         </button>
                       </td>
                     </tr>
                     {openId === r.id && (
                       <tr>
-                        <td colSpan="7" className="bg-light">
+                        <td colSpan="8" className="bg-light">
                           <ResultReview details={r.details} />
                         </td>
                       </tr>

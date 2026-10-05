@@ -1,0 +1,2762 @@
+[
+  {
+    "questionId": 1,
+    "questionText": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      {
+        "optionId": 11,
+        "optionText": "implements"
+      },
+      {
+        "optionId": 12,
+        "optionText": "extends"
+      },
+      {
+        "optionId": 13,
+        "optionText": "inherits"
+      },
+      {
+        "optionId": 14,
+        "optionText": "super"
+      }
+    ],
+    "correctOptionId": 12
+  },
+  {
+    "questionId": 2,
+    "questionText": "Which is the default value of an int instance variable?",
+    "options": [
+      {
+        "optionId": 21,
+        "optionText": "0"
+      },
+      {
+        "optionId": 22,
+        "optionText": "1"
+      },
+      {
+        "optionId": 23,
+        "optionText": "null"
+      },
+      {
+        "optionId": 24,
+        "optionText": "undefined"
+      }
+    ],
+    "correctOptionId": 21
+  },
+  {
+    "questionId": 3,
+    "questionText": "Which method is the entry point of a Java application?",
+    "options": [
+      {
+        "optionId": 31,
+        "optionText": "start()"
+      },
+      {
+        "optionId": 32,
+        "optionText": "run()"
+      },
+      {
+        "optionId": 33,
+        "optionText": "main()"
+      },
+      {
+        "optionId": 34,
+        "optionText": "init()"
+      }
+    ],
+    "correctOptionId": 33
+  },
+  {
+    "questionId": 4,
+    "questionText": "Which concept hides internal implementation details?",
+    "options": [
+      {
+        "optionId": 41,
+        "optionText": "Inheritance"
+      },
+      {
+        "optionId": 42,
+        "optionText": "Encapsulation"
+      },
+      {
+        "optionId": 43,
+        "optionText": "Polymorphism"
+      },
+      {
+        "optionId": 44,
+        "optionText": "Compilation"
+      }
+    ],
+    "correctOptionId": 42
+  },
+  {
+    "questionId": 5,
+    "questionText": "Which keyword prevents a class from being inherited?",
+    "options": [
+      {
+        "optionId": 51,
+        "optionText": "static"
+      },
+      {
+        "optionId": 52,
+        "optionText": "const"
+      },
+      {
+        "optionId": 53,
+        "optionText": "final"
+      },
+      {
+        "optionId": 54,
+        "optionText": "private"
+      }
+    ],
+    "correctOptionId": 53
+  },
+  {
+    "questionId": 6,
+    "questionText": "Which collection does not allow duplicate elements?",
+    "options": [
+      {
+        "optionId": 61,
+        "optionText": "List"
+      },
+      {
+        "optionId": 62,
+        "optionText": "Set"
+      },
+      {
+        "optionId": 63,
+        "optionText": "ArrayList"
+      },
+      {
+        "optionId": 64,
+        "optionText": "Vector"
+      }
+    ],
+    "correctOptionId": 62
+  },
+  {
+    "questionId": 7,
+    "questionText": "Which interface is implemented by HashMap?",
+    "options": [
+      {
+        "optionId": 71,
+        "optionText": "List"
+      },
+      {
+        "optionId": 72,
+        "optionText": "Set"
+      },
+      {
+        "optionId": 73,
+        "optionText": "Map"
+      },
+      {
+        "optionId": 74,
+        "optionText": "Queue"
+      }
+    ],
+    "correctOptionId": 73
+  },
+  {
+    "questionId": 8,
+    "questionText": "Which exception is unchecked?",
+    "options": [
+      {
+        "optionId": 81,
+        "optionText": "IOException"
+      },
+      {
+        "optionId": 82,
+        "optionText": "SQLException"
+      },
+      {
+        "optionId": 83,
+        "optionText": "ClassNotFoundException"
+      },
+      {
+        "optionId": 84,
+        "optionText": "NullPointerException"
+      }
+    ],
+    "correctOptionId": 84
+  },
+  {
+    "questionId": 9,
+    "questionText": "Which keyword is used to handle exceptions?",
+    "options": [
+      {
+        "optionId": 91,
+        "optionText": "try"
+      },
+      {
+        "optionId": 92,
+        "optionText": "check"
+      },
+      {
+        "optionId": 93,
+        "optionText": "catchonly"
+      },
+      {
+        "optionId": 94,
+        "optionText": "error"
+      }
+    ],
+    "correctOptionId": 91
+  },
+  {
+    "questionId": 10,
+    "questionText": "Which block always executes after try/catch?",
+    "options": [
+      {
+        "optionId": 101,
+        "optionText": "final"
+      },
+      {
+        "optionId": 102,
+        "optionText": "finally"
+      },
+      {
+        "optionId": 103,
+        "optionText": "finalize"
+      },
+      {
+        "optionId": 104,
+        "optionText": "throw"
+      }
+    ],
+    "correctOptionId": 102
+  },
+  {
+    "questionId": 11,
+    "questionText": "Which keyword explicitly throws an exception?",
+    "options": [
+      {
+        "optionId": 111,
+        "optionText": "throws"
+      },
+      {
+        "optionId": 112,
+        "optionText": "throw"
+      },
+      {
+        "optionId": 113,
+        "optionText": "catch"
+      },
+      {
+        "optionId": 114,
+        "optionText": "exception"
+      }
+    ],
+    "correctOptionId": 112
+  },
+  {
+    "questionId": 12,
+    "questionText": "Which keyword declares exceptions in a method signature?",
+    "options": [
+      {
+        "optionId": 121,
+        "optionText": "throw"
+      },
+      {
+        "optionId": 122,
+        "optionText": "throws"
+      },
+      {
+        "optionId": 123,
+        "optionText": "try"
+      },
+      {
+        "optionId": 124,
+        "optionText": "catch"
+      }
+    ],
+    "correctOptionId": 122
+  },
+  {
+    "questionId": 13,
+    "questionText": "Which class is the superclass of all Java classes?",
+    "options": [
+      {
+        "optionId": 131,
+        "optionText": "Class"
+      },
+      {
+        "optionId": 132,
+        "optionText": "Object"
+      },
+      {
+        "optionId": 133,
+        "optionText": "System"
+      },
+      {
+        "optionId": 134,
+        "optionText": "Main"
+      }
+    ],
+    "correctOptionId": 132
+  },
+  {
+    "questionId": 14,
+    "questionText": "Which operator compares primitive values?",
+    "options": [
+      {
+        "optionId": 141,
+        "optionText": "="
+      },
+      {
+        "optionId": 142,
+        "optionText": "=="
+      },
+      {
+        "optionId": 143,
+        "optionText": "equals"
+      },
+      {
+        "optionId": 144,
+        "optionText": "compare"
+      }
+    ],
+    "correctOptionId": 142
+  },
+  {
+    "questionId": 15,
+    "questionText": "Which method compares String contents?",
+    "options": [
+      {
+        "optionId": 151,
+        "optionText": "=="
+      },
+      {
+        "optionId": 152,
+        "optionText": "equals()"
+      },
+      {
+        "optionId": 153,
+        "optionText": "compare()"
+      },
+      {
+        "optionId": 154,
+        "optionText": "same()"
+      }
+    ],
+    "correctOptionId": 152
+  },
+  {
+    "questionId": 16,
+    "questionText": "Which class represents immutable strings?",
+    "options": [
+      {
+        "optionId": 161,
+        "optionText": "String"
+      },
+      {
+        "optionId": 162,
+        "optionText": "StringBuilder"
+      },
+      {
+        "optionId": 163,
+        "optionText": "StringBuffer"
+      },
+      {
+        "optionId": 164,
+        "optionText": "CharSequenceImpl"
+      }
+    ],
+    "correctOptionId": 161
+  },
+  {
+    "questionId": 17,
+    "questionText": "Which class is mutable and not synchronized?",
+    "options": [
+      {
+        "optionId": 171,
+        "optionText": "String"
+      },
+      {
+        "optionId": 172,
+        "optionText": "StringBuilder"
+      },
+      {
+        "optionId": 173,
+        "optionText": "StringBuffer"
+      },
+      {
+        "optionId": 174,
+        "optionText": "Character"
+      }
+    ],
+    "correctOptionId": 172
+  },
+  {
+    "questionId": 18,
+    "questionText": "Which class is synchronized for mutable strings?",
+    "options": [
+      {
+        "optionId": 181,
+        "optionText": "String"
+      },
+      {
+        "optionId": 182,
+        "optionText": "StringBuilder"
+      },
+      {
+        "optionId": 183,
+        "optionText": "StringBuffer"
+      },
+      {
+        "optionId": 184,
+        "optionText": "Scanner"
+      }
+    ],
+    "correctOptionId": 183
+  },
+  {
+    "questionId": 19,
+    "questionText": "Which access modifier gives the widest access?",
+    "options": [
+      {
+        "optionId": 191,
+        "optionText": "private"
+      },
+      {
+        "optionId": 192,
+        "optionText": "protected"
+      },
+      {
+        "optionId": 193,
+        "optionText": "default"
+      },
+      {
+        "optionId": 194,
+        "optionText": "public"
+      }
+    ],
+    "correctOptionId": 194
+  },
+  {
+    "questionId": 20,
+    "questionText": "Can a Java class extend multiple classes?",
+    "options": [
+      {
+        "optionId": 201,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 202,
+        "optionText": "No"
+      },
+      {
+        "optionId": 203,
+        "optionText": "Only abstract classes"
+      },
+      {
+        "optionId": 204,
+        "optionText": "Only interfaces"
+      }
+    ],
+    "correctOptionId": 202
+  },
+  {
+    "questionId": 21,
+    "questionText": "Can a class implement multiple interfaces?",
+    "options": [
+      {
+        "optionId": 211,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 212,
+        "optionText": "No"
+      },
+      {
+        "optionId": 213,
+        "optionText": "Only one"
+      },
+      {
+        "optionId": 214,
+        "optionText": "Only functional interfaces"
+      }
+    ],
+    "correctOptionId": 211
+  },
+  {
+    "questionId": 22,
+    "questionText": "Which keyword refers to the current object?",
+    "options": [
+      {
+        "optionId": 221,
+        "optionText": "super"
+      },
+      {
+        "optionId": 222,
+        "optionText": "this"
+      },
+      {
+        "optionId": 223,
+        "optionText": "self"
+      },
+      {
+        "optionId": 224,
+        "optionText": "current"
+      }
+    ],
+    "correctOptionId": 222
+  },
+  {
+    "questionId": 23,
+    "questionText": "Which keyword refers to the parent class?",
+    "options": [
+      {
+        "optionId": 231,
+        "optionText": "parent"
+      },
+      {
+        "optionId": 232,
+        "optionText": "base"
+      },
+      {
+        "optionId": 233,
+        "optionText": "super"
+      },
+      {
+        "optionId": 234,
+        "optionText": "this"
+      }
+    ],
+    "correctOptionId": 233
+  },
+  {
+    "questionId": 24,
+    "questionText": "A constructor has what return type?",
+    "options": [
+      {
+        "optionId": 241,
+        "optionText": "void"
+      },
+      {
+        "optionId": 242,
+        "optionText": "int"
+      },
+      {
+        "optionId": 243,
+        "optionText": "class type"
+      },
+      {
+        "optionId": 244,
+        "optionText": "No return type"
+      }
+    ],
+    "correctOptionId": 244
+  },
+  {
+    "questionId": 25,
+    "questionText": "Can constructors be inherited?",
+    "options": [
+      {
+        "optionId": 251,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 252,
+        "optionText": "No"
+      },
+      {
+        "optionId": 253,
+        "optionText": "Only public ones"
+      },
+      {
+        "optionId": 254,
+        "optionText": "Only protected ones"
+      }
+    ],
+    "correctOptionId": 252
+  },
+  {
+    "questionId": 26,
+    "questionText": "Which feature allows same method name with different parameters?",
+    "options": [
+      {
+        "optionId": 261,
+        "optionText": "Overriding"
+      },
+      {
+        "optionId": 262,
+        "optionText": "Overloading"
+      },
+      {
+        "optionId": 263,
+        "optionText": "Hiding"
+      },
+      {
+        "optionId": 264,
+        "optionText": "Casting"
+      }
+    ],
+    "correctOptionId": 262
+  },
+  {
+    "questionId": 27,
+    "questionText": "Which feature is runtime polymorphism?",
+    "options": [
+      {
+        "optionId": 271,
+        "optionText": "Method overloading"
+      },
+      {
+        "optionId": 272,
+        "optionText": "Method overriding"
+      },
+      {
+        "optionId": 273,
+        "optionText": "Constructor overloading"
+      },
+      {
+        "optionId": 274,
+        "optionText": "Static binding"
+      }
+    ],
+    "correctOptionId": 272
+  },
+  {
+    "questionId": 28,
+    "questionText": "Which keyword is used to create an object?",
+    "options": [
+      {
+        "optionId": 281,
+        "optionText": "class"
+      },
+      {
+        "optionId": 282,
+        "optionText": "create"
+      },
+      {
+        "optionId": 283,
+        "optionText": "new"
+      },
+      {
+        "optionId": 284,
+        "optionText": "object"
+      }
+    ],
+    "correctOptionId": 283
+  },
+  {
+    "questionId": 29,
+    "questionText": "Which primitive type stores true/false?",
+    "options": [
+      {
+        "optionId": 291,
+        "optionText": "Boolean"
+      },
+      {
+        "optionId": 292,
+        "optionText": "boolean"
+      },
+      {
+        "optionId": 293,
+        "optionText": "bit"
+      },
+      {
+        "optionId": 294,
+        "optionText": "logical"
+      }
+    ],
+    "correctOptionId": 292
+  },
+  {
+    "questionId": 30,
+    "questionText": "What is the size of Java char?",
+    "options": [
+      {
+        "optionId": 301,
+        "optionText": "8 bits"
+      },
+      {
+        "optionId": 302,
+        "optionText": "16 bits"
+      },
+      {
+        "optionId": 303,
+        "optionText": "32 bits"
+      },
+      {
+        "optionId": 304,
+        "optionText": "64 bits"
+      }
+    ],
+    "correctOptionId": 302
+  },
+  {
+    "questionId": 31,
+    "questionText": "Which is not a primitive type?",
+    "options": [
+      {
+        "optionId": 311,
+        "optionText": "int"
+      },
+      {
+        "optionId": 312,
+        "optionText": "double"
+      },
+      {
+        "optionId": 313,
+        "optionText": "String"
+      },
+      {
+        "optionId": 314,
+        "optionText": "boolean"
+      }
+    ],
+    "correctOptionId": 313
+  },
+  {
+    "questionId": 32,
+    "questionText": "Which wrapper class corresponds to int?",
+    "options": [
+      {
+        "optionId": 321,
+        "optionText": "Int"
+      },
+      {
+        "optionId": 322,
+        "optionText": "Integer"
+      },
+      {
+        "optionId": 323,
+        "optionText": "NumberInt"
+      },
+      {
+        "optionId": 324,
+        "optionText": "Long"
+      }
+    ],
+    "correctOptionId": 322
+  },
+  {
+    "questionId": 33,
+    "questionText": "Which feature automatically converts int to Integer?",
+    "options": [
+      {
+        "optionId": 331,
+        "optionText": "Casting"
+      },
+      {
+        "optionId": 332,
+        "optionText": "Autoboxing"
+      },
+      {
+        "optionId": 333,
+        "optionText": "Parsing"
+      },
+      {
+        "optionId": 334,
+        "optionText": "Serialization"
+      }
+    ],
+    "correctOptionId": 332
+  },
+  {
+    "questionId": 34,
+    "questionText": "Which feature converts Integer to int automatically?",
+    "options": [
+      {
+        "optionId": 341,
+        "optionText": "Unboxing"
+      },
+      {
+        "optionId": 342,
+        "optionText": "Boxing"
+      },
+      {
+        "optionId": 343,
+        "optionText": "Parsing"
+      },
+      {
+        "optionId": 344,
+        "optionText": "Reflection"
+      }
+    ],
+    "correctOptionId": 341
+  },
+  {
+    "questionId": 35,
+    "questionText": "Which keyword declares a constant-like class variable?",
+    "options": [
+      {
+        "optionId": 351,
+        "optionText": "fixed"
+      },
+      {
+        "optionId": 352,
+        "optionText": "final"
+      },
+      {
+        "optionId": 353,
+        "optionText": "constant"
+      },
+      {
+        "optionId": 354,
+        "optionText": "immutable"
+      }
+    ],
+    "correctOptionId": 352
+  },
+  {
+    "questionId": 36,
+    "questionText": "Static members belong primarily to the:",
+    "options": [
+      {
+        "optionId": 361,
+        "optionText": "object"
+      },
+      {
+        "optionId": 362,
+        "optionText": "class"
+      },
+      {
+        "optionId": 363,
+        "optionText": "method"
+      },
+      {
+        "optionId": 364,
+        "optionText": "package"
+      }
+    ],
+    "correctOptionId": 362
+  },
+  {
+    "questionId": 37,
+    "questionText": "Which keyword is used for class-level members?",
+    "options": [
+      {
+        "optionId": 371,
+        "optionText": "static"
+      },
+      {
+        "optionId": 372,
+        "optionText": "class"
+      },
+      {
+        "optionId": 373,
+        "optionText": "global"
+      },
+      {
+        "optionId": 374,
+        "optionText": "shared"
+      }
+    ],
+    "correctOptionId": 371
+  },
+  {
+    "questionId": 38,
+    "questionText": "Which loop executes at least once?",
+    "options": [
+      {
+        "optionId": 381,
+        "optionText": "for"
+      },
+      {
+        "optionId": 382,
+        "optionText": "while"
+      },
+      {
+        "optionId": 383,
+        "optionText": "do-while"
+      },
+      {
+        "optionId": 384,
+        "optionText": "enhanced for"
+      }
+    ],
+    "correctOptionId": 383
+  },
+  {
+    "questionId": 39,
+    "questionText": "Which statement exits a loop immediately?",
+    "options": [
+      {
+        "optionId": 391,
+        "optionText": "skip"
+      },
+      {
+        "optionId": 392,
+        "optionText": "continue"
+      },
+      {
+        "optionId": 393,
+        "optionText": "break"
+      },
+      {
+        "optionId": 394,
+        "optionText": "exitloop"
+      }
+    ],
+    "correctOptionId": 393
+  },
+  {
+    "questionId": 40,
+    "questionText": "Which statement skips the current loop iteration?",
+    "options": [
+      {
+        "optionId": 401,
+        "optionText": "continue"
+      },
+      {
+        "optionId": 402,
+        "optionText": "break"
+      },
+      {
+        "optionId": 403,
+        "optionText": "skip"
+      },
+      {
+        "optionId": 404,
+        "optionText": "pass"
+      }
+    ],
+    "correctOptionId": 401
+  },
+  {
+    "questionId": 41,
+    "questionText": "Which package contains ArrayList?",
+    "options": [
+      {
+        "optionId": 411,
+        "optionText": "java.io"
+      },
+      {
+        "optionId": 412,
+        "optionText": "java.util"
+      },
+      {
+        "optionId": 413,
+        "optionText": "java.lang"
+      },
+      {
+        "optionId": 414,
+        "optionText": "java.net"
+      }
+    ],
+    "correctOptionId": 412
+  },
+  {
+    "questionId": 42,
+    "questionText": "Which collection maintains insertion order and allows duplicates?",
+    "options": [
+      {
+        "optionId": 421,
+        "optionText": "HashSet"
+      },
+      {
+        "optionId": 422,
+        "optionText": "ArrayList"
+      },
+      {
+        "optionId": 423,
+        "optionText": "TreeSet"
+      },
+      {
+        "optionId": 424,
+        "optionText": "HashMap"
+      }
+    ],
+    "correctOptionId": 422
+  },
+  {
+    "questionId": 43,
+    "questionText": "Which Set maintains sorted order?",
+    "options": [
+      {
+        "optionId": 431,
+        "optionText": "HashSet"
+      },
+      {
+        "optionId": 432,
+        "optionText": "LinkedHashSet"
+      },
+      {
+        "optionId": 433,
+        "optionText": "TreeSet"
+      },
+      {
+        "optionId": 434,
+        "optionText": "EnumSet"
+      }
+    ],
+    "correctOptionId": 433
+  },
+  {
+    "questionId": 44,
+    "questionText": "Which Map allows one null key?",
+    "options": [
+      {
+        "optionId": 441,
+        "optionText": "Hashtable"
+      },
+      {
+        "optionId": 442,
+        "optionText": "HashMap"
+      },
+      {
+        "optionId": 443,
+        "optionText": "TreeMap always"
+      },
+      {
+        "optionId": 444,
+        "optionText": "ConcurrentHashMap"
+      }
+    ],
+    "correctOptionId": 442
+  },
+  {
+    "questionId": 45,
+    "questionText": "Which legacy Map is synchronized?",
+    "options": [
+      {
+        "optionId": 451,
+        "optionText": "HashMap"
+      },
+      {
+        "optionId": 452,
+        "optionText": "Hashtable"
+      },
+      {
+        "optionId": 453,
+        "optionText": "TreeMap"
+      },
+      {
+        "optionId": 454,
+        "optionText": "LinkedHashMap"
+      }
+    ],
+    "correctOptionId": 452
+  },
+  {
+    "questionId": 46,
+    "questionText": "Which interface represents a FIFO data structure?",
+    "options": [
+      {
+        "optionId": 461,
+        "optionText": "Queue"
+      },
+      {
+        "optionId": 462,
+        "optionText": "Set"
+      },
+      {
+        "optionId": 463,
+        "optionText": "Map"
+      },
+      {
+        "optionId": 464,
+        "optionText": "List"
+      }
+    ],
+    "correctOptionId": 461
+  },
+  {
+    "questionId": 47,
+    "questionText": "Which collection is generally preferred for stack operations in modern Java?",
+    "options": [
+      {
+        "optionId": 471,
+        "optionText": "Stack only"
+      },
+      {
+        "optionId": 472,
+        "optionText": "ArrayDeque"
+      },
+      {
+        "optionId": 473,
+        "optionText": "Hashtable"
+      },
+      {
+        "optionId": 474,
+        "optionText": "TreeSet"
+      }
+    ],
+    "correctOptionId": 472
+  },
+  {
+    "questionId": 48,
+    "questionText": "Which interface is used for natural ordering?",
+    "options": [
+      {
+        "optionId": 481,
+        "optionText": "Comparator"
+      },
+      {
+        "optionId": 482,
+        "optionText": "Comparable"
+      },
+      {
+        "optionId": 483,
+        "optionText": "Ordering"
+      },
+      {
+        "optionId": 484,
+        "optionText": "Sortable"
+      }
+    ],
+    "correctOptionId": 482
+  },
+  {
+    "questionId": 49,
+    "questionText": "Which interface defines external/custom comparison?",
+    "options": [
+      {
+        "optionId": 491,
+        "optionText": "Comparator"
+      },
+      {
+        "optionId": 492,
+        "optionText": "Comparable"
+      },
+      {
+        "optionId": 493,
+        "optionText": "Compareable"
+      },
+      {
+        "optionId": 494,
+        "optionText": "Sort"
+      }
+    ],
+    "correctOptionId": 491
+  },
+  {
+    "questionId": 50,
+    "questionText": "Which class can read input from standard input conveniently?",
+    "options": [
+      {
+        "optionId": 501,
+        "optionText": "Scanner"
+      },
+      {
+        "optionId": 502,
+        "optionText": "ReaderOnly"
+      },
+      {
+        "optionId": 503,
+        "optionText": "InputScanner"
+      },
+      {
+        "optionId": 504,
+        "optionText": "ConsoleReader"
+      }
+    ],
+    "correctOptionId": 501
+  },
+  {
+    "questionId": 51,
+    "questionText": "Which package contains Scanner?",
+    "options": [
+      {
+        "optionId": 511,
+        "optionText": "java.io"
+      },
+      {
+        "optionId": 512,
+        "optionText": "java.util"
+      },
+      {
+        "optionId": 513,
+        "optionText": "java.text"
+      },
+      {
+        "optionId": 514,
+        "optionText": "java.lang"
+      }
+    ],
+    "correctOptionId": 512
+  },
+  {
+    "questionId": 52,
+    "questionText": "Which stream reads bytes?",
+    "options": [
+      {
+        "optionId": 521,
+        "optionText": "Reader"
+      },
+      {
+        "optionId": 522,
+        "optionText": "Writer"
+      },
+      {
+        "optionId": 523,
+        "optionText": "InputStream"
+      },
+      {
+        "optionId": 524,
+        "optionText": "BufferedReader"
+      }
+    ],
+    "correctOptionId": 523
+  },
+  {
+    "questionId": 53,
+    "questionText": "Which stream reads characters?",
+    "options": [
+      {
+        "optionId": 531,
+        "optionText": "InputStream"
+      },
+      {
+        "optionId": 532,
+        "optionText": "OutputStream"
+      },
+      {
+        "optionId": 533,
+        "optionText": "Reader"
+      },
+      {
+        "optionId": 534,
+        "optionText": "ByteReader"
+      }
+    ],
+    "correctOptionId": 533
+  },
+  {
+    "questionId": 54,
+    "questionText": "Which class writes characters to a file?",
+    "options": [
+      {
+        "optionId": 541,
+        "optionText": "FileWriter"
+      },
+      {
+        "optionId": 542,
+        "optionText": "FileInputStream"
+      },
+      {
+        "optionId": 543,
+        "optionText": "FileReader"
+      },
+      {
+        "optionId": 544,
+        "optionText": "ByteWriter"
+      }
+    ],
+    "correctOptionId": 541
+  },
+  {
+    "questionId": 55,
+    "questionText": "Which interface is used for serialization?",
+    "options": [
+      {
+        "optionId": 551,
+        "optionText": "Serializable"
+      },
+      {
+        "optionId": 552,
+        "optionText": "Serial"
+      },
+      {
+        "optionId": 553,
+        "optionText": "External"
+      },
+      {
+        "optionId": 554,
+        "optionText": "Persistable"
+      }
+    ],
+    "correctOptionId": 551
+  },
+  {
+    "questionId": 56,
+    "questionText": "Which keyword prevents serialization of a field?",
+    "options": [
+      {
+        "optionId": 561,
+        "optionText": "transient"
+      },
+      {
+        "optionId": 562,
+        "optionText": "volatile"
+      },
+      {
+        "optionId": 563,
+        "optionText": "native"
+      },
+      {
+        "optionId": 564,
+        "optionText": "strictfp"
+      }
+    ],
+    "correctOptionId": 561
+  },
+  {
+    "questionId": 57,
+    "questionText": "Which keyword ensures visibility across threads?",
+    "options": [
+      {
+        "optionId": 571,
+        "optionText": "transient"
+      },
+      {
+        "optionId": 572,
+        "optionText": "volatile"
+      },
+      {
+        "optionId": 573,
+        "optionText": "synchronizedonly"
+      },
+      {
+        "optionId": 574,
+        "optionText": "visible"
+      }
+    ],
+    "correctOptionId": 572
+  },
+  {
+    "questionId": 58,
+    "questionText": "Which keyword can protect a method from concurrent access?",
+    "options": [
+      {
+        "optionId": 581,
+        "optionText": "synchronized"
+      },
+      {
+        "optionId": 582,
+        "optionText": "atomic"
+      },
+      {
+        "optionId": 583,
+        "optionText": "concurrent"
+      },
+      {
+        "optionId": 584,
+        "optionText": "locked"
+      }
+    ],
+    "correctOptionId": 581
+  },
+  {
+    "questionId": 59,
+    "questionText": "Which method starts a new thread?",
+    "options": [
+      {
+        "optionId": 591,
+        "optionText": "run()"
+      },
+      {
+        "optionId": 592,
+        "optionText": "start()"
+      },
+      {
+        "optionId": 593,
+        "optionText": "execute()"
+      },
+      {
+        "optionId": 594,
+        "optionText": "begin()"
+      }
+    ],
+    "correctOptionId": 592
+  },
+  {
+    "questionId": 60,
+    "questionText": "Which interface is commonly implemented to define thread work?",
+    "options": [
+      {
+        "optionId": 601,
+        "optionText": "Runnable"
+      },
+      {
+        "optionId": 602,
+        "optionText": "Threadable"
+      },
+      {
+        "optionId": 603,
+        "optionText": "Executor"
+      },
+      {
+        "optionId": 604,
+        "optionText": "CallableOnly"
+      }
+    ],
+    "correctOptionId": 601
+  },
+  {
+    "questionId": 61,
+    "questionText": "Which interface can return a result from asynchronous task execution?",
+    "options": [
+      {
+        "optionId": 611,
+        "optionText": "Runnable"
+      },
+      {
+        "optionId": 612,
+        "optionText": "Callable"
+      },
+      {
+        "optionId": 613,
+        "optionText": "Thread"
+      },
+      {
+        "optionId": 614,
+        "optionText": "FutureTaskOnly"
+      }
+    ],
+    "correctOptionId": 612
+  },
+  {
+    "questionId": 62,
+    "questionText": "Which object represents a result of an asynchronous computation?",
+    "options": [
+      {
+        "optionId": 621,
+        "optionText": "Future"
+      },
+      {
+        "optionId": 622,
+        "optionText": "Result"
+      },
+      {
+        "optionId": 623,
+        "optionText": "PromiseOnly"
+      },
+      {
+        "optionId": 624,
+        "optionText": "AsyncResult"
+      }
+    ],
+    "correctOptionId": 621
+  },
+  {
+    "questionId": 63,
+    "questionText": "Which executor is used to manage a pool of threads?",
+    "options": [
+      {
+        "optionId": 631,
+        "optionText": "ExecutorService"
+      },
+      {
+        "optionId": 632,
+        "optionText": "ThreadPoolClass"
+      },
+      {
+        "optionId": 633,
+        "optionText": "ThreadManager"
+      },
+      {
+        "optionId": 634,
+        "optionText": "RunnableService"
+      }
+    ],
+    "correctOptionId": 631
+  },
+  {
+    "questionId": 64,
+    "questionText": "Which method waits for a thread to finish?",
+    "options": [
+      {
+        "optionId": 641,
+        "optionText": "waitFor()"
+      },
+      {
+        "optionId": 642,
+        "optionText": "join()"
+      },
+      {
+        "optionId": 643,
+        "optionText": "finish()"
+      },
+      {
+        "optionId": 644,
+        "optionText": "awaitThread()"
+      }
+    ],
+    "correctOptionId": 642
+  },
+  {
+    "questionId": 65,
+    "questionText": "Which method causes the current thread to pause temporarily?",
+    "options": [
+      {
+        "optionId": 651,
+        "optionText": "sleep()"
+      },
+      {
+        "optionId": 652,
+        "optionText": "pause()"
+      },
+      {
+        "optionId": 653,
+        "optionText": "stop()"
+      },
+      {
+        "optionId": 654,
+        "optionText": "delayOnly()"
+      }
+    ],
+    "correctOptionId": 651
+  },
+  {
+    "questionId": 66,
+    "questionText": "Which exception is commonly thrown by Thread.sleep()?",
+    "options": [
+      {
+        "optionId": 661,
+        "optionText": "IOException"
+      },
+      {
+        "optionId": 662,
+        "optionText": "InterruptedException"
+      },
+      {
+        "optionId": 663,
+        "optionText": "SleepException"
+      },
+      {
+        "optionId": 664,
+        "optionText": "ThreadException"
+      }
+    ],
+    "correctOptionId": 662
+  },
+  {
+    "questionId": 67,
+    "questionText": "Which keyword is used to define an interface?",
+    "options": [
+      {
+        "optionId": 671,
+        "optionText": "interface"
+      },
+      {
+        "optionId": 672,
+        "optionText": "implements"
+      },
+      {
+        "optionId": 673,
+        "optionText": "abstractonly"
+      },
+      {
+        "optionId": 674,
+        "optionText": "contract"
+      }
+    ],
+    "correctOptionId": 671
+  },
+  {
+    "questionId": 68,
+    "questionText": "Can an interface contain default methods?",
+    "options": [
+      {
+        "optionId": 681,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 682,
+        "optionText": "No"
+      },
+      {
+        "optionId": 683,
+        "optionText": "Only before Java 8"
+      },
+      {
+        "optionId": 684,
+        "optionText": "Only private classes"
+      }
+    ],
+    "correctOptionId": 681
+  },
+  {
+    "questionId": 69,
+    "questionText": "Can an interface contain static methods?",
+    "options": [
+      {
+        "optionId": 691,
+        "optionText": "Yes"
+      },
+      {
+        "optionId": 692,
+        "optionText": "No"
+      },
+      {
+        "optionId": 693,
+        "optionText": "Only abstract static"
+      },
+      {
+        "optionId": 694,
+        "optionText": "Only constructors"
+      }
+    ],
+    "correctOptionId": 691
+  },
+  {
+    "questionId": 70,
+    "questionText": "What kind of interface has exactly one abstract method?",
+    "options": [
+      {
+        "optionId": 701,
+        "optionText": "Marker"
+      },
+      {
+        "optionId": 702,
+        "optionText": "Functional"
+      },
+      {
+        "optionId": 703,
+        "optionText": "Serializable"
+      },
+      {
+        "optionId": 704,
+        "optionText": "Nested"
+      }
+    ],
+    "correctOptionId": 702
+  },
+  {
+    "questionId": 71,
+    "questionText": "Which annotation marks a functional interface?",
+    "options": [
+      {
+        "optionId": 711,
+        "optionText": "@Functional"
+      },
+      {
+        "optionId": 712,
+        "optionText": "@FunctionalInterface"
+      },
+      {
+        "optionId": 713,
+        "optionText": "@SingleMethod"
+      },
+      {
+        "optionId": 714,
+        "optionText": "@Lambda"
+      }
+    ],
+    "correctOptionId": 712
+  },
+  {
+    "questionId": 72,
+    "questionText": "Which feature was introduced in Java 8 for concise functional programming?",
+    "options": [
+      {
+        "optionId": 721,
+        "optionText": "Lambda expressions"
+      },
+      {
+        "optionId": 722,
+        "optionText": "Pointers"
+      },
+      {
+        "optionId": 723,
+        "optionText": "Operator overloading"
+      },
+      {
+        "optionId": 724,
+        "optionText": "Multiple inheritance"
+      }
+    ],
+    "correctOptionId": 721
+  },
+  {
+    "questionId": 73,
+    "questionText": "Which API supports functional-style processing of collections?",
+    "options": [
+      {
+        "optionId": 731,
+        "optionText": "Stream API"
+      },
+      {
+        "optionId": 732,
+        "optionText": "Collection API only"
+      },
+      {
+        "optionId": 733,
+        "optionText": "Thread API"
+      },
+      {
+        "optionId": 734,
+        "optionText": "File API"
+      }
+    ],
+    "correctOptionId": 731
+  },
+  {
+    "questionId": 74,
+    "questionText": "Which Stream operation transforms each element?",
+    "options": [
+      {
+        "optionId": 741,
+        "optionText": "filter"
+      },
+      {
+        "optionId": 742,
+        "optionText": "map"
+      },
+      {
+        "optionId": 743,
+        "optionText": "reduceOnly"
+      },
+      {
+        "optionId": 744,
+        "optionText": "collectOnly"
+      }
+    ],
+    "correctOptionId": 742
+  },
+  {
+    "questionId": 75,
+    "questionText": "Which Stream operation selects elements matching a condition?",
+    "options": [
+      {
+        "optionId": 751,
+        "optionText": "map"
+      },
+      {
+        "optionId": 752,
+        "optionText": "filter"
+      },
+      {
+        "optionId": 753,
+        "optionText": "sortOnly"
+      },
+      {
+        "optionId": 754,
+        "optionText": "findOnly"
+      }
+    ],
+    "correctOptionId": 752
+  },
+  {
+    "questionId": 76,
+    "questionText": "Which terminal operation collects stream results into a collection?",
+    "options": [
+      {
+        "optionId": 761,
+        "optionText": "collect"
+      },
+      {
+        "optionId": 762,
+        "optionText": "map"
+      },
+      {
+        "optionId": 763,
+        "optionText": "filter"
+      },
+      {
+        "optionId": 764,
+        "optionText": "peek"
+      }
+    ],
+    "correctOptionId": 761
+  },
+  {
+    "questionId": 77,
+    "questionText": "Which package contains Stream API interfaces?",
+    "options": [
+      {
+        "optionId": 771,
+        "optionText": "java.stream"
+      },
+      {
+        "optionId": 772,
+        "optionText": "java.util.stream"
+      },
+      {
+        "optionId": 773,
+        "optionText": "java.io.stream"
+      },
+      {
+        "optionId": 774,
+        "optionText": "java.lang.stream"
+      }
+    ],
+    "correctOptionId": 772
+  },
+  {
+    "questionId": 78,
+    "questionText": "Which keyword is used to import a package member?",
+    "options": [
+      {
+        "optionId": 781,
+        "optionText": "include"
+      },
+      {
+        "optionId": 782,
+        "optionText": "import"
+      },
+      {
+        "optionId": 783,
+        "optionText": "using"
+      },
+      {
+        "optionId": 784,
+        "optionText": "package"
+      }
+    ],
+    "correctOptionId": 782
+  },
+  {
+    "questionId": 79,
+    "questionText": "Which keyword declares a package?",
+    "options": [
+      {
+        "optionId": 791,
+        "optionText": "namespace"
+      },
+      {
+        "optionId": 792,
+        "optionText": "package"
+      },
+      {
+        "optionId": 793,
+        "optionText": "module"
+      },
+      {
+        "optionId": 794,
+        "optionText": "group"
+      }
+    ],
+    "correctOptionId": 792
+  },
+  {
+    "questionId": 80,
+    "questionText": "Which top-level class is automatically available without import?",
+    "options": [
+      {
+        "optionId": 801,
+        "optionText": "String"
+      },
+      {
+        "optionId": 802,
+        "optionText": "Scanner"
+      },
+      {
+        "optionId": 803,
+        "optionText": "ArrayList"
+      },
+      {
+        "optionId": 804,
+        "optionText": "LocalDate"
+      }
+    ],
+    "correctOptionId": 801
+  },
+  {
+    "questionId": 81,
+    "questionText": "Which package is automatically imported?",
+    "options": [
+      {
+        "optionId": 811,
+        "optionText": "java.util"
+      },
+      {
+        "optionId": 812,
+        "optionText": "java.lang"
+      },
+      {
+        "optionId": 813,
+        "optionText": "java.io"
+      },
+      {
+        "optionId": 814,
+        "optionText": "java.sql"
+      }
+    ],
+    "correctOptionId": 812
+  },
+  {
+    "questionId": 82,
+    "questionText": "Which class is used for date/time in modern Java?",
+    "options": [
+      {
+        "optionId": 821,
+        "optionText": "java.time.LocalDate"
+      },
+      {
+        "optionId": 822,
+        "optionText": "java.util.DateOnly"
+      },
+      {
+        "optionId": 823,
+        "optionText": "java.sql.Today"
+      },
+      {
+        "optionId": 824,
+        "optionText": "java.time.Date"
+      }
+    ],
+    "correctOptionId": 821
+  },
+  {
+    "questionId": 83,
+    "questionText": "Which annotation indicates a method overrides a superclass method?",
+    "options": [
+      {
+        "optionId": 831,
+        "optionText": "@Override"
+      },
+      {
+        "optionId": 832,
+        "optionText": "@Overload"
+      },
+      {
+        "optionId": 833,
+        "optionText": "@InheritedMethod"
+      },
+      {
+        "optionId": 834,
+        "optionText": "@Super"
+      }
+    ],
+    "correctOptionId": 831
+  },
+  {
+    "questionId": 84,
+    "questionText": "Which annotation is commonly used to suppress compiler warnings?",
+    "options": [
+      {
+        "optionId": 841,
+        "optionText": "@IgnoreWarnings"
+      },
+      {
+        "optionId": 842,
+        "optionText": "@SuppressWarnings"
+      },
+      {
+        "optionId": 843,
+        "optionText": "@NoWarning"
+      },
+      {
+        "optionId": 844,
+        "optionText": "@Silent"
+      }
+    ],
+    "correctOptionId": 842
+  },
+  {
+    "questionId": 85,
+    "questionText": "What does JVM stand for?",
+    "options": [
+      {
+        "optionId": 851,
+        "optionText": "Java Variable Machine"
+      },
+      {
+        "optionId": 852,
+        "optionText": "Java Virtual Machine"
+      },
+      {
+        "optionId": 853,
+        "optionText": "Java Verified Machine"
+      },
+      {
+        "optionId": 854,
+        "optionText": "Java Visual Machine"
+      }
+    ],
+    "correctOptionId": 852
+  },
+  {
+    "questionId": 86,
+    "questionText": "What does JDK contain?",
+    "options": [
+      {
+        "optionId": 861,
+        "optionText": "Only JVM"
+      },
+      {
+        "optionId": 862,
+        "optionText": "JRE plus development tools"
+      },
+      {
+        "optionId": 863,
+        "optionText": "Only compiler"
+      },
+      {
+        "optionId": 864,
+        "optionText": "Only libraries"
+      }
+    ],
+    "correctOptionId": 862
+  },
+  {
+    "questionId": 87,
+    "questionText": "What does JRE primarily provide?",
+    "options": [
+      {
+        "optionId": 871,
+        "optionText": "Runtime environment"
+      },
+      {
+        "optionId": 872,
+        "optionText": "Source editor"
+      },
+      {
+        "optionId": 873,
+        "optionText": "Java compiler only"
+      },
+      {
+        "optionId": 874,
+        "optionText": "Git tools"
+      }
+    ],
+    "correctOptionId": 871
+  },
+  {
+    "questionId": 88,
+    "questionText": "Which tool compiles Java source code?",
+    "options": [
+      {
+        "optionId": 881,
+        "optionText": "java"
+      },
+      {
+        "optionId": 882,
+        "optionText": "javac"
+      },
+      {
+        "optionId": 883,
+        "optionText": "javadoc"
+      },
+      {
+        "optionId": 884,
+        "optionText": "jar"
+      }
+    ],
+    "correctOptionId": 882
+  },
+  {
+    "questionId": 89,
+    "questionText": "Which command runs a compiled Java class?",
+    "options": [
+      {
+        "optionId": 891,
+        "optionText": "javac"
+      },
+      {
+        "optionId": 892,
+        "optionText": "java"
+      },
+      {
+        "optionId": 893,
+        "optionText": "jrun"
+      },
+      {
+        "optionId": 894,
+        "optionText": "execute"
+      }
+    ],
+    "correctOptionId": 892
+  },
+  {
+    "questionId": 90,
+    "questionText": "What is bytecode stored in?",
+    "options": [
+      {
+        "optionId": 901,
+        "optionText": ".java file"
+      },
+      {
+        "optionId": 902,
+        "optionText": ".class file"
+      },
+      {
+        "optionId": 903,
+        "optionText": ".jar only"
+      },
+      {
+        "optionId": 904,
+        "optionText": ".exe file"
+      }
+    ],
+    "correctOptionId": 902
+  },
+  {
+    "questionId": 91,
+    "questionText": "Which Java feature supports automatic memory management?",
+    "options": [
+      {
+        "optionId": 911,
+        "optionText": "Garbage collection"
+      },
+      {
+        "optionId": 912,
+        "optionText": "Pointers"
+      },
+      {
+        "optionId": 913,
+        "optionText": "Manual free()"
+      },
+      {
+        "optionId": 914,
+        "optionText": "Destructor"
+      }
+    ],
+    "correctOptionId": 911
+  },
+  {
+    "questionId": 92,
+    "questionText": "Which method is traditionally associated with object finalization but is deprecated in modern Java?",
+    "options": [
+      {
+        "optionId": 921,
+        "optionText": "finalize()"
+      },
+      {
+        "optionId": 922,
+        "optionText": "destroy()"
+      },
+      {
+        "optionId": 923,
+        "optionText": "delete()"
+      },
+      {
+        "optionId": 924,
+        "optionText": "cleanup()"
+      }
+    ],
+    "correctOptionId": 921
+  },
+  {
+    "questionId": 93,
+    "questionText": "Which database API is standard for Java relational database access?",
+    "options": [
+      {
+        "optionId": 931,
+        "optionText": "JDBC"
+      },
+      {
+        "optionId": 932,
+        "optionText": "JPA only"
+      },
+      {
+        "optionId": 933,
+        "optionText": "JDB"
+      },
+      {
+        "optionId": 934,
+        "optionText": "SQLJVM"
+      }
+    ],
+    "correctOptionId": 931
+  },
+  {
+    "questionId": 94,
+    "questionText": "What does JDBC stand for?",
+    "options": [
+      {
+        "optionId": 941,
+        "optionText": "Java Database Connectivity"
+      },
+      {
+        "optionId": 942,
+        "optionText": "Java Data Binding Control"
+      },
+      {
+        "optionId": 943,
+        "optionText": "Java Database Compiler"
+      },
+      {
+        "optionId": 944,
+        "optionText": "Java Driver Connectivity"
+      }
+    ],
+    "correctOptionId": 941
+  },
+  {
+    "questionId": 95,
+    "questionText": "Which JDBC object executes SQL statements?",
+    "options": [
+      {
+        "optionId": 951,
+        "optionText": "Statement"
+      },
+      {
+        "optionId": 952,
+        "optionText": "SQLRunner"
+      },
+      {
+        "optionId": 953,
+        "optionText": "Query"
+      },
+      {
+        "optionId": 954,
+        "optionText": "DatabaseCommand"
+      }
+    ],
+    "correctOptionId": 951
+  },
+  {
+    "questionId": 96,
+    "questionText": "Which JDBC object is preferred for parameterized SQL?",
+    "options": [
+      {
+        "optionId": 961,
+        "optionText": "Statement"
+      },
+      {
+        "optionId": 962,
+        "optionText": "PreparedStatement"
+      },
+      {
+        "optionId": 963,
+        "optionText": "SimpleStatement"
+      },
+      {
+        "optionId": 964,
+        "optionText": "QueryStatement"
+      }
+    ],
+    "correctOptionId": 962
+  },
+  {
+    "questionId": 97,
+    "questionText": "Which JDBC object is used for stored procedures?",
+    "options": [
+      {
+        "optionId": 971,
+        "optionText": "CallableStatement"
+      },
+      {
+        "optionId": 972,
+        "optionText": "ProcedureStatement"
+      },
+      {
+        "optionId": 973,
+        "optionText": "StoredQuery"
+      },
+      {
+        "optionId": 974,
+        "optionText": "CallStatement"
+      }
+    ],
+    "correctOptionId": 971
+  },
+  {
+    "questionId": 98,
+    "questionText": "Which JDBC result object holds query results?",
+    "options": [
+      {
+        "optionId": 981,
+        "optionText": "ResultSet"
+      },
+      {
+        "optionId": 982,
+        "optionText": "QuerySet"
+      },
+      {
+        "optionId": 983,
+        "optionText": "DataSet"
+      },
+      {
+        "optionId": 984,
+        "optionText": "RowSetOnly"
+      }
+    ],
+    "correctOptionId": 981
+  },
+  {
+    "questionId": 99,
+    "questionText": "Which interface represents a JDBC database connection?",
+    "options": [
+      {
+        "optionId": 991,
+        "optionText": "Connection"
+      },
+      {
+        "optionId": 992,
+        "optionText": "Database"
+      },
+      {
+        "optionId": 993,
+        "optionText": "DBConnection"
+      },
+      {
+        "optionId": 994,
+        "optionText": "Link"
+      }
+    ],
+    "correctOptionId": 991
+  },
+  {
+    "questionId": 100,
+    "questionText": "Which method obtains a JDBC connection?",
+    "options": [
+      {
+        "optionId": 1001,
+        "optionText": "DriverManager.getConnection()"
+      },
+      {
+        "optionId": 1002,
+        "optionText": "Connection.open()"
+      },
+      {
+        "optionId": 1003,
+        "optionText": "DB.connect()"
+      },
+      {
+        "optionId": 1004,
+        "optionText": "Driver.connectDB()"
+      }
+    ],
+    "correctOptionId": 1001
+  },
+  {
+    "questionId": 101,
+    "questionText": "Which technology maps Java objects to relational database tables?",
+    "options": [
+      {
+        "optionId": 1011,
+        "optionText": "ORM"
+      },
+      {
+        "optionId": 1012,
+        "optionText": "JVM"
+      },
+      {
+        "optionId": 1013,
+        "optionText": "JSP"
+      },
+      {
+        "optionId": 1014,
+        "optionText": "AWT"
+      }
+    ],
+    "correctOptionId": 1011
+  },
+  {
+    "questionId": 102,
+    "questionText": "Which is a popular Java ORM specification?",
+    "options": [
+      {
+        "optionId": 1021,
+        "optionText": "JPA"
+      },
+      {
+        "optionId": 1022,
+        "optionText": "JDBCX"
+      },
+      {
+        "optionId": 1023,
+        "optionText": "JPQLX"
+      },
+      {
+        "optionId": 1024,
+        "optionText": "JDB"
+      }
+    ],
+    "correctOptionId": 1021
+  },
+  {
+    "questionId": 103,
+    "questionText": "Which popular framework implements JPA?",
+    "options": [
+      {
+        "optionId": 1031,
+        "optionText": "Hibernate"
+      },
+      {
+        "optionId": 1032,
+        "optionText": "Tomcat"
+      },
+      {
+        "optionId": 1033,
+        "optionText": "Maven"
+      },
+      {
+        "optionId": 1034,
+        "optionText": "JUnit"
+      }
+    ],
+    "correctOptionId": 1031
+  },
+  {
+    "questionId": 104,
+    "questionText": "Which language is used to query JPA entities?",
+    "options": [
+      {
+        "optionId": 1041,
+        "optionText": "JPQL"
+      },
+      {
+        "optionId": 1042,
+        "optionText": "JSQL"
+      },
+      {
+        "optionId": 1043,
+        "optionText": "JQLOnly"
+      },
+      {
+        "optionId": 1044,
+        "optionText": "EntitySQL"
+      }
+    ],
+    "correctOptionId": 1041
+  },
+  {
+    "questionId": 105,
+    "questionText": "Which annotation marks a JPA entity class?",
+    "options": [
+      {
+        "optionId": 1051,
+        "optionText": "@TableOnly"
+      },
+      {
+        "optionId": 1052,
+        "optionText": "@Entity"
+      },
+      {
+        "optionId": 1053,
+        "optionText": "@Database"
+      },
+      {
+        "optionId": 1054,
+        "optionText": "@Model"
+      }
+    ],
+    "correctOptionId": 1052
+  },
+  {
+    "questionId": 106,
+    "questionText": "Which annotation identifies a primary key field in JPA?",
+    "options": [
+      {
+        "optionId": 1061,
+        "optionText": "@Primary"
+      },
+      {
+        "optionId": 1062,
+        "optionText": "@Id"
+      },
+      {
+        "optionId": 1063,
+        "optionText": "@Key"
+      },
+      {
+        "optionId": 1064,
+        "optionText": "@PK"
+      }
+    ],
+    "correctOptionId": 1062
+  },
+  {
+    "questionId": 107,
+    "questionText": "Which annotation maps a field to a database column?",
+    "options": [
+      {
+        "optionId": 1071,
+        "optionText": "@Column"
+      },
+      {
+        "optionId": 1072,
+        "optionText": "@Field"
+      },
+      {
+        "optionId": 1073,
+        "optionText": "@DBColumn"
+      },
+      {
+        "optionId": 1074,
+        "optionText": "@Property"
+      }
+    ],
+    "correctOptionId": 1071
+  },
+  {
+    "questionId": 108,
+    "questionText": "Which Java web technology generates dynamic HTML pages on the server?",
+    "options": [
+      {
+        "optionId": 1081,
+        "optionText": "JSP"
+      },
+      {
+        "optionId": 1082,
+        "optionText": "JDBC"
+      },
+      {
+        "optionId": 1083,
+        "optionText": "JAR"
+      },
+      {
+        "optionId": 1084,
+        "optionText": "JVM"
+      }
+    ],
+    "correctOptionId": 1081
+  },
+  {
+    "questionId": 109,
+    "questionText": "What does JSP stand for?",
+    "options": [
+      {
+        "optionId": 1091,
+        "optionText": "Java Server Pages"
+      },
+      {
+        "optionId": 1092,
+        "optionText": "Java Service Program"
+      },
+      {
+        "optionId": 1093,
+        "optionText": "Java Servlet Pages"
+      },
+      {
+        "optionId": 1094,
+        "optionText": "Java Source Pages"
+      }
+    ],
+    "correctOptionId": 1091
+  },
+  {
+    "questionId": 110,
+    "questionText": "Which Java web component handles HTTP requests and responses?",
+    "options": [
+      {
+        "optionId": 1101,
+        "optionText": "Servlet"
+      },
+      {
+        "optionId": 1102,
+        "optionText": "Entity"
+      },
+      {
+        "optionId": 1103,
+        "optionText": "Bean only"
+      },
+      {
+        "optionId": 1104,
+        "optionText": "JDBC Driver"
+      }
+    ],
+    "correctOptionId": 1101
+  },
+  {
+    "questionId": 111,
+    "questionText": "Which object provides request data in a servlet?",
+    "options": [
+      {
+        "optionId": 1111,
+        "optionText": "HttpServletRequest"
+      },
+      {
+        "optionId": 1112,
+        "optionText": "HttpRequestData"
+      },
+      {
+        "optionId": 1113,
+        "optionText": "ServletInput"
+      },
+      {
+        "optionId": 1114,
+        "optionText": "RequestObject"
+      }
+    ],
+    "correctOptionId": 1111
+  },
+  {
+    "questionId": 112,
+    "questionText": "Which object sends a servlet response?",
+    "options": [
+      {
+        "optionId": 1121,
+        "optionText": "HttpServletResponse"
+      },
+      {
+        "optionId": 1122,
+        "optionText": "ServletOutput"
+      },
+      {
+        "optionId": 1123,
+        "optionText": "HttpResult"
+      },
+      {
+        "optionId": 1124,
+        "optionText": "ResponseData"
+      }
+    ],
+    "correctOptionId": 1121
+  },
+  {
+    "questionId": 113,
+    "questionText": "Which method commonly handles HTTP GET in HttpServlet?",
+    "options": [
+      {
+        "optionId": 1131,
+        "optionText": "doGet()"
+      },
+      {
+        "optionId": 1132,
+        "optionText": "get()"
+      },
+      {
+        "optionId": 1133,
+        "optionText": "handleGet()"
+      },
+      {
+        "optionId": 1134,
+        "optionText": "serviceGet()"
+      }
+    ],
+    "correctOptionId": 1131
+  },
+  {
+    "questionId": 114,
+    "questionText": "Which method commonly handles HTTP POST?",
+    "options": [
+      {
+        "optionId": 1141,
+        "optionText": "doPost()"
+      },
+      {
+        "optionId": 1142,
+        "optionText": "post()"
+      },
+      {
+        "optionId": 1143,
+        "optionText": "handlePost()"
+      },
+      {
+        "optionId": 1144,
+        "optionText": "servicePost()"
+      }
+    ],
+    "correctOptionId": 1141
+  },
+  {
+    "questionId": 115,
+    "questionText": "Which object manages user session data in a servlet?",
+    "options": [
+      {
+        "optionId": 1151,
+        "optionText": "HttpSession"
+      },
+      {
+        "optionId": 1152,
+        "optionText": "UserSessionManager"
+      },
+      {
+        "optionId": 1153,
+        "optionText": "SessionBean"
+      },
+      {
+        "optionId": 1154,
+        "optionText": "ServletSession"
+      }
+    ],
+    "correctOptionId": 1151
+  },
+  {
+    "questionId": 116,
+    "questionText": "Which HTTP mechanism can store small data on the client?",
+    "options": [
+      {
+        "optionId": 1161,
+        "optionText": "Cookie"
+      },
+      {
+        "optionId": 1162,
+        "optionText": "Session only"
+      },
+      {
+        "optionId": 1163,
+        "optionText": "ServletContext"
+      },
+      {
+        "optionId": 1164,
+        "optionText": "Request"
+      }
+    ],
+    "correctOptionId": 1161
+  },
+  {
+    "questionId": 117,
+    "questionText": "Which component is shared across the whole web application?",
+    "options": [
+      {
+        "optionId": 1171,
+        "optionText": "ServletContext"
+      },
+      {
+        "optionId": 1172,
+        "optionText": "HttpSession"
+      },
+      {
+        "optionId": 1173,
+        "optionText": "HttpServletRequest"
+      },
+      {
+        "optionId": 1174,
+        "optionText": "Cookie"
+      }
+    ],
+    "correctOptionId": 1171
+  },
+  {
+    "questionId": 118,
+    "questionText": "Which Java server technology is commonly used as a servlet/JSP container?",
+    "options": [
+      {
+        "optionId": 1181,
+        "optionText": "Tomcat"
+      },
+      {
+        "optionId": 1182,
+        "optionText": "MySQL"
+      },
+      {
+        "optionId": 1183,
+        "optionText": "Maven"
+      },
+      {
+        "optionId": 1184,
+        "optionText": "Git"
+      }
+    ],
+    "correctOptionId": 1181
+  },
+  {
+    "questionId": 119,
+    "questionText": "Which file commonly defines Maven project dependencies and metadata?",
+    "options": [
+      {
+        "optionId": 1191,
+        "optionText": "build.xml"
+      },
+      {
+        "optionId": 1192,
+        "optionText": "pom.xml"
+      },
+      {
+        "optionId": 1193,
+        "optionText": "package.xml"
+      },
+      {
+        "optionId": 1194,
+        "optionText": "dependencies.java"
+      }
+    ],
+    "correctOptionId": 1192
+  },
+  {
+    "questionId": 120,
+    "questionText": "Which build tool uses build.gradle?",
+    "options": [
+      {
+        "optionId": 1201,
+        "optionText": "Maven"
+      },
+      {
+        "optionId": 1202,
+        "optionText": "Gradle"
+      },
+      {
+        "optionId": 1203,
+        "optionText": "Ant only"
+      },
+      {
+        "optionId": 1204,
+        "optionText": "Git"
+      }
+    ],
+    "correctOptionId": 1202
+  }
+]
