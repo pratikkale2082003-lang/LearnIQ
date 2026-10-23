@@ -31,6 +31,9 @@ public class TestService {
 
     // Create or update test
     public Test createTest(Test test) {
+        if (test.getCreatedAt() == null) {
+            test.setCreatedAt(LocalDateTime.now());   // NEW: for daily/monthly report
+        }
         return testrepo.save(test);
     }
 
@@ -48,6 +51,14 @@ public class TestService {
     // Schedule test (admin)
     public Test scheduleTest(Long testId, LocalDateTime scheduleDateTime) {
         Test test = getTestById(testId);
+
+        // NEW: if the previous schedule has EXPIRED (its day is over), old approvals are cleared.
+        // Students must send a new request and the admin must approve again.
+        LocalDateTime old = test.getScheduleDate();
+        if (old != null && LocalDateTime.now().isAfter(old.toLocalDate().atTime(23, 59, 59))) {
+            requestRepo.deleteAll(requestRepo.findByTest_Testid(testId));
+        }
+
         test.setScheduleDate(scheduleDateTime);
         return testrepo.save(test);
     }
@@ -64,6 +75,7 @@ public class TestService {
         req.setTest(test);
         req.setStudentId(studentId);
         req.setApproved(false);
+        req.setRequestedAt(LocalDateTime.now());   // NEW
         TestRequest saved = requestRepo.save(req);
 
         return toMap(saved);
@@ -74,6 +86,23 @@ public class TestService {
         return requestRepo.findByApprovedFalse().stream()
                 .map(this::toMap)
                 .toList();
+    }
+
+    // NEW: admin dashboard - all requests (pending + approved)
+    public List<Map<String, Object>> getAllRequests() {
+        return requestRepo.findAll().stream()
+                .map(this::toMap)
+                .toList();
+    }
+
+    // NEW: admin rejects a request (row is deleted, student can request again)
+    public Map<String, Object> rejectRequest(Long requestId) {
+        TestRequest req = requestRepo.findById(requestId)
+                .orElseThrow(() -> new RuntimeException("Request not found"));
+        requestRepo.delete(req);
+        Map<String, Object> m = new HashMap<>();
+        m.put("message", "Request rejected");
+        return m;
     }
 
     // Admin approves ek specific request
@@ -108,6 +137,8 @@ public class TestService {
         m.put("studentId", r.getStudentId());
         m.put("studentEmail", getStudentEmail(r.getStudentId()));   // NEW
         m.put("approved", r.isApproved());
+        m.put("requestedAt", r.getRequestedAt());                   // NEW
+        m.put("studentName", getStudentName(r.getStudentId()));     // NEW
         return m;
     }
 
@@ -116,6 +147,16 @@ public class TestService {
         if (studentId == null) return "-";
         return userRepo.findById(studentId)
                 .map(User::getEmail)
+                .orElse("-");
+    }
+
+    // NEW: studentId varun full name (nasel tar "-")
+    private String getStudentName(Long studentId) {
+        if (studentId == null) return "-";
+        return userRepo.findById(studentId)
+                .map(u -> ((u.getFirstname() == null ? "" : u.getFirstname()) + " "
+                        + (u.getLastname() == null ? "" : u.getLastname())).trim())
+                .filter(n -> !n.isEmpty())
                 .orElse("-");
     }
 }

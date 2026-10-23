@@ -1,5 +1,7 @@
 package com.example.demo.model;
 
+import java.time.LocalDateTime;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -17,10 +19,27 @@ public class TestRequest {
     private Long studentId;
     private boolean approved = false;
 
+    private LocalDateTime requestedAt;
+    
     // getters & setters
+    
+    
+    
     public Long getId() { return id; }
 
-    public Test getTest() { return test; }
+    public LocalDateTime getRequestedAt() {
+		return requestedAt;
+	}
+
+	public void setRequestedAt(LocalDateTime requestedAt) {
+		this.requestedAt = requestedAt;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Test getTest() { return test; }
     public void setTest(Test test) { this.test = test; }
 
     public Long getStudentId() { return studentId; }

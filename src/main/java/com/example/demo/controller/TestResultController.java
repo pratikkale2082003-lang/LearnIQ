@@ -3,10 +3,13 @@ package com.example.demo.controller;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.model.TestResult;
 import com.example.demo.repository.TestResultRepository;
+import com.example.demo.repository.UserRepository;
+import com.example.demo.security.JwtAuthFilter;
 
 import java.util.List;
 import java.util.Map;
@@ -17,15 +20,21 @@ import java.util.Map;
 public class TestResultController {
 
     private final TestResultRepository repo;
+    private final UserRepository userRepo;
 
-    public TestResultController(TestResultRepository repo) {
+    public TestResultController(TestResultRepository repo, UserRepository userRepo) {
         this.repo = repo;
+        this.userRepo = userRepo;
     }
 
     // Student: save the result after submitting a test
     @PostMapping
-    public TestResult save(@RequestBody TestResult result) {
+    public TestResult save(@RequestBody TestResult result,
+                           @RequestAttribute(JwtAuthFilter.ATTR_USER_ID) Long authUserId) {
         result.setId(null);
+        // the result always belongs to the logged-in user (id + email come from the server)
+        result.setStudentId(authUserId);
+        userRepo.findById(authUserId).ifPresent(u -> result.setStudentEmail(u.getEmail()));
         result.setDeletedByAdmin(false);   // a new result is never hidden
         return repo.save(result);
     }
@@ -40,6 +49,7 @@ public class TestResultController {
     }
 
     // Student: own results (includes results the admin has deleted)
+    @PreAuthorize("hasRole('ADMIN') or @guard.isSelf(authentication, #studentId)")
     @GetMapping("/student/{studentId}")
     public List<TestResult> getByStudent(@PathVariable Long studentId) {
         return repo.findAll(Sort.by(Sort.Direction.DESC, "submittedAt"))
@@ -65,6 +75,7 @@ public class TestResultController {
     // Student: permanently delete own result from the database.
     // Only the owner can delete it (studentId must match the result's studentId).
     // Because the row is removed, it disappears from the admin list as well.
+    @PreAuthorize("@guard.isSelf(authentication, #studentId)")
     @DeleteMapping("/{id}/student/{studentId}")
     public ResponseEntity<Map<String, String>> deleteByStudent(@PathVariable Long id,
                                                                @PathVariable Long studentId) {

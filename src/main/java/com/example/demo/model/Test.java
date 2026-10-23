@@ -35,8 +35,17 @@ public class Test {
     private Long requestedByStudentId;
     private boolean approved = false;
 
+   
+    private LocalDateTime createdAt;
+
+    
     // Getters & Setters
 
+    public LocalDateTime getCreatedAt() { return createdAt; }
+    public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+    
+    
+  
    
     
     public Long getTestid() {

@@ -9,4 +9,6 @@ public interface TestRequestRepository extends JpaRepository<TestRequest, Long> 
     List<TestRequest> findByStudentId(Long studentId);
     boolean existsByTest_TestidAndStudentId(Long testId, Long studentId);
     List<TestRequest> findByApprovedFalse();
+    
+    List<TestRequest> findByTest_Testid(Long testId);
 }
